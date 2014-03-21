@@ -1,0 +1,63 @@
+
+#timeline {
+    position: fixed;
+    bottom: 0; left: 0; right: 0; /*height: 86px;*/ height: 120px;
+    color: #eee;
+    -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+    background-color: transparent; background-image: url(images/bg2.png);
+
+}
+
+.timeline > .timeline-container {
+    position: relative;
+}
+
+.timeline-container > .timeline-points-container {
+    height: 120px;
+}
+
+.timeline-points-container > .timeline-point {
+    z-index:1000;
+    position: absolute; display: block;
+    top:34px; height: 48px;
+}
+
+
+.timeline-point {
+    margin: 0;  border: solid 1px transparent;
+    -webkit-box-shadow: inset 0px -36px 4px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px -36px 4px 1px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.timeline-point:hover, .timeline-point-on {
+    background-image: url(images/bullet.png);
+    background-position: 0 18px;
+    background-repeat: no-repeat;
+}
+
+.timeline-container > .timeline-graduation-container {
+    height: 120px;
+}
+
+.timeline-graduation-container > .timeline-graduation {
+    position: absolute;
+    top: 1px;
+    padding-left: 4px;
+    font-weight: 400; font-size: 15px;
+}
+
+.timeline-graduation.g1 {
+    /*z-index: 2; overflow: hidden;*/
+    height: 120px;
+    border-left:solid 1px #999;
+    color: #CCC;
+}
+
+.timeline-graduation.g2 {
+    /*z-index: 1; overflow: hidden;*/
+    height: 32px;
+    border-left:solid 1px #999;
+    color: #999;
+}
+
