@@ -5,7 +5,7 @@
 	app.config = {};
 	app.config.timeline = {
         DOMId: "timeline",
-        DOMContainerSelector: "#container",
+        DOMContainerSelector: "body",
         tlPxWidth: 5000,
         ptPxWidth: 18,
         tlWidth: 24471, // Day count from 01-Jan-12 to 31-Dec-78 = number of virtual timeline 'slots'
@@ -20,9 +20,14 @@
 		var timeline;
 		timeline = new Timeline(app.config.timeline);
 		timeline.render();
-
 		var tle = timeline.add(1, 500).$point;
 		console.log(tle);
+
+		var quadrant;
+		quadrant = new Quadrant({ DOMId: "quadrant", DOMContainerSelector: ".container" });
+		quadrant.render();
+
+
 
 
 	};
@@ -38,9 +43,7 @@
 
 	// Application entry point
 	$(function () {
-
 		app.init();
-
 	});
 
 

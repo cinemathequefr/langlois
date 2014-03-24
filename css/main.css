@@ -1,0 +1,39 @@
+
+
+body {
+	position: relative;
+}
+
+
+nav {
+	position: fixed;
+	top: 6px; right: 4px;
+	background-color: #9cf;
+	z-index: 100;
+}
+
+
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.container {
+	position: fixed; overflow: hidden;
+	top: 0; left: 0; bottom: 0; right: 0;
+	margin-bottom: 120px;
+	background-image: url(images/langlois.jpg); background-size: cover; position: 50% 50%;
+}
+
+.quadrant {
+	position: absolute; overflow: hidden;
+}
+
+.quadrant > div {
+	display: block; position: absolute; opacity: .5;
+}
+
+.quadrant > div.nw { background-color: #369; }
+.quadrant > div.ne { background-color: #693; }
+.quadrant > div.se { background-color: #936; }
+.quadrant > div.sw { background-color: #639; }
