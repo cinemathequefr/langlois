@@ -29,7 +29,7 @@ h1 {
 }
 
 .quadrant > div {
-	display: block; position: absolute; opacity: .95;
+	display: block; position: absolute;  /*opacity: .95;*/
 }
 
 .quadrant > div.nw { background-color: #369; }

@@ -1,4 +1,3 @@
-
 var Quadrant = function (config) {
 	"use strict";
 	this.DOMId = config.DOMId;
@@ -9,12 +8,11 @@ var Quadrant = function (config) {
 	this.width = 0;
 	this.height = 0;
 	this.scrollQueue = [];
-	this.currentPos;
+	this.currentPos = "center";
 };
 
 Quadrant.prototype.render = function () {
 	"use strict";
-
 	var $container = $(this.DOMContainerSelector),
 		$q = this.$quadrant, // Quandrant window
 		qw, qh;
@@ -22,7 +20,6 @@ Quadrant.prototype.render = function () {
 	qw = this.width = $container.outerWidth(false);
 	qh = this.height = $container.outerHeight(false);
 
-	console.log(this.$quadrant);
 
 
 	if ($q.parents(":last").is("html") === false) { // Initial rendering
@@ -30,6 +27,7 @@ Quadrant.prototype.render = function () {
 		$q.appendTo($container);
 	}
 
+	// Set elements size and position
 	$q.css({ width: qw + "px", height: qh + "px" });
 	$q.children("div").css({ width: qw + "px", height: qh + "px" });
 	$q.children("div").eq(0).css({ left: "0px", top: "0px" });
@@ -37,22 +35,15 @@ Quadrant.prototype.render = function () {
 	$q.children("div").eq(2).css({ left: qw + "px", top: qh +"px" });
 	$q.children("div").eq(3).css({ left: "0px", top: qh + "px" });
 
-	if (this.isRendered === false) { // (Initial rendering ?)
-		this.scrollTo({ pos: "center", duration: 0 });
+
+	if (this.isRendered === false) {
+		this.isRendered = true;
+		this.scrollTo({ pos: "center", duration: 0 }); // Initial positioning
+	} else {
+		this.scrollTo({ pos: this.currentPos, duration: 0});
 	}
 
-	this.isRendered = true;
 
-	// this.scrollTo({ pos: "center", duration: 0 });
-	// this.scrollTo({ pos: "nw", duration: 1000 });
-	// this.scrollTo({ pos: "ne", duration: 1000 });
-	// this.scrollTo({ pos: "center", duration: 1000 });
-	// this.scrollTo({ pos: "sw", duration: 1000 });
-	// this.scrollTo({ pos: "se", duration: 1000 });
-	// this.scrollTo({ pos: "nw", duration: 1000 });
-	// this.scrollTo({ pos: "center", duration: 1000 });
-	// this.scrollTo({ pos: "se", duration: 1000 });
-	// this.scrollTo({ pos: "center", duration: 1000 });
 
 }
 
@@ -102,13 +93,13 @@ Quadrant.prototype.scrollTo = function (params) {
 
 		if (pos === "center") {
 			$q.scrollTo({ left: (self.width / 2) + "px", top: (self.height / 2) + "px" }, params);
+			$q.fadeTo(params.duration, .5);
 		} else {
 			$q.scrollTo($q.children().eq(pos), params);
+			$q.fadeTo(params.duration, 1);
 		}
+	}
 
-
-
-	};
 };
 
 
