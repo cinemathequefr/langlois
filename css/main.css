@@ -8,7 +8,6 @@ body {
 nav {
 	position: fixed;
 	top: 6px; right: 4px;
-	background-color: #9cf;
 	z-index: 100;
 }
 
@@ -30,10 +29,19 @@ h1 {
 }
 
 .quadrant > div {
-	display: block; position: absolute; opacity: .5;
+	display: block; position: absolute; opacity: .95;
 }
 
 .quadrant > div.nw { background-color: #369; }
 .quadrant > div.ne { background-color: #693; }
 .quadrant > div.se { background-color: #936; }
 .quadrant > div.sw { background-color: #639; }
+
+a.app-title {
+	display: block;
+	width: 537px; height: 60px;
+	background-image: url(images/title.png);
+	text-decoration: none; color: inherit;
+	text-indent: -10000px;
+	outline: none;
+}

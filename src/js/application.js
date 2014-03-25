@@ -28,6 +28,29 @@
 		quadrant.render();
 
 
+		$(".app-title").on("click", function () {
+			quadrant.scrollTo({ pos: "center", duration: 500 });
+		});
+
+		$(".quad-trigger").on("click", function () {
+			quadrant.scrollTo({pos: $(this).data("pos"), duration: 500 });
+		});
+
+
+
+		$(window).on("debouncedresize", quadrant.render);
+
+		// quadrant.scrollTo({ pos: "ne", duration: 1000 });
+		// quadrant.scrollTo({ pos: "sw", duration: 1000 });
+		// quadrant.scrollTo({ pos: "se", duration: 1000 });
+		// quadrant.scrollTo({ pos: "nw", duration: 1000 });
+		// quadrant.scrollTo({ pos: "center", duration: 1000 });
+
+
+
+		
+
+
 
 
 	};
