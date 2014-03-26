@@ -11,7 +11,6 @@ nav {
 	z-index: 100;
 }
 
-
 h1 {
 	color: #fff;
 	text-transform: uppercase;
@@ -45,3 +44,9 @@ a.app-title {
 	text-indent: -10000px;
 	outline: none;
 }
+
+
+.icon1 { background-color: #369; }
+.icon2 { background-color: #693; }
+.icon3 { background-color: #936; }
+.icon4 { background-color: #639; }
