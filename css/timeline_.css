@@ -1,9 +1,10 @@
 
 #timeline {
     position: fixed;
-    bottom: 0; left: 0; right: 0; height: 86px;
+    bottom: 0; left: 0; right: 0; height: 120px;
     color: #eee;
     -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+    /*background-color: transparent; background-image: url(images/timeline-bg.png);*/
     background-color: #444;
 
 }
@@ -13,13 +14,13 @@
 }
 
 .timeline-container > .timeline-points-container {
-    height: 86px;
+    height: 120px;
 }
 
 .timeline-points-container > .timeline-point {
     z-index:1000;
     position: absolute; display: block;
-    top: 34px; height: 49px;
+    top:41px; height: 74px;
 }
 
 
@@ -38,7 +39,7 @@
 }
 
 .timeline-container > .timeline-graduation-container {
-    height: 86px;
+    height: 120px;
 }
 
 .timeline-graduation-container > .timeline-graduation {
@@ -50,7 +51,7 @@
 
 .timeline-graduation.g1 {
     /*z-index: 2; overflow: hidden;*/
-    height: 86px;
+    height: 120px;
     border-left:solid 1px #999;
     color: #CCC;
 }

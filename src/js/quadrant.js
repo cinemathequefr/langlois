@@ -62,7 +62,7 @@ Quadrant.prototype.scrollTo = function (params) {
 			pos: 0, // 0: center, 1: nw, 2: ne, 3: se, 4: sw
 			duration: 0,
 			easing: "easeInOutQuad",
-			onAfter: function () {}
+			onAfter: $.noop //onAfter: function () {}
 		},
 		$q = this.$quadrant,
 		passedOnAfter;

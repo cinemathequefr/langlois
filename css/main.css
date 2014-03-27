@@ -2,12 +2,13 @@
 
 body {
 	position: relative;
+	background: #444;
 }
 
 
 nav {
-	position: fixed;
-	top: 6px; right: 4px;
+	position: fixed; overflow: hidden;
+	left: 0px; top: 0px; right: 0px; height: 75px;
 	z-index: 100;
 }
 
@@ -19,7 +20,7 @@ h1 {
 .container {
 	position: fixed; overflow: hidden;
 	top: 0; left: 0; bottom: 0; right: 0;
-	margin-bottom: 120px;
+	margin-bottom: 86px;
 	background-image: url(images/langlois.jpg); background-size: cover; position: 50% 50%;
 }
 
@@ -28,7 +29,7 @@ h1 {
 }
 
 .quadrant > div {
-	display: block; position: absolute;  /*opacity: .95;*/
+	display: block; position: absolute;
 }
 
 .quadrant > div.nw { background-color: #369; }
@@ -37,16 +38,27 @@ h1 {
 .quadrant > div.sw { background-color: #639; }
 
 a.app-title {
-	display: block;
-	width: 537px; height: 60px;
-	background-image: url(images/title.png);
+	position: absolute; display: block;
+	top: 4px; right: 4px;
+	width: 400px; height: 69px;
+	background-image: url(images/title2.png);
+	text-decoration: none; color: inherit;
+	text-indent: -10000px;
+	outline: none;
+}
+
+a#logocf {
+	position: absolute; display: block;
+	top: 4px; left: -4px;
+	width: 130px; height: 50px;
+	background-image: url(images/logocf.png);
 	text-decoration: none; color: inherit;
 	text-indent: -10000px;
 	outline: none;
 }
 
 
-.icon1 { background-color: #369; }
-.icon2 { background-color: #693; }
-.icon3 { background-color: #936; }
-.icon4 { background-color: #639; }
+.icon1 { background-color: #297acc; }
+.icon2 { background-color: #7acc29; }
+.icon3 { background-color: #cc297a; }
+.icon4 { background-color: #5c1f99; }

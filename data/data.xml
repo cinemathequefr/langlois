@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <cats>
+    <cat id="1">
+      <name>Langlois</name>
+    </cat>
+    <cat id="2">
+      <name>Langlois passeur</name>
+    </cat>
+    <cat id="3">
+      <name>Langlois collectionneur</name>
+    </cat>
+    <cat id="4">
+      <name>Langlois bâtisseur</name>
+    </cat>
+  </cats>
+  <points>
+      <point id="1">
+        <title>13 novembre 1914</title>
+        <cat>3</cat>
+        <pos>1407</pos>
+        <desc><![CDATA[
+        <p>Henri Langlois naît à Smyrne (Turquie).</p>
+        ]]></desc>
+    </point>
+    <point id="2">
+      <title>Octobre 1935</title>
+      <cat>1</cat>
+      <pos>8673</pos>
+      <desc><![CDATA[
+      <p>Henri Langlois et Georges Franju fondent Le Cercle du Cinéma, un ciné-club spécialisé dans les films de répertoire. Les premières projections ont lieu avenue des Champs-Élysées, au Pathé Marignan, qui compte 150 places.</p>
+      <p>«&nbsp;Dès la première séance, il fallut refuser du monde et, si l'entreprise se révéla déficitaire en fin d'année, elle n'en avait pas moins permis de rallier tous ceux qui voulaient œuvrer pour la sauvegarde du patrimoine cinématographique&nbsp;» rapporte Henri Langlois.</p>
+      <p>Les spectateurs peuvent découvrir par exemple <em>La Chute de la maison Usher</em> de Jean Epstein, <em>Le Cabinet du Dr Caligari</em> de Robert Wiene, ou encore <em>La Volonté du mort</em> (<em>The Cat and the Canary</em>, 1927) de Paul Leni.</p>
+      ]]></desc>
+    </point>
+    <point id="3">
+      <title>Juin 1945</title>
+      <cat>2</cat>
+      <pos>12204</pos>
+      <desc><![CDATA[
+      <p>Le Cercle du Cinéma déménage et s'installe dans la salle des Arts et Métiers, 9 bis avenue d'Iéna.</p>
+      <p>Lors d'une séance en juillet 1946, l'affluence est telle que Langlois doit ajouter des fauteuils empruntés dans une salle voisine. Les œuvres muettes projetées par Langlois en 1945 sont désormais accompagnées au piano par Joseph Kosma.</p>
+      ]]></desc>
+    </point>
+    <point id="4">
+      <title>Coco</title>
+      <cat>4</cat>
+      <pos>9500</pos>
+      <desc><![CDATA[
+      Coco
+      ]]></desc>
+    </point>
+
+
+<!--
+    <point id="">
+      <title></title>
+      <cat></cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+-->
+  </points>
+</root>

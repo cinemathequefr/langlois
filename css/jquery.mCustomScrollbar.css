@@ -106,7 +106,7 @@
     */
 
     /* THIS IS WHERE DRAGGER HEIGHT IS SET */
-    height:42px;
+    height:34px;
 	left:0; top:0; right:auto; bottom:auto;
 
 	overflow:hidden;
@@ -126,7 +126,7 @@
 .mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
 	width:100%;
     /* THIS IS WHERE DRAGGER HEIGHT IS SET */
-    height: 40px;
+    height: 32px;
 	margin: 1px auto;
 }
 .mCSB_horizontal>.mCSB_scrollTools .mCSB_buttonLeft,

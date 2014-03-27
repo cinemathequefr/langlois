@@ -8,7 +8,7 @@
         DOMId: "timeline",
         DOMContainerSelector: "body",
         tlPxWidth: 4000,
-        ptPxWidth: 18,
+        ptPxWidth: 12,
         tlWidth: 24471, // Day count from 01-Jan-12 to 31-Dec-78 = number of virtual timeline 'slots'
         graduation: {
             step: 24471 / 66,
@@ -108,6 +108,7 @@
 	app.renderPoint = function (data) {
 		console.log(data.cat);
 		app.quadrant.scrollTo({ pos: data.cat, duration: 500 });
+		app.timeline.scrollTo(data.id); // Works?
 
 		// console.log("renderPoint");
 	};
