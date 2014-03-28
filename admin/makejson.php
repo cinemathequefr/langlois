@@ -6,11 +6,12 @@ include("nDOM.php");
 include("indent.php");
 
 
-// header("Content-Type: text/plain");
+header("Content-Type: text/plain");
 $dom = new nDOMDocument();
 $dom->load("../data/data.xml");
 
 
+// Index (index.json)
 $xml = $dom->transformNodeToDoc("index.xsl", array())->saveXML();
 $xml = str_replace(array("\n", "\r", "\t"), '', $xml);
 $xml = trim(str_replace('"', "'", $xml));
@@ -19,32 +20,36 @@ $json = json_encode($simpleXml);
 $json = preg_replace('/>\s+</', "><", $json); // Retire les espaces entre deux éléments HTML
 $json = preg_replace('/"(-?\d+\.?\d*)"/', "$1", $json); // Convertir les valeurs de forme numérique en type numérique
 
-// $arr = (array)json_decode($json);
-// $arr = objectToArray($arr["point"]);
+
 
 $arr = json_decode($json, true); // true returns array instead of stdClass object
 $arr = $arr["point"];
-
-
-// foreach ($arr as $item) {
-// 	foreach ($item as $k => $v) {
-// 		if (gettype($v) === "string" ) {
-// 			$arr[$k] = trim($v); // Trim string values
-// 			var_dump($arr[$k]);
-// 		}
-// 	}
-// }
-
-
 
 $json = json_encode($arr);
 $json = indent($json);
 file_put_contents("../data/index.json", $json);
 
+// Point (point/{id}.json)
+$nodes = $dom->selectNodes("/root/points/point/@id");
+foreach ($nodes as $node) {
+	$id = $node->nodeValue;
+	$xml = $dom->transformNodeToDoc("point.xsl", array("id" => $id))->saveXML();
+	$xml = str_replace(array("\n", "\r", "\t"), '', $xml);
+	$xml = trim(str_replace('"', "'", $xml));
+	$simpleXml = simplexml_load_string($xml);
+	$json = json_encode($simpleXml);
+	$json = preg_replace('/>\s+</', "><", $json); // Retire les espaces entre deux éléments HTML
+	$json = preg_replace('/"(-?\d+\.?\d*)"/', "$1", $json); // Convertir les valeurs de forme numérique en type numérique
+	$json = preg_replace('/\s{2,}"/', "\"", $json); // Trim string values
+	$json = preg_replace('/"\s{2,}/', "\"", $json); 
 
+	$arr = json_decode($json, true); // true returns array instead of stdClass object
+	$json = json_encode($arr);
+	$json = indent($json);
+	file_put_contents("../data/points/".$id.".json", $json);
+	echo($json);
 
-
-
+}
 
 
 

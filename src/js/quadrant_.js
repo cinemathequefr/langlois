@@ -1,19 +1,8 @@
-var Quadrant = function (params) {
+var Quadrant = function (config) {
 	"use strict";
-	var defaults = {
-		DOMContainerSelector: "body",
-		HTMLStructure: "<div></div>", // HTML structure to be injected into each quadrant zone (string or array of strings)
-		defaultDuration: 0,
-		defaultEasing: "swing"
-	};
-
-	params = $.extend(defaults, params);
-	this.DOMContainerSelector = params.DOMContainerSelector;
-	this.HTMLStructure = params.HTMLStructure;
-	this.defaultDuration = params.defaultDuration;
-	this.defaultEasing = params.defaultEasing;
-	this.DOMId = params.DOMId; // Must be explicitly defined (no default)
-
+	this.DOMId = config.DOMId;
+	this.DOMContainerSelector = config.DOMContainerSelector || "body";
+	this.DOMStructure = config.DOMStructure; // DOM Structure injected into each quadrant zone on init
 	this.isRendered = false;
 	this.isScrolling = false;
 	this.$quadrant = $("<div class='quadrant' id='" + this.DOMId + "'></div>");
@@ -21,9 +10,8 @@ var Quadrant = function (params) {
 	this.height = 0;
 	this.scrollQueue = [];
 	this.currentPos = "center";
-
-	if (typeof this.HTMLStructure === "string") this.HTMLStructure = [this.HTMLStructure];
-
+	this.defaultDuration = config.defaultDuration || 0;
+	this.defaultEasing = config.defaultEasing || "swing";
 };
 
 
@@ -37,10 +25,7 @@ Quadrant.prototype.render = function () {
 	"use strict";
 	var $container = $(this.DOMContainerSelector),
 		$q = this.$quadrant, // Quandrant window
-		qw, qh,
-		$zones,
-		i = 0,
-		l = this.HTMLStructure.length;
+		qw, qh;
 
 	qw = this.width = $container.outerWidth(false);
 	qh = this.height = $container.outerHeight(false);
@@ -48,21 +33,17 @@ Quadrant.prototype.render = function () {
 
 
 	if ($q.parents(":last").is("html") === false) { // Initial rendering
-		//$zones = $q.append("<div class='nw'></div><div class='ne'></div><div class='se'></div><div class='sw'></div>");
-
-		for (i = 0; i < 4; ++i) {
-			$(this.HTMLStructure[i % l]).addClass("quadrant-zone").addClass("quadrant-zone" + (i + 1)).appendTo($q);
-		}
+		$q.append("<div class='nw'></div><div class='ne'></div><div class='se'></div><div class='sw'></div>");
 		$q.appendTo($container);
 	}
 
 	// Set elements size and position
 	$q.css({ width: qw + "px", height: qh + "px" });
-	$q.children().css({ width: qw + "px", height: qh + "px" });
-	$q.children().eq(0).css({ left: "0px", top: "0px" });
-	$q.children().eq(1).css({ left: qw + "px", top: "0px" });
-	$q.children().eq(2).css({ left: qw + "px", top: qh +"px" });
-	$q.children().eq(3).css({ left: "0px", top: qh + "px" });
+	$q.children("div").css({ width: qw + "px", height: qh + "px" });
+	$q.children("div").eq(0).css({ left: "0px", top: "0px" });
+	$q.children("div").eq(1).css({ left: qw + "px", top: "0px" });
+	$q.children("div").eq(2).css({ left: qw + "px", top: qh +"px" });
+	$q.children("div").eq(3).css({ left: "0px", top: qh + "px" });
 
 
 	if (this.isRendered === false) {
@@ -93,6 +74,8 @@ Quadrant.prototype.scrollTo = function (params) {
 	passedOnAfter = params.onAfter; // Save passed onAfter argument
 	params.pos = parseInt(params.pos);
 	if (isNaN(params.pos) || params.pos < 0 || params.pos > 4) params.pos = 0;
+
+	console.log(params.easing);
 
 	// DEBUG: sometimes onAfter seems not to be called and the behaviour freezes (TODO: clearQueue is this.scrollQueue.length > something)
 	params.onAfter = function() {

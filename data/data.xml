@@ -43,14 +43,24 @@
       ]]></desc>
     </point>
     <point id="4">
-      <title>Coco</title>
+      <title>28 décembre 1944</title>
       <cat>4</cat>
-      <pos>9500</pos>
+      <pos>12050</pos>
       <desc><![CDATA[
-      Coco
+      <p>Inauguration de l'exposition Images du cinéma français.</p>
+      <p><em>«&nbsp;L'exposition Images du cinéma français ne saurait en aucune façon être tenue pour une exposition didactique. Nous n'avons pas eu l'intention de retracer l'histoire du cinéma français, ni de suivre toute son évolution à travers une quantité considérable d'œuvres et de documents&nbsp;»</em>, explique le texte introductif du programme.</p>
+      <p>Pour Langlois, <em>«&nbsp;cette exposition envisage avant tout la fantaisie, la féerie, l'irréel, le fantastique ou le fantasmagorique. Elle se place à la fois sous le signe de Georges Méliès et de la poésie en insistant sur le côté le plus spontané de celle-ci, poésie involontaire, accidentelle, fortuite, ou parfois concertée mais qui participe toujours plus ou moins du rêve ou de l'imagination pure&nbsp;»</em>.</p>
       ]]></desc>
     </point>
-
+    <point id="5">
+      <title>Septembre 1954</title>
+      <cat>1</cat>
+      <pos>15583</pos>
+      <desc><![CDATA[
+      <p>Dans sa volonté perpétuelle de hisser le cinéma au rang des autres arts, Langlois se lie avec de nombreux peintres, notamment Marc Chagall. Celui-ci fréquente d'ailleurs la Cinémathèque aux côtés d'autres plasticiens comme Fernand Léger, Cocteau ou Severini. Entre eux s'établit un échange épistolaire amical – Chagall envoie parfois des poèmes à Langlois.</p>
+      <p>En 1951, Langlois souhaite réaliser un court métrage documentaire sur l'œuvre du peintre, dans l'idée de retracer sa vie à travers ses tableaux. Chagall lui facilite la tâche en lui donnant un accès privilégié pour filmer ses œuvres. Langlois envoie Frédéric Rossif tourner les images, et charge ensuite Joris Ivens, épaulé par Renée Lichtig et David Perlov, du montage. Ne subsistent malheureusement aujourd'hui du film que quelques rushes, néanmoins passionnants.</p>
+      ]]></desc>
+    </point>
 
 <!--
     <point id="">

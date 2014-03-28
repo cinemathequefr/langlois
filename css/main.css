@@ -3,6 +3,7 @@
 body {
 	position: relative;
 	background: #444;
+	font-family: 'Source Sans Pro', sans-serif; font-weight: 14px;
 }
 
 
@@ -15,6 +16,11 @@ nav {
 h1 {
 	color: #fff;
 	text-transform: uppercase;
+	font-family: 'Quicksand'; font-weight: 700; font-size: 36px;
+}
+
+div > p, div > h1 {
+	margin-top: 0;
 }
 
 .container {
@@ -28,14 +34,37 @@ h1 {
 	position: absolute; overflow: hidden;
 }
 
-.quadrant > div {
+.quadrant-zone {
 	display: block; position: absolute;
+	margin: 0; padding: 0;
 }
 
-.quadrant > div.nw { background-color: #369; }
-.quadrant > div.ne { background-color: #693; }
-.quadrant > div.se { background-color: #936; }
-.quadrant > div.sw { background-color: #639; }
+.quadrant > .quadrant-zone1 { background-color: #369; }
+.quadrant > .quadrant-zone2 { background-color: #693; }
+.quadrant > .quadrant-zone3 { background-color: #936; }
+.quadrant > .quadrant-zone4 { background-color: #639; }
+
+.point-container {
+	margin: 96px 48px 48px 48px;
+	color: #fff;
+	font-size: 24px; font-weight: 600;
+}
+
+.point-container .left {
+	display: block; float: left;
+	width: 50%; 
+}
+
+.point-container .right {
+	display: block; float: left;
+	width: 50%; padding-right: 24px;
+}
+
+.point-container .right > .dummy {
+/*	display: block;
+	width: 99%; height: 400px;
+	border: solid 1px #999;
+*/}
 
 a.app-title {
 	position: absolute; display: block;
@@ -46,6 +75,8 @@ a.app-title {
 	text-indent: -10000px;
 	outline: none;
 }
+
+
 
 a#logocf {
 	position: absolute; display: block;

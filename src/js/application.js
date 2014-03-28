@@ -19,7 +19,10 @@
 
 	app.config.quadrant = {
 		DOMId: "quadrant",
-		DOMContainerSelector: ".container"
+		DOMContainerSelector: ".container",
+		HTMLStructure: "<div><div class='point-container'></div></div>",
+		defaultDuration: 500,
+		defaultEasing: "easeInOutSine"
 	};
 
 	app.config.data = {
@@ -30,17 +33,26 @@
 	app.timeline = {};
 	app.quadrant = {};
 
+	app.templates = {
+		point: "<div class='left'><h1>{{&title}}</h1>{{&desc}}</div><div class='right'><div class='dummy'></div></div>"
+	};
+
 	app.controller = function () {
 		var state = app.state.save(),
 			type = state.type,
 			id = state.id || null;
 
-
 		if (type === "point") {
-			// console.log("point " + id);
-			app.renderPoint(app.getPoint(id));
+			if (id) {
+				if (app.state.getOld().type === "point") app.quadrant.scrollTo({ pos: 0 }); // Scroll quad to center if we come from a point
+                $.when(app.fetchData("data/points/" + id + ".json")).then(app.renderPoint, fail);
+			}
 		}
 
+		function fail () {
+			console.log("Fail miserably!");
+			app.state.navigate({ type: "index", id: null });
+		}
 
 	};
 
@@ -53,7 +65,7 @@
         return $.getJSON(url);
     };
 
-    app.getPoint = function (id) {
+    app.getPoint = function (id) { // Get one point by id from app.points
         return _.find(app.points, function (pt) { return (pt.id === id); });
     };
 
@@ -87,11 +99,11 @@
 
 
 		$(".app-title").on("click", function () {
-			quadrant.scrollTo({ pos: 0, duration: 500 });
+			quadrant.scrollTo({ pos: 0 });
 		});
 
 		$(".quad-trigger").on("click", function () {
-			quadrant.scrollTo({ pos: $(this).data("pos"), duration: 500 });
+			quadrant.scrollTo({ pos: $(this).data("pos") });
 		});
 
 
@@ -106,9 +118,16 @@
 	};
 
 	app.renderPoint = function (data) {
-		console.log(data.cat);
-		app.quadrant.scrollTo({ pos: data.cat, duration: 500 });
-		app.timeline.scrollTo(data.id); // Works?
+
+		var cat = data.cat.id,
+			$container = $(".quadrant-zone" + cat).children(".point-container");
+
+
+		app.quadrant.scrollTo({ pos: cat });
+		app.timeline.scrollTo(cat); // Works?
+
+		//$container.html("<h1>" + data.title + "</h1>" + data.desc)
+		$container.html(Mustache.render(app.templates.point, data));
 
 		// console.log("renderPoint");
 	};
@@ -141,9 +160,9 @@
             return state;
 		};
 
-		transition = function () {
-			console.log("Here we do some transitioning nicely.");
-		};
+		// transition = function () {
+		// 	console.log("Here we do some transitioning nicely.");
+		// };
 
 		return {
 			get: get,
