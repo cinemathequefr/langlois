@@ -45,26 +45,29 @@ div > p, div > h1 {
 .quadrant > .quadrant-zone4 { background-color: #639; }
 
 .point-container {
-	margin: 96px 48px 48px 48px;
+	overflow: hidden; height: 100%; width: 100%;
+	margin: 96px 0 24px 0;
 	color: #fff;
-	font-size: 24px; font-weight: 600;
+	font-size: 22px; font-weight: 600;
+	box-sizing: border-box; -moz-box-sizing: border-box;
 }
 
-.point-container .left {
-	display: block; float: left;
-	width: 50%; 
+.point-container > div {
 }
 
-.point-container .right {
-	display: block; float: left;
-	width: 50%; padding-right: 24px;
+.point-container > .left {
+	position: absolute; overflow: auto;
+	left: 0; top: 75px; right: 50%; bottom: 0;
+	padding: 0 24px;
 }
 
-.point-container .right > .dummy {
-/*	display: block;
-	width: 99%; height: 400px;
-	border: solid 1px #999;
-*/}
+.point-container > .right {
+	position: absolute;
+	left: 50%; top: 75px; right: 0; bottom: 0;
+	text-align: right;
+}
+
+
 
 a.app-title {
 	position: absolute; display: block;
@@ -75,8 +78,6 @@ a.app-title {
 	text-indent: -10000px;
 	outline: none;
 }
-
-
 
 a#logocf {
 	position: absolute; display: block;

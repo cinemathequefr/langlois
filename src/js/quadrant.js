@@ -71,10 +71,16 @@ Quadrant.prototype.render = function () {
 	} else {
 		this.scrollTo({ pos: this.currentPos, duration: 0});
 	}
-
-
-
 }
+
+
+Quadrant.prototype.getHeight = function () {
+	return this.height;
+};
+
+Quadrant.prototype.getWidth = function () {
+	return this.width;
+};
 
 
 Quadrant.prototype.scrollTo = function (params) {

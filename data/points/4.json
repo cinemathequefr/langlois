@@ -1,10 +1,13 @@
 {
   "id":4,
-  "title":"28 d\u00e9cembre 1944",
+  "title":1946,
   "cat":{
-    "id":4,
-    "name":"Langlois b\u00e2tisseur"
+    "id":1,
+    "name":"Langlois le passeur"
   },
-  "pos":12050,
-  "desc":"<p>Inauguration de l'exposition Images du cin\u00e9ma fran\u00e7ais.<\/p><p><em>\u00ab&nbsp;L'exposition Images du cin\u00e9ma fran\u00e7ais ne saurait en aucune fa\u00e7on \u00eatre tenue pour une exposition didactique. Nous n'avons pas eu l'intention de retracer l'histoire du cin\u00e9ma fran\u00e7ais, ni de suivre toute son \u00e9volution \u00e0 travers une quantit\u00e9 consid\u00e9rable d'\u0153uvres et de documents&nbsp;\u00bb<\/em>, explique le texte introductif du programme.<\/p><p>Pour Langlois, <em>\u00ab&nbsp;cette exposition envisage avant tout la fantaisie, la f\u00e9erie, l'irr\u00e9el, le fantastique ou le fantasmagorique. Elle se place \u00e0 la fois sous le signe de Georges M\u00e9li\u00e8s et de la po\u00e9sie en insistant sur le c\u00f4t\u00e9 le plus spontan\u00e9 de celle-ci, po\u00e9sie involontaire, accidentelle, fortuite, ou parfois concert\u00e9e mais qui participe toujours plus ou moins du r\u00eave ou de l'imagination pure&nbsp;\u00bb<\/em>.<\/p>"
+  "pos":"12419 ",
+  "desc":"<p>Plusieurs expositions phares sont cette ann\u00e9e-l\u00e0 pr\u00e9sent\u00e9es au 7, avenue de Messine&nbsp;: l'une sur le dessin anim\u00e9, l'autre sur \u00c9mile Reynaud, l'un des pionniers du cin\u00e9matographe et l'inventeur des premiers dessins anim\u00e9s sur grand \u00e9cran. Les deux expositions connaissent un certain succ\u00e8s. Langlois encha\u00eenera avec une troisi\u00e8me, \u00ab&nbsp;L'Affiche de cin\u00e9ma de 1895 \u00e0 1946&nbsp;\u00bb, moins co\u00fbteuse que les pr\u00e9c\u00e9dentes.<\/p>",
+  "comment":[
+    
+  ]
 }

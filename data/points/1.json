@@ -1,10 +1,18 @@
 {
   "id":1,
-  "title":"13 novembre 1914",
+  "title":"Octobre 1935",
   "cat":{
-    "id":3,
-    "name":"Langlois collectionneur"
+    "id":1,
+    "name":"Langlois le passeur"
   },
-  "pos":1407,
-  "desc":"<p>Henri Langlois na\u00eet \u00e0 Smyrne (Turquie).<\/p>"
+  "pos":8673,
+  "desc":"<p>Henri Langlois et Georges Franju fondent le Cercle du Cin\u00e9ma, un cin\u00e9-club sp\u00e9cialis\u00e9 dans les films de r\u00e9pertoire. Les premi\u00e8res projections ont lieu avenue des Champs-\u00c9lys\u00e9es, au Path\u00e9 Marignan, qui compte 150 places.<\/p><p>\u00ab&nbsp;D\u00e8s la premi\u00e8re s\u00e9ance, il fallut refuser du monde et, si l'entreprise se r\u00e9v\u00e9la d\u00e9ficitaire en fin d'ann\u00e9e, elle n'en avait pas moins permis de rallier tous ceux qui voulaient \u0153uvrer pour la sauvegarde du patrimoine cin\u00e9matographique&nbsp;\u00bb rapporte Henri Langlois.<\/p><p>Les spectateurs peuvent d\u00e9couvrir par exemple <em>La Chute de la maison Usher<\/em> de Jean Epstein, <em>Le Cabinet du Dr Caligari<\/em> de Robert Wiene, ou encore <em>La Volont\u00e9 du mort<\/em> (<em>The Cat and the Canary<\/em>, 1927) de Paul Leni.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"2-1",
+    "width":861,
+    "height":1200,
+    "caption":"Victor Vasarely",
+    "rights":"Victor Vasarely"
+  }
 }
