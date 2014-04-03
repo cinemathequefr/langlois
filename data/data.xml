@@ -28,7 +28,7 @@
       <cat>1</cat>
       <pos>8673</pos>
       <desc><![CDATA[
-      <p>Henri Langlois et Georges Franju fondent Le Cercle du Cinéma, un ciné-club spécialisé dans les films de répertoire. Les premières projections ont lieu avenue des Champs-Élysées, au Pathé Marignan, qui compte 150 places.</p>
+      <p>Henri Langlois et Georges Franju fondent le Cercle du Cinéma, un ciné-club spécialisé dans les films de répertoire. Les premières projections ont lieu avenue des Champs-Élysées, au Pathé Marignan, qui compte 150 places.</p>
       <p>«&nbsp;Dès la première séance, il fallut refuser du monde et, si l'entreprise se révéla déficitaire en fin d'année, elle n'en avait pas moins permis de rallier tous ceux qui voulaient œuvrer pour la sauvegarde du patrimoine cinématographique&nbsp;» rapporte Henri Langlois.</p>
       <p>Les spectateurs peuvent découvrir par exemple <em>La Chute de la maison Usher</em> de Jean Epstein, <em>Le Cabinet du Dr Caligari</em> de Robert Wiene, ou encore <em>La Volonté du mort</em> (<em>The Cat and the Canary</em>, 1927) de Paul Leni.</p>
       ]]></desc>
@@ -69,6 +69,9 @@
       <pos></pos>
       <desc><![CDATA[
       ]]></desc>
+      <m type="img" id="" width="" height=">
+        <caption></caption>
+      </m>
     </point>
 -->
   </points>
