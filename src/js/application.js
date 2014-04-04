@@ -115,6 +115,15 @@
 			app.utils.maxImgWidth = quadrant.getWidth() / 2;
 			app.utils.maxImgHeight = quadrant.getHeight() - 80;
 			quadrant.scrollTo({ pos: quadrant.currentPos });
+
+			console.log("Resize");
+			console.log(app.state.get()); // ???
+			// if (!_.isUndefined(app.state.get().cat)) {
+			// 	console.log("Here we compute the resizes for the quadrant corresponding to cat");
+			// }
+
+
+
 		}).trigger("debouncedresize");
 
 		app.timeline = timeline;
@@ -124,9 +133,11 @@
 	app.renderPoint = function (data) {
 		var id = data.id,
 			cat = data.cat.id,
-			point = _.find(app.points, function (i) { return i.id === data.id; }), // Extract point from app.points
+			//point = _.find(app.points, function (i) { return i.id === data.id; }), // Extract point from app.points
+			point = app.getPoint(id),
 			$container = $(".quadrant-zone" + cat).children(".point-container");
 
+		// BUG: cat is an id value in "point" and an object in "data"
 		data = $.extend(point, data); // Extend data with point
 
 		data._fn1 = function () { // TODO: shouldn't be defined upon each call on renderPoint
@@ -138,6 +149,8 @@
 		};
 
 		$container.html(Mustache.render(app.templates.point, data)).imagesLoaded(function () {
+
+			console.log("State", app.state.get());
 			// Image size is maximized in the container, and the text box width sized accordingly
 			// TODO: must be recomputed on resize!
 			var containerHeight = $container.innerHeight(),
@@ -180,6 +193,12 @@
             if (h.length < 1) { return; }
             state.type = h[1] || "index"; // Implicit `type` index
             if (h[2]) { state.id = parseInt(h[2], 10); } // Important: convert to Int
+
+            // If type is point, we get the cat and add it to current state
+            if (state.type === "point") {
+            	state.cat = app.getPoint(state.id).cat;
+            }
+
             old = current || {};
             current = state;
             return state;
@@ -196,6 +215,8 @@
 		};
 	}());
 
+
+
 	// Application entry point
 	$(function () {
 		// Some initial rendering (empty timeline, quadrant) should be called here (take it out of init)
@@ -210,4 +231,8 @@
 			console.log("Hem! Can't load data.");
 		});
 	});
+
+
 }());
+
+
