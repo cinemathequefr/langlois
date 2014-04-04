@@ -21,12 +21,12 @@
       <pos>8673</pos>
       <desc><![CDATA[
       <p>Henri Langlois et Georges Franju fondent le Cercle du Cinéma, un ciné-club spécialisé dans les films de répertoire. Les premières projections ont lieu avenue des Champs-Élysées, au Pathé Marignan, qui compte 150 places.</p>
-      <p>«&nbsp;Dès la première séance, il fallut refuser du monde et, si l'entreprise se révéla déficitaire en fin d'année, elle n'en avait pas moins permis de rallier tous ceux qui voulaient œuvrer pour la sauvegarde du patrimoine cinématographique&nbsp;» rapporte Henri Langlois.</p>
+      <p><em>«&nbsp;Dès la première séance, il fallut refuser du monde et, si l'entreprise se révéla déficitaire en fin d'année, elle n'en avait pas moins permis de rallier tous ceux qui voulaient œuvrer pour la sauvegarde du patrimoine cinématographique&nbsp;»</em> rapporte Henri Langlois.</p>
       <p>Les spectateurs peuvent découvrir par exemple <em>La Chute de la maison Usher</em> de Jean Epstein, <em>Le Cabinet du Dr Caligari</em> de Robert Wiene, ou encore <em>La Volonté du mort</em> (<em>The Cat and the Canary</em>, 1927) de Paul Leni.</p>
       ]]></desc>
-      <m type="img" id="2-1" width="861" height="1200">
-        <caption>Victor Vasarely</caption>
-        <rights>Victor Vasarely</rights>
+      <m type="img" id="1-1" width="2000" height="775">
+        <caption></caption>
+        <rights></rights>
       </m>
     </point>
     <point id="2">
@@ -35,8 +35,8 @@
       <pos>12050</pos>
       <desc><![CDATA[
       <p>Inauguration de l'exposition «&nbsp;Images du cinéma français&nbsp;».</p>
-      <p>«&nbsp;L'exposition &quot;Images du cinéma français&quot; ne saurait en aucune façon être tenue pour une exposition didactique. Nous n'avons pas eu l'intention de retracer l'histoire du cinéma français, ni de suivre toute son évolution à travers une quantité considérable d'œuvres et de documents&nbsp;», explique le texte introductif du programme.</p>
-      <p>Pour Langlois, «&nbsp;cette exposition envisage avant tout la fantaisie, la féerie, l'irréel, le fantastique ou le fantasmagorique. Elle se place à la fois sous le signe de Georges Méliès et de la poésie en insistant sur le côté le plus spontané de celle-ci, poésie involontaire, accidentelle, fortuite, ou parfois concertée mais qui participe toujours plus ou moins du rêve ou de l'imagination pure&nbsp;».</p>
+      <p><em>«&nbsp;L'exposition &quot;Images du cinéma français&quot; ne saurait en aucune façon être tenue pour une exposition didactique. Nous n'avons pas eu l'intention de retracer l'histoire du cinéma français, ni de suivre toute son évolution à travers une quantité considérable d'œuvres et de documents&nbsp;»</em>, explique le texte introductif du programme.</p>
+      <p>Pour Langlois, <em>«&nbsp;cette exposition envisage avant tout la fantaisie, la féerie, l'irréel, le fantastique ou le fantasmagorique. Elle se place à la fois sous le signe de Georges Méliès et de la poésie en insistant sur le côté le plus spontané de celle-ci, poésie involontaire, accidentelle, fortuite, ou parfois concertée mais qui participe toujours plus ou moins du rêve ou de l'imagination pure&nbsp;»</em>.</p>
       ]]></desc>
     </point>
     <point id="3">
@@ -69,6 +69,10 @@
       <desc><![CDATA[
       <p>Le 29 octobre 1948, les premières salles du «&nbsp;Musée permanent du cinéma&nbsp;», réparties sur trois étages, sont inaugurées avenue de Messine. Deux expositions, «&nbsp;Naissance du cinéma&nbsp;: Plateau – Reynaud – Marey – Demenÿ – Lumière&nbsp;» et «&nbsp;Georges Méliès créateur de l'art cinématographique&nbsp;», marquent les débuts de ce musée. Un <em>«&nbsp;labyrinthe de rêve et de cauchemar&nbsp;»</em> pour Jacques Doniol-Valcroze, le futur fondateur des <em>Cahiers du cinéma</em>.</p>
       ]]></desc>
+      <m type="img" id="5-1" width="861" height="1200">
+        <caption>Victor Vasarely</caption>
+        <rights>Victor Vasarely</rights>
+      </m>
     </point>
 
 
@@ -93,6 +97,9 @@
       <desc><![CDATA[
       <p>Henri Langlois naît à Smyrne (Turquie).</p>
       ]]></desc>
+      <m type="img" id="1000-1" width="1500" height="2000">
+        <caption>Horoscope de naissance d'Henri Langlois</caption>
+      </m>
     </point>
 
 

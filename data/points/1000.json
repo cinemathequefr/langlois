@@ -6,5 +6,12 @@
     "name":"Langlois le b\u00e2tisseur"
   },
   "pos":1407,
-  "desc":"<p>Henri Langlois na\u00eet \u00e0 Smyrne (Turquie).<\/p>"
+  "desc":"<p>Henri Langlois na\u00eet \u00e0 Smyrne (Turquie).<\/p>",
+  "m":{
+    "type":"img",
+    "id":"1000-1",
+    "width":1500,
+    "height":2000,
+    "caption":"Horoscope de naissance d'Henri Langlois"
+  }
 }

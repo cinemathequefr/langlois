@@ -6,5 +6,13 @@
     "name":"Langlois le passeur"
   },
   "pos":"13450 ",
-  "desc":"<p>Le 29 octobre 1948, les premi\u00e8res salles du \u00ab&nbsp;Mus\u00e9e permanent du cin\u00e9ma&nbsp;\u00bb, r\u00e9parties sur trois \u00e9tages, sont inaugur\u00e9es avenue de Messine. Deux expositions, \u00ab&nbsp;Naissance du cin\u00e9ma&nbsp;: Plateau \u2013 Reynaud \u2013 Marey \u2013 Demen\u00ff \u2013 Lumi\u00e8re&nbsp;\u00bb et \u00ab&nbsp;Georges M\u00e9li\u00e8s cr\u00e9ateur de l'art cin\u00e9matographique&nbsp;\u00bb, marquent les d\u00e9buts de ce mus\u00e9e. Un <em>\u00ab&nbsp;labyrinthe de r\u00eave et de cauchemar&nbsp;\u00bb<\/em> pour Jacques Doniol-Valcroze, le futur fondateur des <em>Cahiers du cin\u00e9ma<\/em>.<\/p>"
+  "desc":"<p>Le 29 octobre 1948, les premi\u00e8res salles du \u00ab&nbsp;Mus\u00e9e permanent du cin\u00e9ma&nbsp;\u00bb, r\u00e9parties sur trois \u00e9tages, sont inaugur\u00e9es avenue de Messine. Deux expositions, \u00ab&nbsp;Naissance du cin\u00e9ma&nbsp;: Plateau \u2013 Reynaud \u2013 Marey \u2013 Demen\u00ff \u2013 Lumi\u00e8re&nbsp;\u00bb et \u00ab&nbsp;Georges M\u00e9li\u00e8s cr\u00e9ateur de l'art cin\u00e9matographique&nbsp;\u00bb, marquent les d\u00e9buts de ce mus\u00e9e. Un <em>\u00ab&nbsp;labyrinthe de r\u00eave et de cauchemar&nbsp;\u00bb<\/em> pour Jacques Doniol-Valcroze, le futur fondateur des <em>Cahiers du cin\u00e9ma<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"5-1",
+    "width":861,
+    "height":1200,
+    "caption":"Victor Vasarely",
+    "rights":"Victor Vasarely"
+  }
 }

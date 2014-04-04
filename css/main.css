@@ -16,7 +16,7 @@ nav {
 h1 {
 	color: #fff;
 	text-transform: uppercase;
-	font-family: 'Quicksand'; font-weight: 700; font-size: 36px;
+	font-family: 'Quicksand'; font-weight: 700; font-size: 28px;
 }
 
 div > p, div > h1 {
@@ -45,28 +45,28 @@ div > p, div > h1 {
 .quadrant > .quadrant-zone4 { background-color: #639; }
 
 .point-container {
-	overflow: hidden; height: 100%; width: 100%;
-	margin: 96px 0 24px 0;
+	display: block; position: absolute; overflow: hidden;
+	top: 80px; bottom: 0; width: 100%;
 	color: #fff;
 	font-size: 22px; font-weight: 600;
-	box-sizing: border-box; -moz-box-sizing: border-box;
-}
-
-.point-container > div {
 }
 
 .point-container > .left {
 	position: absolute; overflow: auto;
-	left: 0; top: 75px; right: 50%; bottom: 0;
-	padding: 0 24px;
+	left: 0; top: 0; bottom: 0;
+	width: 50%;
+	padding: 0 48px 0 24px;
+	box-sizing: border-box; -moz-box-sizing: border-box;
 }
 
 .point-container > .right {
 	position: absolute;
-	left: 50%; top: 75px; right: 0; bottom: 0;
-	text-align: right;
+	top: 0; right: 0; bottom: 0;
+	width: 50%;
 }
 
+.content {
+}
 
 
 a.app-title {

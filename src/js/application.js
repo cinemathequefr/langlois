@@ -37,7 +37,7 @@
 	};
 
 	app.templates = {
-		point: "<div class='left'><h1>({{&id}}) {{&title}}</h1>{{&desc}}</div><div class='right'>{{#m}}{{#_fn1}}{{/_fn1}}{{/m}}</div>",
+		point: "<div class='left'><h1>{{&title}}</h1><div class='content'>{{&desc}}</div></div><div class='right'>{{#m}}{{#_fn1}}{{/_fn1}}{{/m}}</div>",
 		img: "<img src='img/{{&id}}.jpg' width='{{&width}}' height='{{&height}}' alt='{{&caption}}'>"
 	};
 
@@ -77,6 +77,8 @@
 	 * Launches the application (once index data is loaded)
 	 */
 	app.init = function (data) {
+		// console.log(data);
+
 		var timeline = new Timeline(app.config.timeline),
 			quadrant = new Quadrant(app.config.quadrant);
 
@@ -84,12 +86,12 @@
 			var tle = timeline.add(point.id, point.pos).$point; // Timeline element
 			tle.attr("data-id", point.id);
 			tle.addClass("icon" + point.cat);
+			point.$timelineElement = tle; // Add reference to jquery timeline element
 			app.points.push(point);
 		});
 
 		timeline.render();
 		quadrant.render();
-
 
 		// Event bindings
 		timeline.$tlPointsContainer.on("click", function (e) {
@@ -110,23 +112,24 @@
 		// Resize event
 		$(window).on("debouncedresize", function () {
 			quadrant.render();
-
 			app.utils.maxImgWidth = quadrant.getWidth() / 2;
-			app.utils.maxImgHeight = quadrant.getHeight() - 75;
-
-			quadrant.scrollTo({ pos: quadrant.currentPos })
+			app.utils.maxImgHeight = quadrant.getHeight() - 80;
+			quadrant.scrollTo({ pos: quadrant.currentPos });
 		}).trigger("debouncedresize");
 
-		app.timeline = timeline; // Export references
+		app.timeline = timeline;
 		app.quadrant = quadrant;
 	};
-
+ 
 	app.renderPoint = function (data) {
-		data = $.extend({}, data);
-		var cat = data.cat.id,
+		var id = data.id,
+			cat = data.cat.id,
+			point = _.find(app.points, function (i) { return i.id === data.id; }), // Extract point from app.points
 			$container = $(".quadrant-zone" + cat).children(".point-container");
 
-		data._fn1 = function () {
+		data = $.extend(point, data); // Extend data with point
+
+		data._fn1 = function () { // TODO: shouldn't be defined upon each call on renderPoint
 			return function (text, render) {
 				if (this.type === "img") {
 					return render(app.templates.img);
@@ -135,13 +138,26 @@
 		};
 
 		$container.html(Mustache.render(app.templates.point, data)).imagesLoaded(function () {
-			var $image = $(".right").children("img"),
+			// Image size is maximized in the container, and the text box width sized accordingly
+			// TODO: must be recomputed on resize!
+			var containerHeight = $container.innerHeight(),
+				$left = $container.find(".left"),
+				$right = $container.find(".right"),
+				$h1 = $left.children("h1").eq(0), // H1
+				$content = $left.children(".content").eq(0), // Text block
+				$image = $right.children("img").eq(0), // Image
 				fit = fitInBox($image.attr("width"), $image.attr("height"), app.utils.maxImgWidth, app.utils.maxImgHeight, true);
 
-			$image.css({ width: fit.width + "px", height: fit.height + "px" });
+			$left.css({ width: (app.quadrant.getWidth() - fit.width) + "px" });
+			$content.css({ paddingTop: (((containerHeight - $content.innerHeight()) / 2) - $h1.outerHeight(true)) + "px" });
+			$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: 	((containerHeight - fit.height) / 2) + "px" });
+			$image.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
+
 			$container.fadeIn(200);
 			app.quadrant.scrollTo({ pos: cat });
-			app.timeline.scrollTo(cat); // BUG : doesn't work?
+			$(".timeline-point-on").removeClass("timeline-point-on");
+			data.$timelineElement.addClass("timeline-point-on");
+			app.timeline.scrollTo(id);
 		});
 	};
 
