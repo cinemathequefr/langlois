@@ -26,6 +26,17 @@ var Quadrant = function (params) {
 
 };
 
+Quadrant.prototype.hide = function () {
+	if (this.isRendered) {
+		this.$quadrant.hide();
+	}
+}
+
+Quadrant.prototype.show = function () {
+	if (this.isRendered) {
+		this.$quadrant.show();
+	}
+}
 
 Quadrant.prototype.clearQueue = function () {
 	this.scrollQueue = [];
@@ -41,6 +52,8 @@ Quadrant.prototype.render = function () {
 		$zones,
 		i = 0,
 		l = this.HTMLStructure.length;
+
+	this.hide(); //***
 
 	qw = this.width = $container.outerWidth(false);
 	qh = this.height = $container.outerHeight(false);
@@ -64,6 +77,7 @@ Quadrant.prototype.render = function () {
 	$q.children().eq(2).css({ left: qw + "px", top: qh +"px" });
 	$q.children().eq(3).css({ left: "0px", top: qh + "px" });
 
+	this.show();
 
 	if (this.isRendered === false) {
 		this.isRendered = true;
@@ -71,6 +85,8 @@ Quadrant.prototype.render = function () {
 	} else {
 		this.scrollTo({ pos: this.currentPos, duration: 0});
 	}
+
+
 }
 
 

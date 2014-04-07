@@ -1,4 +1,3 @@
-
 /**
  * Timeline constructor
  * @param   config  [object]            Configuration object:
@@ -21,14 +20,12 @@ var Timeline = function (config) {
     this.ptPxWidth = config.ptPxWidth || 10;
     this.graduation = config.graduation;
     this.widthRatio = 1;
-
     this.points = [];   // Array containing the timeline's point objects
     this.isRendered = false;
 
     // Creates the basic DOM structure
     this.$tl = $("<div class='timeline' id='" + this.DOMId + "'></div>");
     this.$tlContainer = $("<div class='timeline-container'></div>").appendTo(this.$tl);
-
     this.$tlPointsContainer = $("<div class='timeline-points-container'></div>").appendTo(this.$tlContainer);
     this.$tlGraduationContainer = $("<div class='timeline-graduation-container'></div>").appendTo(this.$tlContainer);
 
@@ -38,7 +35,6 @@ var Timeline = function (config) {
             $("<div class='timeline-graduation'>" + this.graduation.legend(i) + "</div>").addClass(this.graduation.cssClass(i)).appendTo(this.$tlGraduationContainer);
         }
     }
-
 };
 
 
@@ -59,6 +55,7 @@ Timeline.prototype.add = function (id, pos) {
     }
     
     return this.points[l - 1];
+    // TODO: rather return `this`
 };
 
 
@@ -90,6 +87,23 @@ Timeline.prototype.resize = function (w) {
 
 
 /**
+ * Bind timeline points
+ * NB: uses event delegation internally
+ * TODO: add an `onclick` property to the configuration object to make event binding simpler
+ */
+Timeline.prototype.bind = function (eventType, callback) {
+    var self = this; // Timeline object
+    this.$tlPointsContainer.on(eventType, function (e) {
+        var target = $(e.target);
+        if (target.hasClass("timeline-point")) {
+            callback.call(self, target.data("id")); // Calls the callback passing the point's id as parameter
+        }
+    });
+    return this;
+}
+
+
+/**
  * Scrolls to a given point Id (tries to center it as much as possible)
  * @param   ptId    (int)   Id of the point
  */
@@ -109,7 +123,6 @@ Timeline.prototype.scrollTo = function (ptId) {
  * Renders the timeline
  */
  Timeline.prototype.render = function () {
- 
     var widthRatio, i, pt,
         graduationStep = this.graduation.step,
         ptPxWidth = this.ptPxWidth,
@@ -120,10 +133,8 @@ Timeline.prototype.scrollTo = function (ptId) {
         this.tlPxWidth = winWidth;
     }
 
-    widthRatio = this.widthRatio = this.calcWidthRatio(); 
-    
+    this.widthRatio = widthRatio = this.calcWidthRatio(); 
     this.$tlContainer.css({width: this.tlPxWidth + "px"});
-    
     this.points = _.sortBy(this.points, function (p) { return parseInt(p.pos); });
 
     for (i = 0; i < this.points.length; ++i) {
@@ -153,5 +164,7 @@ Timeline.prototype.scrollTo = function (ptId) {
     }
 
     this.isRendered = true;
+
+    return this;
 
 };
