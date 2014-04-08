@@ -18,19 +18,20 @@
 	app.config.quadrant = {
 		DOMId: "quadrant",
 		DOMContainerSelector: ".container",
-		HTMLStructure: "<div><div class='point-container'></div></div>",
+		//HTMLStructure: "<div><div class='point-container'></div></div>",
 		defaultDuration: 500,
 		defaultEasing: "easeInOutSine"
 	};
 
 	app.utils = {
-		maxImgWidth: 0, // Max image width (updated on resize)
-		maxImgHeight: 0 // Max image height
+		// maxImgWidth: 0, // Max image width (updated on resize)
+		// maxImgHeight: 0 // Max image height
 	};
 
 	app.templates = {
 		point: "<div class='left'><h1>{{&title}}</h1><div class='content'>{{&desc}}</div></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
-		img: "<img src='img/{{&id}}.jpg' width='{{&width}}' height='{{&height}}' alt='{{&caption}}'>"
+		//img: "<img src='img/{{&id}}.jpg' width='{{&width}}' height='{{&height}}' alt='{{&caption}}'>"
+		img: "<img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' width='{{&width}}' height='{{&height}}' alt='{{&caption}}'>"
 	};
 
 	// app.controller
@@ -38,7 +39,12 @@
 		var state = app.state.save(),
 			type = state.type,
 			id = state.id || null,
-			point; // IMPROVE
+			point;
+
+
+		if (type === "index") {
+			app.renderIndex();
+		}
 
 		if (type === "point") {
 			if (id) {
@@ -49,7 +55,7 @@
 							point = $.extend(point, data, { isComplete: true });
 							app.renderPoint(point);
 						},
-						fail
+						app.fail
 					);
 				} else {
 					app.renderPoint(point);
@@ -57,12 +63,13 @@
 				// if (app.state.getOld().type === "point") app.quadrant.scrollTo({ pos: 0 }); // Scroll quad to center if we come from a point
 			}
 		}
-
-		function fail () {
-			console.log("Fail miserably!");
-			app.state.navigate({ type: "index", id: null });
-		}
     };
+
+
+
+    app.fail = function () {
+    	app.state.navigate({ type: "index", il: null});
+    }
 
 
 	// app.fetchData
@@ -71,9 +78,9 @@
     };
 
     // app.getPointById (TODO: not needed if we have app.points.get)
-    app.getPointById = function (id) { // Get one point by id from app.points
-        return _.find(app.points, function (pt) { return (pt.id === id); });
-    };
+    // app.getPointById = function (id) { // Get one point by id from app.points
+    //     return _.find(app.points, function (pt) { return (pt.id === id); });
+    // };
 
 
     // app.init
@@ -82,7 +89,7 @@
     	// var quadrant;
 
     	app.points = data;
-    	app.points.get = function (id) { // IMPROVE?
+    	app.points.get = function (id) {
 			return _.find(this, function (pt) { return (pt.id === id); });
     	};
 
@@ -100,8 +107,8 @@
 		Path.root("#!/index");
 		Path.map("#!/index").to(app.controller);
 		Path.map("#!/:point(/:id)").to(app.controller);
-        Path.rescue(function () { alert("No route found"); });
-        Path.listen();
+		Path.rescue(function () { alert("No route found"); });
+		Path.listen();
 
         // Timeline rendering
 		app.timeline.bind("click", function (id) { // NEW: event binding uses a `Timeline.bind` method
@@ -115,69 +122,109 @@
 		$(window).on("debouncedresize.main", app.quadrant, function (e) {
 			var quadrant = e.data;
 			quadrant.render();
-			app.utils.maxImgWidth = quadrant.getWidth() / 2;
-			app.utils.maxImgHeight = quadrant.getHeight() - 80;
+			// app.utils.maxImgWidth = quadrant.getWidth() / 2;
+			// app.utils.maxImgHeight = quadrant.getHeight() - 80;
 			quadrant.scrollTo({ pos: quadrant.currentPos });
 		}).trigger("debouncedresize.main"); // Initial quadrant rendering
 
-		$(window).on("debouncedresize.point", app.quadrant, function (e) {
-			var $left = app.utils.$left,
-				$right = app.utils.$right,
-				$h1 = app.utils.$h1,
-				$content = app.utils.$content,
-				$image = app.utils.$image,
-				containerHeight = app.utils.$container.innerHeight(),
-				fit = fitInBox($image.attr("width"), $image.attr("height"), app.utils.maxImgWidth, app.utils.maxImgHeight, true);;
+		// $(window).on("debouncedresize.point", app.quadrant, function (e) {
+		// 	var $left = app.utils.$left,
+		// 		$right = app.utils.$right,
+		// 		$h1 = app.utils.$h1,
+		// 		$content = app.utils.$content,
+		// 		$image = app.utils.$image,
+		// 		containerHeight = app.utils.$container.innerHeight(),
+		// 		fit = fitInBox($image.attr("width"), $image.attr("height"), app.utils.maxImgWidth, app.utils.maxImgHeight, true);;
 
-			$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: 	((containerHeight - fit.height) / 2) + "px" });
-			$image.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
-			$left.css({ width: (app.quadrant.getWidth() - fit.width) + "px" });
-			$content.css({ paddingTop: (((containerHeight - $content.innerHeight()) / 2) - $h1.outerHeight(true)) + "px" }); // Bug? Doesn't always center vertically on resize
-		});
+		// 	$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((containerHeight - fit.height) / 2) + "px" });
+		// 	$image.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
+		// 	$left.css({ width: (app.quadrant.getWidth() - fit.width) + "px" });
+		// 	$content.css({ paddingTop: (((containerHeight - $content.innerHeight()) / 2) - $h1.outerHeight(true)) + "px" }); // Bug? Doesn't always center vertically on resize
+		// });
+
+		app.$pointContainer = $("<div class='point-container'></div>").appendTo(".container");
+
     }
 
 
-    // app.renderPoint
-    app.renderPoint = function (point) {
-    	var cat = point.cat.id,
-    		$container = app.utils.$container = $(".quadrant-zone" + cat).children(".point-container");
-
-		point.renderImg = function () { // Mustache lambda
-			return function (text, render) {
-				if (this.type === "img") {
-					return render(app.templates.img);
-				};
-			};
-		};
-
-    	$container.css({ visibility: "hidden" }).html(Mustache.render(app.templates.point, point)).imagesLoaded(function () {
-			app.utils.$container = $container;
-			app.utils.$left = $container.find(".left");
-			app.utils.$right = $container.find(".right");
-			app.utils.$h1 = app.utils.$left.children("h1").eq(0);
-			app.utils.$content = app.utils.$left.children(".content").eq(0);
-			app.utils.$image = app.utils.$right.children("img").eq(0);
-    		$(window).trigger("debouncedresize.point");
-
-			app.quadrant.scrollTo({
-				pos: cat,
-				onAfter: function () {
-					$container.hide().css({ visibility: "visible"}).fadeIn(500);
-				}
-			});
-
+    app.renderIndex = function () {
+    	app.state.transitionOut(function () {
 			$(".timeline-point-on").removeClass("timeline-point-on");
-			point.$timelineElement.addClass("timeline-point-on");
-			app.timeline.scrollTo(point.id);
-
+			app.quadrant.scrollTo({ pos: 0 });
     	});
     }
+
+	app.renderPoint = function (point) {
+		// 1: transition out
+		// 2: hide content
+		// 3: load new content + assets
+		// 4: computes dimensions relative to viewport
+		// 5: transition in / show content
+		app.state.transitionOut(function () {
+
+
+			point.renderImg = function () { // Mustache lambda
+				return function (text, render) {
+					if (this.type === "img") {
+						return render(app.templates.img);
+					};
+				};
+			};
+
+			app.$pointContainer.css({visibility: "hidden"}).html(Mustache.render(app.templates.point, point)).imagesLoaded(function () {
+				app.pointResize();
+				app.quadrant.scrollTo({
+					pos: point.cat.id,
+					onAfter: function () {
+						app.$pointContainer.hide().css({ visibility: "visible" }).fadeIn(500);
+					}
+				});
+				$(".timeline-point-on").removeClass("timeline-point-on");
+				point.$timelineElement.addClass("timeline-point-on");
+				app.timeline.scrollTo(point.id);
+			});			
+		});
+
+
+
+
+	}
+
+	app.pointResize = function () {
+
+		var $p = app.$pointContainer,
+			// $left = $p.find(".left"),
+			$right = $p.find(".right"),
+			// $h1 = $left.children("h1").eq(0),
+			// $content = $left.children(".content").eq(0),
+			$image = $right.children("img").eq(0),
+			// containerHeight = $p.innerHeight(),
+			fit = fitInBox($image.attr("width"), $image.attr("height"), (app.quadrant.getWidth() / 2), (app.quadrant.getHeight() - 80), true);
+
+
+			$image.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
+
+
+
+		// 	$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((containerHeight - fit.height) / 2) + "px" });
+		// 	$image.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
+		// 	$left.css({ width: (app.quadrant.getWidth() - fit.width) + "px" });
+		// 	$content.css({ paddingTop: (((containerHeight - $content.innerHeight()) / 2) - $h1.outerHeight(true)) + "px" }); // Bug? Doesn't always center vertically on resize
+
+		// 	console.log("containerHeight", containerHeight);
+
+
+
+	}
+
+
+
 
 
     // app.state
 	app.state = (function () {
 		var current, old,
-			get, getOld, navigate, save, transition;
+			get, getOld, navigate, save, transitionOut;
 
 		get = function () {
 			return current;
@@ -207,7 +254,7 @@
 
             // If type is point, we get the cat and add it to current state
             if (state.type === "point") {
-            	state.cat = app.getPointById(state.id).cat;
+            	state.cat = app.points.get(state.id).cat;
             }
 
             old = current || {};
@@ -215,14 +262,31 @@
             return state;
 		};
 
-		// transition = function () {
-		// };
+
+		transitionOut = function (onAfter) {
+			if (typeof onAfter !== "function") onAfter = $.noop;
+
+			if (old.type === "undefined") {}
+
+			if (old.type === "point") {
+				app.$pointContainer.fadeOut(500, onAfter);
+				return; // Return to prevent final call of onAfter
+			}
+
+			if (old.type === "index") {
+			}
+
+			onAfter.call();
+		};
+
+
 
 		return {
 			get: get,
 			getOld: getOld,
 			navigate: navigate,
-			save: save
+			save: save,
+			transitionOut: transitionOut
 		};
 	}());
 
@@ -231,7 +295,7 @@
 	$(function () {
 		$.when(app.fetchData("data/index.json")).then(
 			app.init,
-			function () { console.log("Fail to load data.")}
+			app.fail
 		);
 	});
 }());

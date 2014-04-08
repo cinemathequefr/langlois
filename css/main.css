@@ -49,6 +49,7 @@ div > p, div > h1 {
 	top: 80px; bottom: 0; width: 100%;
 	color: #fff;
 	font-size: 22px; font-weight: 600;
+	z-index: 1000;
 }
 
 .point-container > .left {

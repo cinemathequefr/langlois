@@ -58,11 +58,7 @@ Quadrant.prototype.render = function () {
 	qw = this.width = $container.outerWidth(false);
 	qh = this.height = $container.outerHeight(false);
 
-
-
 	if ($q.parents(":last").is("html") === false) { // Initial rendering
-		//$zones = $q.append("<div class='nw'></div><div class='ne'></div><div class='se'></div><div class='sw'></div>");
-
 		for (i = 0; i < 4; ++i) {
 			$(this.HTMLStructure[i % l]).addClass("quadrant-zone").addClass("quadrant-zone" + (i + 1)).appendTo($q);
 		}
