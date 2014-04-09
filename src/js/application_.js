@@ -127,7 +127,7 @@
 				$content = app.utils.$content,
 				$image = app.utils.$image,
 				containerHeight = app.utils.$container.innerHeight(),
-				fit = fitInBox($image.attr("width"), $image.attr("height"), app.utils.maxImgWidth, app.utils.maxImgHeight, true);;
+				fit = fitInBox($image.attr("width"), $image.attr("height"), app.utils.maxImgWidth, app.utils.maxImgHeight, true);
 
 			$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((containerHeight - fit.height) / 2) + "px" });
 			$image.css({ width: (fit.width) + "px", height: (fit.height) + "px" });

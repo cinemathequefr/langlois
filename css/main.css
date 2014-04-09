@@ -95,3 +95,12 @@ a#logocf {
 .icon2 { background-color: #7acc29; }
 .icon3 { background-color: #cc297a; }
 .icon4 { background-color: #5c1f99; }
+
+.loading {
+	display: none; position:fixed; 
+	top: 50%; left: 0; padding: 2px 12px 2px 2px;
+	background-color: #fff; color: #222;
+	min-width: 180px; height: 36px; line-height: 36px;
+	font-family: 'Source Sans Pro'; font-size: 18px;
+	z-index: 1000;
+}

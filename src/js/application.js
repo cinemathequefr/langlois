@@ -18,19 +18,22 @@
 	app.config.quadrant = {
 		DOMId: "quadrant",
 		DOMContainerSelector: ".container",
-		//HTMLStructure: "<div><div class='point-container'></div></div>",
 		defaultDuration: 500,
 		defaultEasing: "easeInOutSine"
 	};
 
 	app.utils = {
-		// maxImgWidth: 0, // Max image width (updated on resize)
-		// maxImgHeight: 0 // Max image height
+		hiddenDimensioned: function ( $e, func, args ) { // Call a function (and returns what it returns) TODO: check (+ save) some initial css values
+			var output;
+			$e.css({ visibility: "hidden", display: "block" });
+			output = func.apply(this, args);
+			$e.css({ visibility: "visible", display: "none" });
+			return output;
+		}
 	};
 
 	app.templates = {
 		point: "<div class='left'><h1>{{&title}}</h1><div class='content'>{{&desc}}</div></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
-		//img: "<img src='img/{{&id}}.jpg' width='{{&width}}' height='{{&height}}' alt='{{&caption}}'>"
 		img: "<img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' width='{{&width}}' height='{{&height}}' alt='{{&caption}}'>"
 	};
 
@@ -60,9 +63,9 @@
 				} else {
 					app.renderPoint(point);
 				}
-				// if (app.state.getOld().type === "point") app.quadrant.scrollTo({ pos: 0 }); // Scroll quad to center if we come from a point
 			}
 		}
+
     };
 
 
@@ -77,16 +80,10 @@
         return $.getJSON(url);
     };
 
-    // app.getPointById (TODO: not needed if we have app.points.get)
-    // app.getPointById = function (id) { // Get one point by id from app.points
-    //     return _.find(app.points, function (pt) { return (pt.id === id); });
-    // };
-
 
     // app.init
     // At this point, the index has been successfully loaded into data
     app.init = function (data) {
-    	// var quadrant;
 
     	app.points = data;
     	app.points.get = function (id) {
@@ -95,11 +92,12 @@
 
     	app.timeline = new Timeline(app.config.timeline),
 		app.quadrant = new Quadrant(app.config.quadrant);
+		app.$pointContainer = $("<div class='point-container'></div>").appendTo(".container");
 
 		_.each(app.points, function (point, i) { // Populate timeline with points
 			var tle = app.timeline.add(point.id, point.pos).$point; // Timeline element
 			tle.attr("data-id", point.id);
-			tle.addClass("icon" + point.cat);
+			tle.addClass("icon" + point.cat); // Warning : at this point (points loaded from index.json) cat is a number, later it'll be an object! TODO: normalize
 			point.$timelineElement = tle; // Add reference to jquery timeline element
 		});
 
@@ -118,31 +116,20 @@
 			});
 		}).render();
 
+
 		// Quadrant rendering + dimensions computations on resize
+		
 		$(window).on("debouncedresize.main", app.quadrant, function (e) {
 			var quadrant = e.data;
 			quadrant.render();
-			// app.utils.maxImgWidth = quadrant.getWidth() / 2;
-			// app.utils.maxImgHeight = quadrant.getHeight() - 80;
 			quadrant.scrollTo({ pos: quadrant.currentPos });
+			// if (!_.isUndefined(app.$pointContainer)) {
+			// 	app.pointResize();
+			// }
 		}).trigger("debouncedresize.main"); // Initial quadrant rendering
+		
 
-		// $(window).on("debouncedresize.point", app.quadrant, function (e) {
-		// 	var $left = app.utils.$left,
-		// 		$right = app.utils.$right,
-		// 		$h1 = app.utils.$h1,
-		// 		$content = app.utils.$content,
-		// 		$image = app.utils.$image,
-		// 		containerHeight = app.utils.$container.innerHeight(),
-		// 		fit = fitInBox($image.attr("width"), $image.attr("height"), app.utils.maxImgWidth, app.utils.maxImgHeight, true);;
 
-		// 	$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((containerHeight - fit.height) / 2) + "px" });
-		// 	$image.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
-		// 	$left.css({ width: (app.quadrant.getWidth() - fit.width) + "px" });
-		// 	$content.css({ paddingTop: (((containerHeight - $content.innerHeight()) / 2) - $h1.outerHeight(true)) + "px" }); // Bug? Doesn't always center vertically on resize
-		// });
-
-		app.$pointContainer = $("<div class='point-container'></div>").appendTo(".container");
 
     }
 
@@ -162,7 +149,6 @@
 		// 5: transition in / show content
 		app.state.transitionOut(function () {
 
-
 			point.renderImg = function () { // Mustache lambda
 				return function (text, render) {
 					if (this.type === "img") {
@@ -171,7 +157,15 @@
 				};
 			};
 
+			// $pointContainer gets current quadrant-zone's bgcol
+			app.$pointContainer.css({ backgroundColor: $(".quadrant-zone" + point.cat.id).css("background-color") });
+
+			$(".loading").show();
+
 			app.$pointContainer.css({visibility: "hidden"}).html(Mustache.render(app.templates.point, point)).imagesLoaded(function () {
+
+				$(".loading").hide();
+
 				app.pointResize();
 				app.quadrant.scrollTo({
 					pos: point.cat.id,
@@ -184,41 +178,29 @@
 				app.timeline.scrollTo(point.id);
 			});			
 		});
-
-
-
-
 	}
+
 
 	app.pointResize = function () {
-
 		var $p = app.$pointContainer,
-			// $left = $p.find(".left"),
+			$left = $p.find(".left"),
 			$right = $p.find(".right"),
-			// $h1 = $left.children("h1").eq(0),
-			// $content = $left.children(".content").eq(0),
+			$h1 = $left.children("h1").eq(0),
+			$content = $left.children(".content").eq(0),
 			$image = $right.children("img").eq(0),
-			// containerHeight = $p.innerHeight(),
-			fit = fitInBox($image.attr("width"), $image.attr("height"), (app.quadrant.getWidth() / 2), (app.quadrant.getHeight() - 80), true);
-
-
+			fit = fitInBox($image.attr("width"), $image.attr("height"), (app.quadrant.getWidth() / 2), (app.quadrant.getHeight() - 80), true),
+			dims = app.utils.hiddenDimensioned($p, function () {
+				return {
+					containerHeight: $p.innerHeight(),
+					contentHeight: $content.innerHeight(),
+					h1Height: $h1.outerHeight(true)
+				};
+			});
 			$image.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
-
-
-
-		// 	$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((containerHeight - fit.height) / 2) + "px" });
-		// 	$image.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
-		// 	$left.css({ width: (app.quadrant.getWidth() - fit.width) + "px" });
-		// 	$content.css({ paddingTop: (((containerHeight - $content.innerHeight()) / 2) - $h1.outerHeight(true)) + "px" }); // Bug? Doesn't always center vertically on resize
-
-		// 	console.log("containerHeight", containerHeight);
-
-
-
+			$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((dims.containerHeight - fit.height) / 2) + "px" });
+			$left.css({ width: (app.quadrant.getWidth() - fit.width) + "px" });
+			$content.css({ paddingTop: (((dims.containerHeight - dims.contentHeight) / 2) - dims.h1Height) + "px" });
 	}
-
-
-
 
 
     // app.state
@@ -269,7 +251,10 @@
 			if (old.type === "undefined") {}
 
 			if (old.type === "point") {
-				app.$pointContainer.fadeOut(500, onAfter);
+				app.$pointContainer.fadeOut(500, function () {
+					onAfter.call();
+				});
+
 				return; // Return to prevent final call of onAfter
 			}
 
