@@ -1,0 +1,82 @@
+
+
+
+/* DeepZoom */
+
+
+/* zoom controls */
+.dzzoomcontrols {
+    position: fixed;
+    bottom: 35px; left: 50%;
+    margin-left: -256px;
+    width: 512px; height: 35px;
+    background-color: rgba(3, 3, 3, 0.8);
+    border-radius: 2px;
+    background-image: url(images/zoom.png); background-repeat: no-repeat; background-position: 50% 50%;
+    z-index: 1000; /* Test */
+}
+
+.dzzoomcontrols .dzscalebutton {
+    float: left;
+    width: 32px; height: 32px;
+    margin-top: 1px; margin-left: 3px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dzzoomcontrols .dzscalebutton.plus {
+    float: right;
+    margin-left: 0; margin-right: 3px;
+}
+
+.dzzoomcontrols .ui-slider {
+    float: left;
+    width: 425px; height: 4px;
+    margin-left: 10px; margin-top: 16px;
+    background-color: transparent;
+}
+
+.dzzoomcontrols .ui-slider a.ui-slider-handle {
+    position: relative; display: block; float: left;
+    top: -9px; width: 22px; height: 22px;
+    margin-left: -12px; padding: 0;
+    color: transparent; background-color: transparent;
+    background-position: center center; background-repeat: no-repeat; background-image: url(images/zoom-handle.png);
+}
+
+/* close button */
+.dzclosebutton {
+    position: fixed;
+    top: 12px; right: 12px;
+    width: 60px; height: 60px; line-height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff; font-size: 60px; font-family: Arial;
+    z-index: 1000; /* Test */
+    text-align: center;
+}
+
+.dzclosebutton:before {
+    content: '\00D7';
+}
+
+
+/* fadeable */
+.fadeable {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.fade_out {
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+}
