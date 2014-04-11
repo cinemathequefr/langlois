@@ -1,10 +1,6 @@
-
-
-
 /* DeepZoom */
+/* NB: used for dz.htm test only - duplicated in main.css for real use */
 
-
-/* zoom controls */
 .dzzoomcontrols {
     position: fixed;
     bottom: 35px; left: 50%;
@@ -44,7 +40,6 @@
     background-position: center center; background-repeat: no-repeat; background-image: url(images/zoom-handle.png);
 }
 
-/* close button */
 .dzclosebutton {
     position: fixed;
     top: 12px; right: 12px;

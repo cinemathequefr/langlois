@@ -24,12 +24,10 @@
       <p><em>«&nbsp;Dès la première séance, il fallut refuser du monde et, si l'entreprise se révéla déficitaire en fin d'année, elle n'en avait pas moins permis de rallier tous ceux qui voulaient œuvrer pour la sauvegarde du patrimoine cinématographique&nbsp;»</em> rapporte Henri Langlois.</p>
       <p>Les spectateurs peuvent découvrir par exemple <em>La Chute de la maison Usher</em> de Jean Epstein, <em>Le Cabinet du Dr Caligari</em> de Robert Wiene, ou encore <em>La Volonté du mort</em> (<em>The Cat and the Canary</em>, 1927) de Paul Leni.</p>
       ]]></desc>
-      <!--
       <m type="img" id="1-1" width="2000" height="775">
         <caption></caption>
         <rights></rights>
       </m>
-      -->
     </point>
     <point id="2">
       <title>28 décembre 1944</title>
@@ -82,9 +80,17 @@
         <rights></rights>
       </m>
     </point>
-
-
-
+    <point id="7">
+      <title>Mars-avril 1950</title>
+      <cat>1</cat>
+      <pos>13940 </pos>
+      <desc><![CDATA[
+      <p>En mars 1950, le jeune cinéaste Kenneth Anger prend contact pour la première fois avec Langlois et lui annonce son intention de venir travailler à Paris. Il arrive en France en avril et s'installe dans la chambre de bonne que possède Mary Meerson au 21, rue Gazan, près du parc Montsouris. C'est le début d'une longue relation entre les deux hommes.</p>      
+      ]]></desc>
+      <m type="img" id="7-1" width="2000" height="2589">
+        <caption>Lettre de Kenneth Anger à Henri Langlois datée du 2 mars 1950</caption>
+      </m>
+    </point>
     <point id="8">
       <title>20 septembre 1951</title>
       <cat>1</cat>
@@ -92,12 +98,9 @@
       <desc><![CDATA[
       <p>Le 20 septembre 1951, Langlois reçoit une lettre d'un jeune cinéphile, Jacques Rivette, qui, trop pauvre pour se payer les entrées à la Cinémathèque, lui demande un accès libre. Sa demande n'est pas suivie d'effet, mais le 20 décembre 1951, Jacques Rivette reçoit de la Cinémathèque cinq bobines de pellicule vierge Kodak.</p>
       ]]></desc>
-      <!--
-      <m type="img" id="" width="" height="">
-        <caption></caption>
-        <rights></rights>
+      <m type="img" id="8-1" width="2000" height="1442">
+        <caption>Lettre de Jacques Rivette à Henri Langlois datée du 20 septembre 1951</caption>
       </m>
-      -->
     </point>
 
 
@@ -124,7 +127,7 @@
       <desc><![CDATA[
       <p>Henri Langlois naît à Smyrne (Turquie).</p>
       ]]></desc>
-      <m type="img" id="1000-1" width="900" height="1200">
+      <m type="img" id="1000-1" width="1500" height="2000">
         <caption>Horoscope de naissance d'Henri Langlois</caption>
       </m>
     </point>

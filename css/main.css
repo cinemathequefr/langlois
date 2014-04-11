@@ -39,16 +39,37 @@ div > p, div > h1 {
 	margin: 0; padding: 0;
 }
 
+
 .quadrant > .quadrant-zone1 { background-color: #369; }
 .quadrant > .quadrant-zone2 { background-color: #693; }
 .quadrant > .quadrant-zone3 { background-color: #936; }
 .quadrant > .quadrant-zone4 { background-color: #639; }
+.icon1 { background-color: #297acc; }
+.icon2 { background-color: #7acc29; }
+.icon3 { background-color: #cc297a; }
+.icon4 { background-color: #5c1f99; }
+
+
+/* Proposition Xavier 100414 */
+/*
+.quadrant > .quadrant-zone1 { background-color: #5a587d; }
+.quadrant > .quadrant-zone2 { background-color: #64cbc4; }
+.quadrant > .quadrant-zone3 { background-color: #ff6b6b; }
+.quadrant > .quadrant-zone4 { background-color: #b2da5a; }
+.icon1 { background-color: #5a587d; }
+.icon2 { background-color: #64cbc4; }
+.icon3 { background-color: #ff6b6b;; }
+.icon4 { background-color: #b2da5a; }
+*/
+
+
+
 
 .point-container {
 	display: block; position: absolute; overflow: hidden;
 	top: 80px; bottom: 0; width: 100%;
 	color: #fff;
-	font-size: 22px; font-weight: 600;
+	font-size: 20px; font-weight: 400;
 	z-index: 1000;
 }
 
@@ -70,6 +91,11 @@ div > p, div > h1 {
 }
 
 
+.point-image {
+	cursor: pointer;
+}
+
+/*
 a.app-title {
 	position: absolute; display: block;
 	top: 4px; right: 4px;
@@ -89,12 +115,19 @@ a#logocf {
 	text-indent: -10000px;
 	outline: none;
 }
+*/
+a.app-title {
+	position: absolute; display: block;
+	top: 4px; left: 4px;
+	width: 400px; height: 69px;
+	background-image: url(images/title2.png);
+	text-decoration: none; color: inherit;
+	text-indent: -10000px;
+	outline: none;
+}
 
 
-.icon1 { background-color: #297acc; }
-.icon2 { background-color: #7acc29; }
-.icon3 { background-color: #cc297a; }
-.icon4 { background-color: #5c1f99; }
+
 
 .loading {
 	display: none; position:fixed; 
@@ -103,4 +136,92 @@ a#logocf {
 	min-width: 180px; height: 36px; line-height: 36px;
 	font-family: 'Source Sans Pro'; font-size: 18px;
 	z-index: 1000;
+}
+
+.overlay {
+    position: fixed; overflow: hidden; display: none;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #333;
+    z-index: 2000;
+}
+
+
+
+
+
+/* DeepZoom */
+
+.dzzoomcontrols {
+    position: fixed;
+    bottom: 35px; left: 50%;
+    margin-left: -256px;
+    width: 512px; height: 35px;
+    background-color: rgba(3, 3, 3, 0.8);
+    border-radius: 2px;
+    background-image: url(images/zoom.png); background-repeat: no-repeat; background-position: 50% 50%;
+    z-index: 1000; /* Test */
+}
+
+.dzzoomcontrols .dzscalebutton {
+    float: left;
+    width: 32px; height: 32px;
+    margin-top: 1px; margin-left: 3px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dzzoomcontrols .dzscalebutton.plus {
+    float: right;
+    margin-left: 0; margin-right: 3px;
+}
+
+.dzzoomcontrols .ui-slider {
+    float: left;
+    width: 425px; height: 4px;
+    margin-left: 10px; margin-top: 16px;
+    background-color: transparent;
+}
+
+.dzzoomcontrols .ui-slider a.ui-slider-handle {
+    position: relative; display: block; float: left;
+    top: -9px; width: 22px; height: 22px;
+    margin-left: -12px; padding: 0;
+    color: transparent; background-color: transparent;
+    background-position: center center; background-repeat: no-repeat; background-image: url(images/zoom-handle.png);
+}
+
+.dzclosebutton {
+    position: fixed;
+    top: 12px; right: 12px;
+    width: 60px; height: 60px; line-height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff; font-size: 60px; font-family: Arial;
+    z-index: 1000; /* Test */
+    text-align: center;
+}
+
+.dzclosebutton:before {
+    content: '\00D7';
+}
+
+
+/* fadeable */
+.fadeable {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.fade_out {
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
 }

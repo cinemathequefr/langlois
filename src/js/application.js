@@ -34,7 +34,7 @@
 
 	app.templates = {
 		point: "<div class='left'><h1>{{&title}}</h1><div class='content'>{{&desc}}</div></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
-		img: "<img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' width='{{&width}}' height='{{&height}}' alt='{{&caption}}'>"
+		img: "<img class='point-image' src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' width='{{&width}}' height='{{&height}}' alt='{{&caption}}'>"
 	};
 
 	// app.controller
@@ -166,6 +166,21 @@
 
 				$(".loading").hide();
 
+
+
+				// Test DZ
+				$(".point-image").on("click", function() {
+					console.log(point);
+					new DeepZoom({
+						$el: $(".overlay"),
+						url: "http://cf.pasoliniroma.com/static/langlois/dz/" + point.m.id,
+						width: point.m.width,
+						height: point.m.height
+					});
+				});
+
+
+
 				app.pointResize();
 				app.quadrant.scrollTo({
 					pos: point.cat.id,
@@ -173,9 +188,11 @@
 						app.$pointContainer.hide().css({ visibility: "visible" }).fadeIn(500);
 					}
 				});
+
 				$(".timeline-point-on").removeClass("timeline-point-on");
 				point.$timelineElement.addClass("timeline-point-on");
 				app.timeline.scrollTo(point.id);
+
 			});			
 		});
 	}
@@ -187,7 +204,7 @@
 			$right = $p.find(".right"),
 			$h1 = $left.children("h1").eq(0),
 			$content = $left.children(".content").eq(0),
-			$image = $right.children("img").eq(0),
+			$image = $right.children("img.point-image").eq(0),
 			fit = fitInBox($image.attr("width"), $image.attr("height"), (app.quadrant.getWidth() / 2), (app.quadrant.getHeight() - 80), true),
 			dims = app.utils.hiddenDimensioned($p, function () {
 				return {
@@ -196,8 +213,14 @@
 					h1Height: $h1.outerHeight(true)
 				};
 			});
-			$image.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
-			$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((dims.containerHeight - fit.height) / 2) + "px" });
+
+
+			// Test: smaller image + margin right
+			$image.css({ width: (fit.width * .9) + "px", height: (fit.height * .9) + "px" });
+
+			//$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((dims.containerHeight - fit.height) / 2) + "px" });
+			$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((dims.containerHeight - fit.height * .9) / 2) + "px" });
+
 			$left.css({ width: (app.quadrant.getWidth() - fit.width) + "px" });
 			$content.css({ paddingTop: (((dims.containerHeight - dims.contentHeight) / 2) - dims.h1Height) + "px" });
 	}
