@@ -24,10 +24,12 @@
       <p><em>«&nbsp;Dès la première séance, il fallut refuser du monde et, si l'entreprise se révéla déficitaire en fin d'année, elle n'en avait pas moins permis de rallier tous ceux qui voulaient œuvrer pour la sauvegarde du patrimoine cinématographique&nbsp;»</em> rapporte Henri Langlois.</p>
       <p>Les spectateurs peuvent découvrir par exemple <em>La Chute de la maison Usher</em> de Jean Epstein, <em>Le Cabinet du Dr Caligari</em> de Robert Wiene, ou encore <em>La Volonté du mort</em> (<em>The Cat and the Canary</em>, 1927) de Paul Leni.</p>
       ]]></desc>
+      <!--
       <m type="img" id="1-1" width="2000" height="775">
         <caption></caption>
         <rights></rights>
       </m>
+      -->
     </point>
     <point id="2">
       <title>28 décembre 1944</title>
@@ -65,11 +67,23 @@
       <desc><![CDATA[
       <p>Le 29 octobre 1948, les premières salles du «&nbsp;Musée permanent du cinéma&nbsp;», réparties sur trois étages, sont inaugurées avenue de Messine. Deux expositions, «&nbsp;Naissance du cinéma&nbsp;: Plateau – Reynaud – Marey – Demenÿ – Lumière&nbsp;» et «&nbsp;Georges Méliès créateur de l'art cinématographique&nbsp;», marquent les débuts de ce musée. Un <em>«&nbsp;labyrinthe de rêve et de cauchemar&nbsp;»</em> pour Jacques Doniol-Valcroze, le futur fondateur des <em>Cahiers du cinéma</em>.</p>
       ]]></desc>
-      <m type="img" id="5-1" width="861" height="1200">
-        <caption>Victor Vasarely</caption>
-        <rights>Victor Vasarely</rights>
+      <m type="img" id="5-1" width="1916" height="2440">
       </m>
     </point>
+    <point id="6">
+      <title>4 novembre 1948</title>
+      <cat>1</cat>
+      <pos>13457</pos>
+      <desc><![CDATA[
+      <p>TEXTE</p>
+      ]]></desc>
+      <m type="img" id="6-1" width="2000" height="2580">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+
+
 
     <point id="8">
       <title>20 septembre 1951</title>
@@ -110,7 +124,7 @@
       <desc><![CDATA[
       <p>Henri Langlois naît à Smyrne (Turquie).</p>
       ]]></desc>
-      <m type="img" id="1000-1" width="1500" height="2000">
+      <m type="img" id="1000-1" width="900" height="1200">
         <caption>Horoscope de naissance d'Henri Langlois</caption>
       </m>
     </point>
