@@ -38,6 +38,7 @@
       <p><em>«&nbsp;L'exposition &quot;Images du cinéma français&quot; ne saurait en aucune façon être tenue pour une exposition didactique. Nous n'avons pas eu l'intention de retracer l'histoire du cinéma français, ni de suivre toute son évolution à travers une quantité considérable d'œuvres et de documents&nbsp;»</em>, explique le texte introductif du programme.</p>
       <p>Pour Langlois, <em>«&nbsp;cette exposition envisage avant tout la fantaisie, la féerie, l'irréel, le fantastique ou le fantasmagorique. Elle se place à la fois sous le signe de Georges Méliès et de la poésie en insistant sur le côté le plus spontané de celle-ci, poésie involontaire, accidentelle, fortuite, ou parfois concertée mais qui participe toujours plus ou moins du rêve ou de l'imagination pure&nbsp;»</em>.</p>
       ]]></desc>
+      <m type="img" id="2-1"></m>
     </point>
     <point id="3">
       <title>Juin 1945</title>
@@ -102,24 +103,44 @@
         <caption>Lettre de Jacques Rivette à Henri Langlois datée du 20 septembre 1951</caption>
       </m>
     </point>
-
-
-
-
-
-
-
-
-    <!-- TODO -->
-    <point id="999">
+    <point id="9">
+      <title>14 mai 1952</title>
+      <cat>1</cat>
+      <pos>14743</pos>
+      <desc><![CDATA[
+      <p>Réception en l'honneur du prolifique réalisateur américain Mack Sennett, en sa présence.</p>
+      <p>Langlois est très attaché au cinéma muet et burlesque, et la venue du «&nbsp;King of Comedy&nbsp;», comme était surnommé Mack Sennett, n'est pas anodine.</p>
+      ]]></desc>
+      <m type="img" id="9-1" width="" height="">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="10">
       <title>Septembre 1954</title>
       <cat>1</cat>
-      <pos>15583</pos>
+      <pos>15603 </pos>
       <desc><![CDATA[
-      <p>Dans sa volonté perpétuelle de hisser le cinéma au rang des autres arts, Langlois se lie avec de nombreux peintres, notamment Marc Chagall. Celui-ci fréquente d'ailleurs la Cinémathèque aux côtés d'autres plasticiens comme Fernand Léger, Cocteau ou Severini. Entre eux s'établit un échange épistolaire amical ; Chagall envoie parfois des poèmes à Langlois.</p>
-      <p>En 1951, Langlois souhaite réaliser un court métrage documentaire sur l'œuvre du peintre, dans l'idée de retracer sa vie à travers ses tableaux. Chagall lui facilite la tâche en lui donnant un accès privilégié pour filmer ses œuvres. Langlois envoie Frédéric Rossif tourner les images, et charge ensuite Joris Ivens, épaulé par Renée Lichtig et David Perlov, du montage. Ne subsistent malheureusement aujourd'hui du film que quelques rushes, néanmoins passionnants.</p>
+      <p>Dans sa volonté perpétuelle de hisser le cinéma au rang des autres arts, Langlois se lie avec de nombreux peintres, notamment Marc Chagall. Celui-ci fréquente d'ailleurs la Cinémathèque aux côtés d'autres plasticiens comme Fernand Léger, Cocteau ou Severini. Entre eux s'établit un échange épistolaire amical – Chagall envoie parfois des poèmes à Langlois.</p>
+      <p>En 1951, Langlois souhaite réaliser un court métrage documentaire sur l'œuvre du peintre, dans l'idée de retracer sa vie à travers ses tableaux. Chagall lui facilite la tâche en lui donnant un accès privilégié pour filmer ses œuvres. Langlois envoie Frédéric Rossif tourner les images, et charge ensuite Joris Ivens, épaulé par Renée Lichtig et David Perlov, du montage. Ne subsistent malheureusement aujourd'hui du film que quelques rushes, passionnants.</p>
+      ]]></desc>
+      <m type="img" id="10-1" width="1603" height="1775">
+        <caption>Lettre de Marc Chagall à Henri Langlois datée du 21 septembre 1954</caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="11">
+      <title></title>
+      <cat></cat>
+      <pos></pos>
+      <desc><![CDATA[
       ]]></desc>
     </point>
+
+
+
+
+  <!-- TODO -->
     <point id="1000">
       <title>13 novembre 1914</title>
       <cat>3</cat>

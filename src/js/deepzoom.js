@@ -44,10 +44,11 @@ var DeepZoom = function (options) {
 
 
 DeepZoom.prototype.open = function () {
+	var self = this;
 
-	if (this.$el.is(":visible") === false) { // ?
-		this.$el.fadeIn(500);
-	}
+	// if (this.$el.is(":visible") === false) {
+	// 	this.$el.fadeIn(500);
+	// }
 
 	this.viewer = OpenSeadragon({ // TODO: parameterize options
         id: this.id,
@@ -84,18 +85,17 @@ DeepZoom.prototype.open = function () {
 		this.initControls();
 	}
 
-	this.$el.css({ cursor: "move" });
+
+	if (this.$el.is(":visible") === false) {
+		this.$el.fadeIn(500, function () {
+			self.$el.css({ cursor: "move" });
+		});
+	}
 
 	this.isOpen = true;
 };
 
 
-// DeepZoom.prototype.close = function (e) {
-// 	var self = e.data;
-// 	self.$el.fadeOut(500, function () {
-// 		self.viewer.destroy();
-// 	});
-// }
 DeepZoom.prototype.close = function () {
 	var self = this;
 	this.$el.fadeOut(500, function () {
