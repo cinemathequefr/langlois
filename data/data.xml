@@ -129,29 +129,65 @@
         <rights></rights>
       </m>
     </point>
-    <point id="11">
-      <title></title>
-      <cat></cat>
-      <pos></pos>
+
+
+
+    <point id="17">
+      <title>19 juin 1959</title>
+      <cat>1</cat>
+      <pos>17335 </pos>
       <desc><![CDATA[
+      <p>Réception donnée rue d'Ulm en l'honneur de Fritz Lang, en sa présence.</p>
+      <p>Le réalisateur noue une belle relation avec Langlois et cette Cinémathèque qu'il admire et respecte, dont il dira plus tard lors de sa dernière visite&nbsp;: <em>«&nbsp;Je suis dans la maison où nous vivons encore après notre mort&nbsp;»</em>.</p>
       ]]></desc>
+      <m type="video" id="2325854985001"></m>
     </point>
 
 
+  <!-- Partie 4: Langlois l'homme -->
 
-
-  <!-- TODO -->
-    <point id="1000">
+    <point id="113">
       <title>13 novembre 1914</title>
-      <cat>3</cat>
+      <cat>4</cat>
       <pos>1047</pos>
       <desc><![CDATA[
-      <p>Henri Langlois naît à Smyrne (Turquie).</p>
+      <p>Henri Langlois naît à Smyrne, dans l'Empire ottoman (aujourd'hui İzmir, en Turquie). Dans les cahiers qu'il commence à tenir dès l'adolescence, dans des interviews, il aura coutume de rappeler avec humour&nbsp;: <em>«&nbsp;Mes parents étaient des Français de l'étranger, ce qui m'a permis d'être en retard d'un siècle&nbsp;»</em>.</p>
+      <p>Son père, Gustave Langlois, est journaliste et fondateur de l'Agence nationale française. Mobilisé sur le front, il ne reviendra qu'à la fin de la guerre et Henri Langlois passe donc ses toutes premières années sans le connaître. Il vit une enfance insouciante et heureuse, entouré de ses grands-mères, de sa mère et de son frère. Mais après-guerre, Smyrne est occupée par l'armée grecque. Le climat devient de plus en plus tendu, et, après l'incendie de septembre 1922 qui détruit presque entièrement la ville, la famille Langlois rentre en France, trouvant refuge à Paris.</p>
       ]]></desc>
       <m type="img" id="1000-1" width="1500" height="2000">
         <caption>Horoscope de naissance d'Henri Langlois</caption>
       </m>
     </point>
+    <point id="114">
+      <title>Automne 1922</title>
+      <cat>4</cat>
+      <pos>3957</pos>
+      <desc><![CDATA[
+      <p>La famille Langlois s’installe dans le 9ème arrondissement de Paris. Pour le jeune Henri, la période qui commence est un un calvaire : ses camarades sont méprisants et moqueurs, et il nourrit pour l’école une véritable aversion. Il se réfugie dans la rêverie et dans l’imaginaire, se tournant avec bonheur vers l’écriture. Poèmes, pensées jetées sur le papier, réflexions politiques, morceaux de pièces de théâtre, tout est prétexte à nourrir ces carnets intimes. Tout au long de sa vie, Langlois ne cessera jamais d’écrire ainsi. Dans des cahiers, sur des agendas, des programmes de films…</p>
+      <p>À cette époque, il fait souvent le même rêve, d’un incendie dévastateur d’où il sauverait des copies de films en flammes… <em>« Je rêvais que j’étais dans une ville, et que cette ville était attaquée. Et alors, pendant que les gens se battaient, moi je me disais qu’il faudrait sauver les trésors de la ville, et alors je remplissais une espèce de charrette avec des trésors, et puis j’essayais de foutre le camp avec ces trésors pour essayer de les sauver »</em>.</p>
+      <p>À cette époque, il passe des heures à regarder des films muets, rate une épreuve du baccalauréat pour aller au cinéma voir un film de Pabst...</p>
+      <p>À cette époque, il décide plus ou moins de consacrer sa vie au cinéma. Ses parents lui ont offert un projecteur Pathé-Baby, et il commence à collectionner photos et revues consacrées au 7ème art. Il fréquente davantage les cinémas que les salles de classe et découvre l’avant-garde française.</p>
+      ]]></desc>
+      <m type="video" id=""></m>
+    </point>
+
+
+    <point id="126">
+      <title>13 janvier 1977</title>
+      <cat>4</cat>
+      <pos>23754 </pos>
+      <desc><![CDATA[
+      <p>Dans la nuit du 12 au 13, Langlois travaille chez lui, 21, rue Gazan, à des projets de programmation pour le Centre Pompidou. Il prépare aussi le festival de Tours, qui se tiendra du 21 au 30 janvier, et où auront lieu des projections et une petite exposition. Dans l'appartement, le téléphone et l'électricité sont coupés car il n'a pu payer les factures.</p>
+      <p>Vers deux heures du matin, il meurt dans les bras de Mary Meerson après trois quarts d'heure d'agonie, terrassé par une crise cardiaque. Le dragon avait 62 ans.</p>
+      <p><em>«&nbsp;Que la Cinémathèque vive et respire. Seule sa mort serait la véritable mort d'Henri Langlois&nbsp;»</em> (Jean Diard, 16 mai 1978)</p>
+      ]]></desc>
+      <m type="img" id="126-1" width="2000" height="1160">
+      </m>
+    </point>
+
+
+
+
 
 
 

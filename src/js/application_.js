@@ -33,13 +33,12 @@
 	};
 
 	app.templates = {
-		point: "<div class='left'><article><h1>{{&title}}</h1><div class='content'>{{&desc}}</div></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</article></div>",
-		img: "<img class='point-image' src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' width='{{&width}}' height='{{&height}}' alt='{{&caption}}'>",
-        video: "<iframe class='media' scroll='no' src='video.php?id={{id}}&amp;width={{thumbWidth}}&amp;height={{thumbHeight}}' style='width:{{thumbWidth}}px; height:{{thumbHeight}}px;' width='{{thumbWidth}}' height='{{thumbHeight}}'></iframe>"
+		point: "<div class='left'><h1>{{&title}}</h1><div class='content'>{{&desc}}</div></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
+		img: "<img class='point-image' src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' width='{{&width}}' height='{{&height}}' alt='{{&caption}}'>"
 	};
 
 	// app.controller
-    app.controller = function () {
+	app.controller = function () {
 		var state = app.state.save(),
 			type = state.type,
 			id = state.id || null,
@@ -154,9 +153,7 @@
 				return function (text, render) {
 					if (this.type === "img") {
 						return render(app.templates.img);
-					} else if (this.type === "video") {
-						return render(app.templates.video);
-					}
+					};
 				};
 			};
 
@@ -169,14 +166,20 @@
 
 				$(".loading").hide();
 
+
+
+				// Test DZ
 				$(".point-image").on("click", function() {
+					console.log(point);
 					new DeepZoom({
 						$el: $(".overlay"),
 						url: "http://cf.pasoliniroma.com/static/langlois/dz/" + point.m.id,
 						width: point.m.width,
-						height: point.m.height,
+						height: point.m.height
 					});
 				});
+
+
 
 				app.pointResize();
 				app.quadrant.scrollTo({
@@ -200,21 +203,26 @@
 			$left = $p.find(".left"),
 			$right = $p.find(".right"),
 			$h1 = $left.children("h1").eq(0),
-			$article = $left.children("article").eq(0),
+			$content = $left.children(".content").eq(0),
 			$image = $right.children("img.point-image").eq(0),
 			fit = fitInBox($image.attr("width"), $image.attr("height"), (app.quadrant.getWidth() / 2), (app.quadrant.getHeight() - 80), true),
 			dims = app.utils.hiddenDimensioned($p, function () {
 				return {
 					containerHeight: $p.innerHeight(),
-					articleHeight: $article.innerHeight()
+					contentHeight: $content.innerHeight(),
+					h1Height: $h1.outerHeight(true)
 				};
 			});
 
+
 			// Test: smaller image + margin right
-			$image.css({ width: (fit.width * 0.9) + "px", height: (fit.height * 0.9) + "px" });
-			$right.css({ width: (fit.width * 0.95) + "px", height: (fit.height * 0.9) + "px", paddingTop: ((dims.containerHeight - fit.height * 0.9) / 2) + "px" });
+			$image.css({ width: (fit.width * .9) + "px", height: (fit.height * .9) + "px" });
+
+			//$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((dims.containerHeight - fit.height) / 2) + "px" });
+			$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((dims.containerHeight - fit.height * .9) / 2) + "px" });
+
 			$left.css({ width: (app.quadrant.getWidth() - fit.width) + "px" });
-			$article.css({ paddingTop: ((dims.containerHeight - dims.articleHeight) / 2) + "px" });
+			$content.css({ paddingTop: (((dims.containerHeight - dims.contentHeight) / 2) - dims.h1Height) + "px" });
 	}
 
 
