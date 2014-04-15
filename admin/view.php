@@ -56,6 +56,10 @@ $h = $xmlDoc->transformNode("view.xsl", null);
                 background-color: orange;
             }
 
+            .info.video {
+                background-color: #369;
+            }
+
             .info a {
                 text-decoration: none; color: inherit;
             }
@@ -101,7 +105,12 @@ $h = $xmlDoc->transformNode("view.xsl", null);
                         }
                     });
                 } else {
-                    $el.addClass("no").html("Non");
+                    if ($el.hasClass("video")) {
+                        $el.html("Vidéo");
+                    } else if ($el.hasClass("no")) {
+                        $el.html("Non");
+                    }
+                    
                 }
 
 

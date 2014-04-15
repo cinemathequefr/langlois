@@ -13,6 +13,11 @@
  * @return  Object                  width, height of the resized box
  */
 function fitInBox(width, height, maxWidth, maxHeight, expandable) {
+    width = parseInt(width);
+    height = parseInt(height);
+    maxWidth = parseInt(maxWidth);
+    maxHeight = parseInt(maxHeight);
+
     var aspect = width / height,
         initWidth = width,
         initHeight = height;

@@ -30,8 +30,11 @@
         <td class="t"><xsl:value-of select="desc" disable-output-escaping="yes"/></td>
         <!-- <td><img src="http://cf.pasoliniroma.com/static/langlois/img/{m/@id}.jpg"/></td> -->
         <td>
-            <xsl:for-each select="m">
+            <xsl:for-each select="m[@type='img']">
                 <div class="info" data-img="{@id}"></div>
+            </xsl:for-each>
+            <xsl:for-each select="m[@type='video']">
+                <div class="info video"></div>
             </xsl:for-each>
             <xsl:if test="not(m/@id)">
                 <div class="info no"></div>

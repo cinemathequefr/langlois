@@ -18,4 +18,12 @@
 </xsl:template>
 
 
+<xsl:template match="text()">
+	<xsl:value-of select="normalize-space(.)"/>
+</xsl:template>
+
+<xsl:template match="title[not(text())]">
+	<xsl:copy>[Sans titre]</xsl:copy>
+</xsl:template>
+
 </xsl:stylesheet>

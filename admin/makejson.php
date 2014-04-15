@@ -47,6 +47,7 @@ foreach ($nodes as $node) {
 	$json = json_encode($arr);
 	$json = indent($json);
 	file_put_contents("../data/points/".$id.".json", $json);
+
 	echo($json);
 
 }

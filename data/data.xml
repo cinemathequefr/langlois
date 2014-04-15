@@ -15,6 +15,7 @@
     </cat>
   </cats>
   <points>
+    <!-- Langlois le passeur (1-42) -->
     <point id="1">
       <title>Octobre 1935</title>
       <cat>1</cat>
@@ -38,7 +39,6 @@
       <p><em>«&nbsp;L'exposition &quot;Images du cinéma français&quot; ne saurait en aucune façon être tenue pour une exposition didactique. Nous n'avons pas eu l'intention de retracer l'histoire du cinéma français, ni de suivre toute son évolution à travers une quantité considérable d'œuvres et de documents&nbsp;»</em>, explique le texte introductif du programme.</p>
       <p>Pour Langlois, <em>«&nbsp;cette exposition envisage avant tout la fantaisie, la féerie, l'irréel, le fantastique ou le fantasmagorique. Elle se place à la fois sous le signe de Georges Méliès et de la poésie en insistant sur le côté le plus spontané de celle-ci, poésie involontaire, accidentelle, fortuite, ou parfois concertée mais qui participe toujours plus ou moins du rêve ou de l'imagination pure&nbsp;»</em>.</p>
       ]]></desc>
-      <m type="img" id="2-1"></m>
     </point>
     <point id="3">
       <title>Juin 1945</title>
@@ -48,7 +48,7 @@
       <p>Le Cercle du Cinéma déménage et s'installe dans la salle des Arts et Métiers, 9 bis, avenue d'Iéna.</p>
       <p>Lors d'une séance en juillet 1946, l'affluence est telle que Langlois doit ajouter des fauteuils empruntés dans une salle voisine. Les œuvres muettes projetées par Langlois en 1945 sont désormais accompagnées au piano par le compositeur de musique de films Joseph Kosma.</p>
       ]]></desc>
-      <m type="img" id="3-1" width="573" height="785"></m>
+      <m type="img" id="3-1" width="2448" height="3264"></m>
     </point>
     <point id="4">
       <title>1946</title>
@@ -144,7 +144,59 @@
     </point>
 
 
-  <!-- Partie 4: Langlois l'homme -->
+  
+
+
+
+<!-- Partie 2: Langlois le collectionneur (43-67) -->
+
+
+<!-- Partie 3: Langlois le bâtisseur (68- ) -->
+
+    <point id="60">
+      <title>1 septembre 1962</title>
+      <cat>3</cat>
+      <pos>18505</pos>
+      <desc><![CDATA[
+      <p>En septembre 1962, Langlois donne aux <em>Cahiers du cinéma</em> un très long entretien, mené par Michel Mardore et Eric Rohmer. Il revient à cette occasion sur son rôle de directeur de la Cinémathèque, expose ses vues, ses positions, ses différentes conceptions de la Cinémathèque et de son musée, fait part des difficultés qu'il rencontre, et surtout laisse paraître la passion qui l'anime.</p>
+      <p>Sur la collecte des films et leur conservation, il explique ainsi&nbsp;: <em>«&nbsp;Le problème, c'est d'abord de déterminer qui détient et où se trouvent les films, dans quels locaux, dans quel pays il existe encore une chance de pouvoir les atteindre. Ensuite, il faut pouvoir convaincre celui qui les détient de vous faire confiance, d'avouer qu'il les détient, l'amener à vous le confier, quitte à lui promettre le sceau du secret, pour pouvoir ainsi les surveiller, assurer leur survie. Enfin, les voir, savoir ce qu'ils valent, finalement pouvoir être autorisé à les tirer et à les projeter&nbsp;»</em>.</p>
+      ]]></desc>
+      <m type="video" id="3470524003001" width="720" height="576">
+        <caption>Extraits des émissions « Mémoires de l'imaginaire » (4 novembre 1964) et « Démons et merveilles du cinéma » (19 septembre 1964)</caption>
+        <rights>© INA</rights>
+      </m>
+    </point>
+
+    <point id="61">
+      <title>2 septembre 1962</title>
+      <cat>3</cat>
+      <pos>18506</pos>
+      <desc><![CDATA[
+      <p>Dès la fondation de la Cinémathèque française, il est fréquemment reproché à Henri Langlois de mener une politique de collecte et de restauration des films plutôt hasardeuse. Il répond clairement à ces accusations dans une interview donnée aux <em>Cahiers du cinéma</em>&nbsp;:<br /><em>«&nbsp;Nous en sommes arrivés à concevoir très vite qu'il nous fallait essayer de tout conserver, de tout sauver, de tout maintenir, de renoncer à jouer à l'amateur de classiques.<br />[...]<br />– Vous-même, est-ce que vous acceptez tout, à présent&nbsp;?<br />– Tout, absolument tout. Si la Cinémathèque française faisait une sélection, où irions-nous&nbsp;?&nbsp;»</em></p>
+      ]]></desc>
+      <m type="video" id="3470556176001" width="720" height="576">
+        <caption>Extrait de l'émission « Mémoires de l'imaginaire » (4 novembre 1964)</caption>
+        <rights>© INA</rights>
+      </m>
+    </point>
+
+
+    <point id="70">
+      <title>Juillet 1936</title>
+      <cat>3</cat>
+      <pos>8947</pos>
+      <desc><![CDATA[
+      <p>Paul-Auguste Harlé et Henri Langlois exposent le projet de création d'une Cinémathèque française à la présidence du Conseil et au Service des œuvres du ministère des Affaires étrangères, qui expriment immédiatement une franche adhésion.</p>
+      <p><em>«&nbsp;Harlé eut la vision et la notion exacte de l'avenir et de la manière dont il fallait aborder le problème pour y réussir. Ne serait-ce que l'idée du titre "La Cinémathèque française" dont il me dit&nbsp;: "Ce titre permettra à la Cinémathèque d'être un jour la Cinémathèque de la France"&nbsp;»</em>, explique plus tard Henri Langlois.</p>
+      ]]></desc>
+      <m type="video" id="3470556181001" width="720" height="576">
+        <caption>Extrait de l'émission « Les échos du cinéma » du 1er janvier 1961</caption>
+        <rights>© INA</rights>
+      </m>
+    </point>
+
+
+<!-- Partie 4: Langlois l'homme -->
 
     <point id="113">
       <title>13 novembre 1914</title>
@@ -175,7 +227,7 @@
     <point id="126">
       <title>13 janvier 1977</title>
       <cat>4</cat>
-      <pos>23754 </pos>
+      <pos>23754</pos>
       <desc><![CDATA[
       <p>Dans la nuit du 12 au 13, Langlois travaille chez lui, 21, rue Gazan, à des projets de programmation pour le Centre Pompidou. Il prépare aussi le festival de Tours, qui se tiendra du 21 au 30 janvier, et où auront lieu des projections et une petite exposition. Dans l'appartement, le téléphone et l'électricité sont coupés car il n'a pu payer les factures.</p>
       <p>Vers deux heures du matin, il meurt dans les bras de Mary Meerson après trois quarts d'heure d'agonie, terrassé par une crise cardiaque. Le dragon avait 62 ans.</p>

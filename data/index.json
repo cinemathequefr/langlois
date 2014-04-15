@@ -21,13 +21,13 @@
     "id":4,
     "title":1946,
     "cat":1,
-    "pos":"12419 "
+    "pos":12419
   },
   {
     "id":5,
     "title":"29 octobre 1948",
     "cat":1,
-    "pos":"13450 "
+    "pos":13450
   },
   {
     "id":6,
@@ -39,7 +39,7 @@
     "id":7,
     "title":"Mars-avril 1950",
     "cat":1,
-    "pos":"13940 "
+    "pos":13940
   },
   {
     "id":8,
@@ -57,13 +57,31 @@
     "id":10,
     "title":"Septembre 1954",
     "cat":1,
-    "pos":"15603 "
+    "pos":15603
   },
   {
     "id":17,
     "title":"19 juin 1959",
     "cat":1,
-    "pos":"17335 "
+    "pos":17335
+  },
+  {
+    "id":60,
+    "title":"1 septembre 1962",
+    "cat":3,
+    "pos":18505
+  },
+  {
+    "id":61,
+    "title":"2 septembre 1962",
+    "cat":3,
+    "pos":18506
+  },
+  {
+    "id":70,
+    "title":"Juillet 1936",
+    "cat":3,
+    "pos":8947
   },
   {
     "id":113,
@@ -81,6 +99,6 @@
     "id":126,
     "title":"13 janvier 1977",
     "cat":4,
-    "pos":"23754 "
+    "pos":23754
   }
 ]

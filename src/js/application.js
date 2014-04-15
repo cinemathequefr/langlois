@@ -15,6 +15,7 @@
             legend: function (i) { return (1912 + i); }
         }
 	};
+
 	app.config.quadrant = {
 		DOMId: "quadrant",
 		DOMContainerSelector: ".container",
@@ -33,9 +34,10 @@
 	};
 
 	app.templates = {
-		point: "<div class='left'><article><h1>{{&title}}</h1><div class='content'>{{&desc}}</div></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</article></div>",
-		img: "<img class='point-image' src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' width='{{&width}}' height='{{&height}}' alt='{{&caption}}'>",
-        video: "<iframe class='media' scroll='no' src='video.php?id={{id}}&amp;width={{thumbWidth}}&amp;height={{thumbHeight}}' style='width:{{thumbWidth}}px; height:{{thumbHeight}}px;' width='{{thumbWidth}}' height='{{thumbHeight}}'></iframe>"
+		//point: "<div class='left'><article><h1>{{&title}}</h1><div class='content'>{{&desc}}</div><div class='caption'>{{&m.caption}} {{&m.rights}}</div></article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
+		point: "<div class='left'><article><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>{{/m}}</article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
+		img: "<div class='media' width='{{&width}}' height='{{&height}}'><img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' alt='{{&caption}}'></div>",
+        video: "<div class='media' width='{{&width}}' height='{{&height}}'><div style='display:none'></div><object id='myExperience2292442024001' class='BrightcoveExperience'><param name='bgcolor' value='#111111' /><param name='playerID' value='592570533001' /><param name='playerKey' value='AQ~~,AAAAiWK05bE~,EapetqFlUMNn0qIYma980_NuvlxhZfq6' /><param name='isVid' value='true' /><param name='isUI' value='true' /><param name='dynamicStreaming' value='true' /><param name='@videoPlayer' value='{{&id}}' /></object></div>"
 	};
 
 	// app.controller
@@ -66,9 +68,7 @@
 				}
 			}
 		}
-
     };
-
 
 
     app.fail = function () {
@@ -128,9 +128,6 @@
 			// 	app.pointResize();
 			// }
 		}).trigger("debouncedresize.main"); // Initial quadrant rendering
-		
-
-
 
     }
 
@@ -142,7 +139,11 @@
     	});
     }
 
+
 	app.renderPoint = function (point) {
+
+
+		console.log(point);
 		// 1: transition out
 		// 2: hide content
 		// 3: load new content + assets
@@ -169,7 +170,7 @@
 
 				$(".loading").hide();
 
-				$(".point-image").on("click", function() {
+				$(".media > img").on("click", function() {
 					new DeepZoom({
 						$el: $(".overlay"),
 						url: "http://cf.pasoliniroma.com/static/langlois/dz/" + point.m.id,
@@ -178,7 +179,7 @@
 					});
 				});
 
-				app.pointResize();
+				app.pointResize(point);
 				app.quadrant.scrollTo({
 					pos: point.cat.id,
 					onAfter: function () {
@@ -195,14 +196,15 @@
 	}
 
 
-	app.pointResize = function () {
+	app.pointResize = function (point) {
 		var $p = app.$pointContainer,
 			$left = $p.find(".left"),
 			$right = $p.find(".right"),
 			$h1 = $left.children("h1").eq(0),
 			$article = $left.children("article").eq(0),
-			$image = $right.children("img.point-image").eq(0),
-			fit = fitInBox($image.attr("width"), $image.attr("height"), (app.quadrant.getWidth() / 2), (app.quadrant.getHeight() - 80), true),
+			$media = $right.children("div.media").eq(0),
+			fit = fitInBox($media.attr("width"), $media.attr("height"), $p.innerWidth() / 2, $p.innerHeight(), true),
+
 			dims = app.utils.hiddenDimensioned($p, function () {
 				return {
 					containerHeight: $p.innerHeight(),
@@ -210,11 +212,16 @@
 				};
 			});
 
-			// Test: smaller image + margin right
-			$image.css({ width: (fit.width * 0.9) + "px", height: (fit.height * 0.9) + "px" });
-			$right.css({ width: (fit.width * 0.95) + "px", height: (fit.height * 0.9) + "px", paddingTop: ((dims.containerHeight - fit.height * 0.9) / 2) + "px" });
-			$left.css({ width: (app.quadrant.getWidth() - fit.width) + "px" });
+
+			$media.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
+			$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((dims.containerHeight - fit.height) / 2) + "px" });
+			$left.css({ width: ($p.innerWidth() - fit.width) + "px" });
 			$article.css({ paddingTop: ((dims.containerHeight - dims.articleHeight) / 2) + "px" });
+
+			if (point.m.type === "video") {
+				$("<script>brightcove.createExperiences();</script>").appendTo($media);
+			}
+
 	}
 
 

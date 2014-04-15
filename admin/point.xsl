@@ -19,7 +19,6 @@
 	<xsl:apply-templates select="//cats/cat[@id=current()]"/>
 </xsl:template>
 
-
 <xsl:template match="@*">
 	<xsl:element name="{name()}"><xsl:value-of select="."/></xsl:element>
 </xsl:template>
