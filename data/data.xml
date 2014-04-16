@@ -35,8 +35,8 @@
       <cat>1</cat>
       <pos>12050</pos>
       <desc><![CDATA[
-      <p>Inauguration de l'exposition «&nbsp;Images du cinéma français&nbsp;».</p>
-      <p><em>«&nbsp;L'exposition &quot;Images du cinéma français&quot; ne saurait en aucune façon être tenue pour une exposition didactique. Nous n'avons pas eu l'intention de retracer l'histoire du cinéma français, ni de suivre toute son évolution à travers une quantité considérable d'œuvres et de documents&nbsp;»</em>, explique le texte introductif du programme.</p>
+      <p>Inauguration de l'exposition <em>Images du cinéma français</em>.</p>
+      <p><em>«&nbsp;L'exposition <em>Images du cinéma français</em> ne saurait en aucune façon être tenue pour une exposition didactique. Nous n'avons pas eu l'intention de retracer l'histoire du cinéma français, ni de suivre toute son évolution à travers une quantité considérable d'œuvres et de documents&nbsp;»</em>, explique le texte introductif du programme.</p>
       <p>Pour Langlois, <em>«&nbsp;cette exposition envisage avant tout la fantaisie, la féerie, l'irréel, le fantastique ou le fantasmagorique. Elle se place à la fois sous le signe de Georges Méliès et de la poésie en insistant sur le côté le plus spontané de celle-ci, poésie involontaire, accidentelle, fortuite, ou parfois concertée mais qui participe toujours plus ou moins du rêve ou de l'imagination pure&nbsp;»</em>.</p>
       ]]></desc>
     </point>
@@ -55,9 +55,11 @@
       <cat>1</cat>
       <pos>12419 </pos>
       <desc><![CDATA[
-      <p>Plusieurs expositions phares sont cette année-là présentées au 7, avenue de Messine&nbsp;: l'une sur le dessin animé, l'autre sur Émile Reynaud, l'un des pionniers du cinématographe et l'inventeur des premiers dessins animés sur grand écran. Les deux expositions connaissent un certain succès. Langlois enchaînera avec une troisième, «&nbsp;L'Affiche de cinéma de 1895 à 1946&nbsp;», moins coûteuse que les précédentes.</p>
+      <p>Plusieurs expositions phares sont cette année-là présentées au 7, avenue de Messine&nbsp;: l'une sur le dessin animé, l'autre sur Émile Reynaud, l'un des pionniers du cinématographe et l'inventeur des premiers dessins animés sur grand écran. Les deux expositions connaissent un certain succès. Langlois enchaînera avec une troisième, <em>L'Affiche de cinéma de 1895 à 1946</em>, moins coûteuse que les précédentes.</p>
       ]]></desc>
-      <m type="img" id="4-1" width="1342" height="2000"></m>
+      <m type="img" id="4-1" width="1342" height="2000">
+        <caption>Affiche de l'exposition du dessin animé (1946)</caption>
+      </m>
     </point>
     <point id="5">
       <title>29 octobre 1948</title>
@@ -74,11 +76,10 @@
       <cat>1</cat>
       <pos>13457</pos>
       <desc><![CDATA[
-      <p>TEXTE</p>
+      <p>Dès le milieu des années quarante, la Cinémathèque connaît un rayonnement et une influence grandissants. En 1948, un jeune cinéphile nommé François Truffaut désire emprunter à la Cinémathèque plusieurs films pour les projeter dans son ciné-club «&nbsp;Cinémane&nbsp;». Langlois répond en le persuadant d'abandonner son projet (qui sera effectivement un fiasco financier). En 1949, Truffaut devient un habitué de la Cinémathèque.</p>
       ]]></desc>
       <m type="img" id="6-1" width="2000" height="2580">
-        <caption></caption>
-        <rights></rights>
+        <caption>Lettre d'Henri Langlois à François Truffaut datée du 4 novembre 1948</caption>
       </m>
     </point>
     <point id="7">
@@ -111,9 +112,9 @@
       <p>Réception en l'honneur du prolifique réalisateur américain Mack Sennett, en sa présence.</p>
       <p>Langlois est très attaché au cinéma muet et burlesque, et la venue du «&nbsp;King of Comedy&nbsp;», comme était surnommé Mack Sennett, n'est pas anodine.</p>
       ]]></desc>
-      <m type="img" id="9-1" width="" height="">
-        <caption></caption>
-        <rights></rights>
+      <m type="img" id="9-1" width="919" height="1252">
+        <caption>Affiche française du film La Noce à Boursouflé (Mack Sennett, Clarence G. Badger, 1917)</caption>
+        <rights>© D. Stoyanovitch</rights>
       </m>
     </point>
     <point id="10">
@@ -129,9 +130,54 @@
         <rights></rights>
       </m>
     </point>
-
-
-
+    <point id="13">
+      <title>1956</title>
+      <cat>1</cat>
+      <pos>16222</pos>
+      <desc><![CDATA[
+      <p><em>«&nbsp;Je pense que, quand un film ne peut pas être montré quelque part, il faut bien qu'il le soit à la Cinémathèque française, mais il ne me viendrait jamais à l'idée d'exclure un film de mon programme en fonction de mon propre goût. Je n'ai, par contre, aucune fausse honte à montrer un film qui me plaît.&nbsp;»</em> (Henri Langlois, entretien avec Eric Rohmer et Michel Mardore, <em>Cahiers du cinéma</em> n°135, septembre 1962)</p>
+      <p>Quatre grandes rétrospectives ponctuent la programmation de l'année 1956&nbsp;: <em>25 années de cinéma soviétique</em>, <em>Images du cinéma allemand</em>, <em>Images du cinéma anglais</em>, <em>Images du cinéma scandinave</em>. Cette ouverture marquée vers des programmations étrangères témoigne une fois de plus de la volonté de Langlois de montrer la diversité du cinéma international.</p>
+      ]]></desc>
+      <m type="video" id="" width="720" height="576">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="14">
+      <title>1 octobre 1956</title>
+      <cat>1</cat>
+      <pos>16334</pos>
+      <desc><![CDATA[
+      <p>Ouverture du cycle <em>25 ans de cinéma</em> rue d'Ulm pour le vingtième anniversaire de la Cinémathèque française. À cette occasion, Langlois publie un programme illustré contenant l'un de ses textes les plus vindicatifs et les plus importants&nbsp;:</p>
+      <p><em>«&nbsp;Nous sommes en train de vivre, jour après jour, l'incendie de la Bibliothèque d'Alexandrie, et avec quelle indifférence. Ceci explique la profonde solitude des cinémathèques. Elles n'ont pas seulement à lutter contre le temps qui, chaque jour, rend plus difficile la recherche et la sauvegarde de 60 ans de cinéma, contre les ravageurs pilleurs d'épaves, contre la méfiance d'une industrie qui craint, à juste titre, la dépossession de ses droits, contre les intérêts de cette machine, qui veut que le cinéma ne produise qu'en se dévorant lui-même, contre les difficultés financières que connaissent toutes les activités désintéressées, contre tous ces obstacles qui freinent quotidiennement toute activité humaine, et qui lui évitent de tomber dans une routine, plus ruineuse encore. Elles doivent aussi faire face à une indifférence universelle, provoquée par ce mépris, d'autant plus sournois et dangereux, qu'il n'est plus visible, puisque tout le monde est d'accord&nbsp;: on adore le cinéma...&nbsp;»</em></p>
+      ]]></desc>
+      <m type="img" id="14-1" width="5379" height="6726">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="15">
+      <title>9 mars 1957</title>
+      <cat>1</cat>
+      <pos>16507</pos>
+      <desc><![CDATA[
+      <p>Rue d'Ulm, hommage en sa présence à Alice Guy, la «&nbsp;première femme metteur en scène du cinéma français&nbsp;», véritable pionnière, connue notamment pour avoir travaillé avec Léon Gaumont et réalisé <em>La Fée aux choux</em>.</p>
+      ]]></desc>
+    </point>
+    <point id="16">
+      <title>27 octobre – 4 novembre 1958</title>
+      <cat>1</cat>
+      <pos>17101</pos>
+      <desc><![CDATA[
+      <p>En septembre 1958, Louise Brooks est invitée expressément par Langlois, qu'elle a rencontré à Paris l'année précédente. Elle fait partie depuis toujours de son panthéon&nbsp;: <em>«&nbsp;Ceux qui l'ont vue ne peuvent l'oublier. Elle est l'interprète moderne par excellence car elle est comme les statues antiques hors du temps. Il suffit de la voir pour croire à la beauté, à la vie, à la réalité des personnages. [...] Son art est si pur qu'il devient invisible&nbsp;»</em>.</p>
+      <p>Elle accepte de venir mais montre quelques signes de fébrilité&nbsp;: <em>«&nbsp;S'il vous plaît, trouvez-moi un hôtel près de vous. Je ne suis pas du type aventurière. Et pas bonne au téléphone. Et ne parlant pas français. Quelqu'un ira me cherche à l'aéroport, n'est-ce pas&nbsp;? Et que vais-je avoir à faire pour cet hommage&nbsp;?&nbsp;»</em>. Le 27 octobre, elle se rend à la réception donnée en son honneur, et le 4 novembre 1958, rue d'Ulm, une projection de <em>Loulou</em> de Pabst vient clore son séjour. Une correspondance s'établira par la suite avec Henri Langlois, échange dont les débuts sont marqués par un simple et émouvant mot de remerciement après son passage à Paris.</p>
+      <p>C'est encore à elle qu'il se confiera plus tard, en 1961&nbsp;: <em>«&nbsp;Le travail me tue mais, Dieu merci&nbsp;!, pour la première fois de ma vie, j'ai l'impression, grâce à nos tuteurs actuels, que la maison bâtie de mes mains sera merveilleusement achevée d'ici cinq ans&nbsp;»</em>.</p>
+      <p>Louise Brooks entretient aussi de nombreux échanges avec Mary Meerson, mais surtout avec Lotte Eisner. Une véritable amitié se noue entre la diva et celle qu'elle surnomme <em>Lottibird</em>&nbsp;: <em>«&nbsp;Nous sommes très heureuses, nous formons une paire de vieilles filles inséparables&nbsp;!&nbsp;»</em>.</p>
+      ]]></desc>
+      <m type="img" id="16-1" width="2314" height="2953">
+        <caption>Lettre de Louise Brooks à Henri Langlois</caption>
+      </m>
+    </point>
     <point id="17">
       <title>19 juin 1959</title>
       <cat>1</cat>
@@ -142,13 +188,306 @@
       ]]></desc>
       <m type="video" id="2325854985001"></m>
     </point>
+    <point id="18">
+      <title>22 avril 1960</title>
+      <cat>1</cat>
+      <pos>17643</pos>
+      <desc><![CDATA[
+      <p>Exposition de 300 dessins originaux du réalisateur Sergueï M. Eisenstein au 82, rue de Courcelles. De nombreux artistes viennent les découvrir, comme en témoigne le livre d'or de l'exposition et les signatures prestigieuses qu'il contient.</p>
+      ]]></desc>
+      <m type="img" id="18-1" width="2000" height="3026">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="19">
+      <title>27 mai 1960</title>
+      <cat>1</cat>
+      <pos>17678</pos>
+      <desc><![CDATA[
+      <p>Réception en l'honneur d'Alfred Hitchcock en sa présence, au 82, rue de Courcelles. Hitchcock fera un beau cadeau à la Cinémathèque en remerciement&nbsp;: la tête momifiée de Madame Bates dans <em>Psycho</em> (1960), envoyée dans une caisse en bois au domicile de Lotte Eisner à Neuilly. Choc à l'ouverture&nbsp;: Lotte Eisner ne s'attendait pas à voir apparaître cette horrible figure qui constitue, aujourd'hui, l'un des objets les plus célèbres de la Cinémathèque.</p>
+      <p>Hitchcock revient à la Cinémathèque à plusieurs reprises, notamment en juin 1964. Il est fêté par une rétrospective, tandis qu'une réception est donnée à Chaillot, en sa présence.</p>
+      ]]></desc>
+      <m type="video" id="" width="720" height="576">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="20">
+      <title>2 octobre 1960</title>
+      <cat>1</cat>
+      <pos>17806</pos>
+      <desc><![CDATA[
+      <p>Réception rue d'Ulm en hommage à Akira Kurosawa, en sa présence, avec projection de son film <em>La Forteresse cachée</em> (1958). Le cinéaste japonais restera un ami fidèle de Langlois et de Mary Meerson.</p>
+      ]]></desc>
+      <m type="img" id="20-1" width="908" height="1304">
+        <caption> </caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="21">
+      <title>18 mars 1961</title>
+      <cat>1</cat>
+      <pos>17974</pos>
+      <desc><![CDATA[
+      <p>Sur une suggestion de Lotte Eisner et Henri Langlois, Federico Fellini accepte de faire partie du Comité international Georges Méliès, créé à l'occasion de l'Exposition du centenaire. Cette grande exposition consacrée au cinéaste-magicien est organisée à Turin, au Palazzo Chiablese, en collaboration avec sa directrice, Maria Adriana Prolo.</p>
+      ]]></desc>
+      <m type="img" id="21-1" width="2000" height="2667">
+        <caption>Lettre de Federico Fellini à Lotte Eisner et Henri Langlois datée du 18 mars 1961</caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="22">
+      <title>Avril 1961</title>
+      <cat>1</cat>
+      <pos>18001</pos>
+      <desc><![CDATA[
+      <p>Rue de Courcelles, importante exposition d'affiches polonaises accompagnée, rue d'Ulm, d'une rétrospective de films en présence d'Aleksander Ford, réalisateur et scénariste polonais venu pour l'occasion représenter son pays.</p>
+      ]]></desc>
+      <m type="video" id="" width="720" height="576">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="23">
+      <title>22 février 1962</title>
+      <cat>1</cat>
+      <pos>18315</pos>
+      <desc><![CDATA[
+      <p>Dans les années 1960, de nombreuses personnalités rendent visite à la Cinémathèque. Qu'ils présentent un film en avant-première ou viennent inaugurer une rétrospective dont ils font l'objet, ils sont tous reçus avec égards par Langlois et ses collaborateurs. C'est ainsi que l'année 1961 voit passer les réalisateurs Alberto Lattuada et Clarence Brown&nbsp;; qu'en 1962 la Cinémathèque accueille Buster Keaton (le 22 février), Lev Koulechov...</p>
+      <p>Le 25 septembre 1963, Alain Resnais vient présenter son film <em>Muriel</em> en exclusivité. <em>«&nbsp;Pour la première fois cesse l'exercice de style et Resnais se révèle et s'éveille à son art et sa modestie terrifiante a la violence des pieuvres, il ne reste plus rien de ce qu'elle broie. <em>Muriel</em> marque l'avènement du dodécaphonisme cinématographique, Resnais est le Schönberg de ce drame de chambre&nbsp;»</em>, écrit Langlois dans sa présentation.</p>
+      ]]></desc>
+      <m type="video" id="" width="720" height="576">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="24">
+      <title>7 juin 1961</title>
+      <cat>1</cat>
+      <pos>18054</pos>
+      <desc><![CDATA[
+      <p>Henri Langlois et Léon Mathot, président de la Cinémathèque, présentent le programme des commémorations du Centenaire Méliès à la presse, rue de Courcelles, en présence notamment d'André Méliès, le fils de Georges, et de Madeleine Malthête-Méliès, sa petite fille. Le 7 juin 1961 est inaugurée l'exposition <em>Georges Méliès</em> de la Cinémathèque au Musée des arts décoratifs, en présence d'André Malraux, Gaëtan Picon, directeur général des Arts et Lettres, Michel Fourré-Cormeray, directeur du CNC, et de la famille Méliès.</p>
+      <p>À cette occasion a été créé un comité d'honneur, constitué d'amis et d'anciens collaborateurs du cinéaste, tels que Françoise Rosay, Henri Jeanson, ou encore René Magritte et le costumier Mayo.</p>
+      ]]></desc>
+      <m type="img" id="24-1" width="" height="">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="25">
+      <title>2 mai 1963</title>
+      <cat>1</cat>
+      <pos>18748</pos>
+      <desc><![CDATA[
+      <p>Toujours dans la perspective qui lui tient à cœur de montrer le cinéma international, Langlois organise à la Cinémathèque une rétrospective proposant un panorama du cinéma hongrois des dix dernières années. C'est le cinéaste et scénariste András Kovács qui est l'invité d'honneur.</p>
+      <p>Un an auparavant, en septembre 1962, Langlois justifiait ainsi ses choix de programmation&nbsp;: <em>«&nbsp;On a beaucoup reproché à la Cinémathèque française, mais il est une chose qui ne nous a jamais été reprochée, et qui est tout à l'honneur de l'esprit public&nbsp;: c'est de n'avoir jamais renoncé à projeter des films de qualité, même s'ils n'intéressent que quelques-uns&nbsp;»</em>.</p>
+      ]]></desc>
+    </point>
+    <point id="26">
+      <title>6 juin 1963</title>
+      <cat>1</cat>
+      <pos>18783</pos>
+      <desc><![CDATA[
+      <p>À Chaillot, vernissage de l'exposition dédiée au physiologiste-cinéaste Étienne-Jules Marey. C'est la première fois qu'une telle exposition lui est consacrée. C'est aussi la première fois que des artistes tels que Marcel Duchamp, Max Ernst ou Gino Severini s'associent à une institution pour illustrer, formellement, les liens essentiels qui attachent l'œuvre de Marey à l'art moderne du XXe siècle.</p>
+      <p><em>«&nbsp;Comme tous les êtres de génie, Étienne-Jules Marey est multiple. Il est un savant. Mais aussi un artiste. Il analyse, il dissèque, il découvre avec une minutie, un soin extrême et soudain avec l'impulsivité des poètes, il crée...&nbsp;»</em>, écrit Langlois pour l'inauguration de l'événement.</p>
+      ]]></desc>
+      <m type="img" id="26-1" width="2000" height="2689">
+        <caption>Affiche de l'exposition Étienne-Jules Marey dessinée par Victor Vasarely</caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="27">
+      <title>Juin 1964</title>
+      <cat>1</cat>
+      <pos>19158</pos>
+      <desc><![CDATA[
+      <p>Exposition dédiée à Friedrich Wilhelm Murnau à la Cinémathèque, au 82, rue de Courcelles. Le décorateur Rochus Gliese reconstitue pour l'occasion une maquette à l'échelle 1/150e de la ville dans <em>L'Aurore</em>.</p>
+      ]]></desc>
+      <m type="img" id="27-1" width="1281" height="907">
+        <caption>Dessin de décor de Rochus Gliese pour L'Aurore (Friedrich W. Murnau)</caption>
+        <rights>© Rochus Gliese</rights>
+      </m>
+    </point>
+    <point id="28">
+      <title>9 février 1965</title>
+      <cat>1</cat>
+      <pos>19398</pos>
+      <desc><![CDATA[
+      <p>En 1964 et 1965, la Cinémathèque continue d'accueillir de nombreuses personnalités.</p>
+      <p>Le producteur Hal Roach vient lui-même inaugurer une rétrospective des films de Laurel et Hardy en juillet 1964, et Vincente Minnelli vient à Chaillot présenter <em>The Clock</em> (1945) en novembre.</p>
+      <p>En 1965, c'est le réalisateur Riccardo Freda qui vient montrer <em>Les Deux orphelines</em> (<em>Le Due orfanelle</em>). Le 9 février de la même année, <em>Mary Poppins</em> est projeté en présence de Julie Andrews et de Walt Disney.</p>
+      <p>Langlois n'a jamais caché son admiration pour le maître du dessin animé, écrivant dès 1933 dans ses Cahiers&nbsp;: <em>«&nbsp;C'est le plus grand conteur de l'époque. Je voudrais dire le La Fontaine, si par malheur le mot fable n'entraînait une morale que Walt se garde bien de mêler à ses sujets. Mais c'est bien à La Fontaine qu'il fait songer, par la verve intarissable, la qualité et la hardiesse de ses notations poétiques, la pure beauté du style&nbsp;».</em></p>
+      ]]></desc>
+      <m type="img" id="28-1" width="821" height="1124">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="29">
+      <title>16 juin 1965</title>
+      <cat>1</cat>
+      <pos>19524</pos>
+      <desc><![CDATA[
+      <p>Ouverture au 82, rue de Courcelles d'une exposition consacrée à l'œuvre du décorateur Alfred Junge, mort en 1964 et dont la Cinémathèque possède de nombreux dessins.</p>
+      ]]></desc>
+      <m type="img" id="29-1" width="1182" height="1767">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="30">
+      <title>6 octobre 1965</title>
+      <cat>1</cat>
+      <pos>19636 </pos>
+      <desc><![CDATA[
+      <p>Fritz Lang revient à la Cinémathèque pour présenter deux de ses films américains, <em>Western Union</em> (1941) et <em>The Return of Frank James</em> (1940). Lotte Eisner, qui est en contact avec les décorateurs allemands, récupère des dessins, des maquettes, et c'est elle encore qui obtiendra de Walter Schulze-Mittendorff qu'il recrée pour la Cinémathèque le robot de <em>Metropolis</em>.</p>
+      ]]></desc>
+      <m type="img" id="30-1" width="866" height="1179">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="31">
+      <title>9 octobre 1965</title>
+      <cat>1</cat>
+      <pos>19639</pos>
+      <desc><![CDATA[
+      <p>Mary Pickford vient à Chaillot inaugurer la rétrospective de ses films. Langlois reçoit avec beaucoup de plaisir l'une de ses actrices fétiches, la fameuse « petite fiancée de l'Amérique ». Langlois l'admire pour ses films, mais aussi pour son rôle de productrice et de co-fondatrice de la société de production et de distribution United Artists avec Chaplin, Griffith et Douglas Fairbanks.</p>
+      <p><em>«&nbsp;Pour un observateur superficiel, cette femme cherchant à donner l'illusion de l'enfance à force d'art, semble être un monstre sacré, prisonnière d'un tour de force et d'un succès, alors qu'elle est l'illustration la plus totale des mythes fondamentaux d'une civilisation&nbsp;»</em>, écrivait Langlois en décembre 1954.</p>
+      ]]></desc>
+      <m type="video" id="" width="720" height="576">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="32">
+      <title>17 novembre 1965</title>
+      <cat>1</cat>
+      <pos>19679</pos>
+      <desc><![CDATA[
+      <p>Entre 1965 et début 1968 viennent encore à la Cinémathèque de nombreuses personnalités du cinéma. C'est ainsi qu'en novembre 1965, William Wyler est présent pour l'avant-première française de <em>How to Steal A Million</em>, en compagnie d'Audrey Hepburn et de Peter O'Toole.</p>
+      <p>Le 25 février 1966, Roberto Rossellini présente une «&nbsp;expérience audio-visuelle nouvelle&nbsp;» suivie de la projection de son œuvre inédite en cinq parties, <em>L'Âge de fer</em>, commentée par ses soins.</p>
+      <p>Jerzy Skolimowski vient inaugurer en janvier 1967 le cycle <em>Vingt ans de cinéma polonais</em> et projette à cette occasion son film <em>La Barrière</em>.</p>
+      <p>En 1968, ce sont Jean-Marie Straub et sa <em>Chronique d'Anna Magdalena Bach</em>, Philippe Garrel et <em>Marie pour mémoire</em>, et Arthur Penn avec <em>Mickey One</em>. Lors de la présentation au public, le réalisateur américain ému déclare à Langlois devant la salle&nbsp;: <em>«&nbsp;Lorsque personne n'aimait les films que je faisais, vous étiez le seul à les projeter. C'est pourquoi je me sens si bien dans votre Cinémathèque qui, la première, m'a accueilli&nbsp;»</em>.</p>
+      ]]></desc>
+      <m type="img" id="32-1" width="2885" height="2115">
+        <caption>Roberto Rossellini, Henri Langlois et Jean Renoir</caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="33">
+      <title>4 mars 1969</title>
+      <cat>1</cat>
+      <pos>20882</pos>
+      <desc><![CDATA[
+      <p>Francis Ford Coppola, âgé de 29 ans, visite la Cinémathèque à Chaillot et se montre captivé par le grand zootrope exposé à l'entrée. Un peu plus tard, il écrit à Henri Langlois : <em>«&nbsp;Dear Mr. Langlois, upon my recent visit to the Palais d'Challiot [sic], I was fascinated with a large cylindrical motion picture device which was in your lobby. I believe the device is a Zœtrope. Would it be possible for me to get a photo or drawing and any information you might have on it&nbsp;?&nbsp;»</em> (<em>« Cher monsieur Langlois, lors de ma récente visite au Palais d'Challiot, j'ai été fasciné par un grand appareil de cinéma cylindrique que se trouvait dans votre hall. Je crois qu'il s'agit d'un zootrope. Pourriez-vous me fournir une photo, un dessin et toute information que vous auriez à son sujet ? »</em>).</p>
+      <p>La même année, Coppola et George Lucas créent leur propre compagnie, baptisée «&nbsp;American Zœtrope&nbsp;», qui produira notamment par la suite <em>Apocalypse Now</em>.</p>
+      ]]></desc>
+      <m type="video" id="" width="" height="">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="34">
+      <title>16 juin 1969</title>
+      <cat>1</cat>
+      <pos>20988</pos>
+      <desc><![CDATA[
+      <p>Passionné par les arts plastiques, et plus particulièrement par la peinture, Langlois n'a de cesse de chercher à y relier le cinéma, dans une volonté perpétuelle de l'élever, de lui donner enfin les lettres de noblesse que, selon lui, il mérite mais n'a pas. Confronter les arts devient une sorte de quête, si ce n'est d'obsession personnelle.</p>
+      <p>Ses multiples amitiés avec des plasticiens, des peintres renommés, en sont autant de témoignages. Langlois prend même parfois des initiatives destinées à mettre en valeur la Cinémathèque avec quelques œuvres. C'est ainsi que le peintre Miró lui promet de créer et d'offrir une céramique et un rideau de scène pour la salle de Chaillot.</p>
+      ]]></desc>
+      <m type="img" id="34-1" width="" height="">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="35">
+      <title>Novembre 1969</title>
+      <cat>1</cat>
+      <pos>21138</pos>
+      <desc><![CDATA[
+      <p>Ouverture de l'exposition consacrée au réalisateur Jean Grémillon.</p>
+      <p>Disparu dix ans auparavant, il avait été le premier président de la Cinémathèque, élu à la Libération, et Langlois lui avait alors rendu hommage en ces termes&nbsp;: <em>«&nbsp;Jean Grémillon n'était pas seulement ce metteur en scène dont on nous chuchotait en 1937 qu'il était l'espoir de sa génération, l'homme qui allait nous donner <em>Lumière d'été</em> et <em>Le Ciel est à vous</em>, et cet extraordinaire <em>Six juin à l'aube</em>, il était aussi le président qui arriva à un moment où nul autre – nous nous en sommes rendu compte depuis – n'aurait pu faire ce qu'il a fait pour la Cinémathèque, à l'heure où il l'a prise, et l'a sauvegardée.&nbsp;»</em></p>
+      ]]></desc>
+      <m type="img" id="35-1" width="937" height="1358">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="36">
+      <title>14 janvier 1971</title>
+      <cat>1</cat>
+      <pos>21563</pos>
+      <desc><![CDATA[
+      <p>Alfred Hitchcock reçoit la Légion d'honneur à Chaillot des mains d'Henri Langlois lui-même. Le réalisateur avait insisté pour que cette prestigieuse décoration lui soit remise par son ami.</p>
+      <p>Langlois vouait à Hitchcock, à qui il prêtait l'intelligence et l'humour du diable, une admiration sans bornes&nbsp;: <em>«&nbsp;Hitchcock&nbsp;: c'est près de quarante films parfaits, toujours surprenants, toujours égaux à eux-mêmes, toujours inattendus. [...] Organisateur des rythmes temporels, Hitchcock manie les matériaux qui composent l'œuvre cinématographique avec une maîtrise, une rigueur qui atteint à la perfection dans son absolu. Dans ses mains, le temps, la vision et le son composent des structures ciselées avec un pouvoir d'envoûtement encore inégalé&nbsp;»</em>.</p>
+      ]]></desc>
+      <m type="video" id="" width="720" height="576">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="37">
+      <title>Février 1973</title>
+      <cat>1</cat>
+      <pos>22326</pos>
+      <desc><![CDATA[
+      <p>Lotte Eisner, qui a rencontré Rainer Werner Fassbinder, le fait découvrir à Langlois, qui décide de présenter le jeune (27 ans) et déjà prolifique réalisateur allemand au public parisien. Fassbinder vient donc en février 1973 à Chaillot inaugurer une série de projections.</p>
+      <p>L'année 1973 marque la visite d'une autre grande gloire du cinéma, idole de toujours d'Henri Langlois&nbsp;: Charlie Chaplin.</p>
+      <p><em>«&nbsp;Avec Chaplin, toutes les hyperboles deviennent lieu commun. Un mot suffit à définir sa place&nbsp;: il personnifie depuis plus de quarante ans le cinéma, il est la constante qui témoigne de l'universalité de cet art, il s'identifie si bien avec son langage qu'il défie la mode et le temps.&nbsp;»</em></p>
+      ]]></desc>
+      <m type="img" id="37-1" width="1943" height="2875">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="38">
+      <title>27 mars 1974</title>
+      <cat>1</cat>
+      <pos>22731</pos>
+      <desc><![CDATA[
+      <p>L'actrice américaine Gloria Swanson est invitée à Chaillot, et fête à la Cinémathèque son 75ème anniversaire. Pour Langlois, elle est l'une des dernières représentantes de l'âge d'or hollywoodien, époque révolue dont il est toujours le fervent admirateur.</p>
+      <p>L'année suivante, la Cinémathèque accueillera également en juin Ken Russell et sa femme, venus inaugurer l'exposition qui leur est consacrée, et l'acteur-réalisateur italien Alberto Sordi, lui aussi célébré par une rétrospective de son œuvre à l'automne.</p>
+      ]]></desc>
+      <m type="img" id="38-1" width="4139" height="3216">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
 
 
-  
+
+<!--
+    <point id="">
+      <title></title>
+      <cat>1</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="" width="" height="">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+-->
 
 
 
 <!-- Partie 2: Langlois le collectionneur (43-67) -->
+
+    <point id="43">
+      <title>1928</title>
+      <cat>2</cat>
+      <pos>5995</pos>
+      <desc><![CDATA[
+      <p><em>« Je suis tombé amoureux fou du cinéma d'une façon majeure en 1928. »</em> (Henri Langlois à Rui Nogueira le 27 avril 1972)</p>
+      ]]></desc>
+      <m type="img" id="43-1" width="1365" height="1032">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
 
 
 <!-- Partie 3: Langlois le bâtisseur (68- ) -->
@@ -187,7 +526,7 @@
       <pos>8947</pos>
       <desc><![CDATA[
       <p>Paul-Auguste Harlé et Henri Langlois exposent le projet de création d'une Cinémathèque française à la présidence du Conseil et au Service des œuvres du ministère des Affaires étrangères, qui expriment immédiatement une franche adhésion.</p>
-      <p><em>«&nbsp;Harlé eut la vision et la notion exacte de l'avenir et de la manière dont il fallait aborder le problème pour y réussir. Ne serait-ce que l'idée du titre "La Cinémathèque française" dont il me dit&nbsp;: "Ce titre permettra à la Cinémathèque d'être un jour la Cinémathèque de la France"&nbsp;»</em>, explique plus tard Henri Langlois.</p>
+      <p><em>«&nbsp;Harlé eut la vision et la notion exacte de l'avenir et de la manière dont il fallait aborder le problème pour y réussir. Ne serait-ce que l'idée du titre &quot;La Cinémathèque française&quot; dont il me dit&nbsp;: &quot;Ce titre permettra à la Cinémathèque d'être un jour la Cinémathèque de la France&quot;&nbsp;»</em>, explique plus tard Henri Langlois.</p>
       ]]></desc>
       <m type="video" id="3470556181001" width="720" height="576">
         <caption>Extrait de l'émission « Les échos du cinéma » du 1er janvier 1961</caption>

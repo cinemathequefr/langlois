@@ -6,7 +6,8 @@
 	app.config.timeline = {
         DOMId: "timeline",
         DOMContainerSelector: "body",
-        tlPxWidth: 4000,
+        //tlPxWidth: 4000,
+        tlPxWidth: 5000,
         ptPxWidth: 12,
         tlWidth: 24471, // Day count from 01-Jan-12 to 31-Dec-78 = number of virtual timeline 'slots'
         graduation: {
@@ -34,7 +35,6 @@
 	};
 
 	app.templates = {
-		//point: "<div class='left'><article><h1>{{&title}}</h1><div class='content'>{{&desc}}</div><div class='caption'>{{&m.caption}} {{&m.rights}}</div></article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
 		point: "<div class='left'><article><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>{{/m}}</article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
 		img: "<div class='media' width='{{&width}}' height='{{&height}}'><img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' alt='{{&caption}}'></div>",
         video: "<div class='media' width='{{&width}}' height='{{&height}}'><div style='display:none'></div><object id='myExperience2292442024001' class='BrightcoveExperience'><param name='bgcolor' value='#111111' /><param name='playerID' value='592570533001' /><param name='playerKey' value='AQ~~,AAAAiWK05bE~,EapetqFlUMNn0qIYma980_NuvlxhZfq6' /><param name='isVid' value='true' /><param name='isUI' value='true' /><param name='dynamicStreaming' value='true' /><param name='@videoPlayer' value='{{&id}}' /></object></div>"
@@ -204,7 +204,6 @@
 			$article = $left.children("article").eq(0),
 			$media = $right.children("div.media").eq(0),
 			fit = fitInBox($media.attr("width"), $media.attr("height"), $p.innerWidth() / 2, $p.innerHeight(), true),
-
 			dims = app.utils.hiddenDimensioned($p, function () {
 				return {
 					containerHeight: $p.innerHeight(),
@@ -212,15 +211,16 @@
 				};
 			});
 
+		$media.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
+		$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((dims.containerHeight - fit.height) / 2) + "px" });
+		$left.css({ width: ($p.innerWidth() - fit.width) + "px" });
+		$article.css({ paddingTop: ((dims.containerHeight - dims.articleHeight) / 2) + "px" });
 
-			$media.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
-			$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((dims.containerHeight - fit.height) / 2) + "px" });
-			$left.css({ width: ($p.innerWidth() - fit.width) + "px" });
-			$article.css({ paddingTop: ((dims.containerHeight - dims.articleHeight) / 2) + "px" });
-
+		try {
 			if (point.m.type === "video") {
 				$("<script>brightcove.createExperiences();</script>").appendTo($media);
 			}
+		} catch(e) {}
 
 	}
 
