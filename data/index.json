@@ -282,10 +282,28 @@
     "pos":10418
   },
   {
+    "id":50,
+    "title":"Automne 1940",
+    "cat":2,
+    "pos":10499
+  },
+  {
+    "id":51,
+    "title":"Octobre 1941",
+    "cat":2,
+    "pos":10879
+  },
+  {
     "id":52,
     "title":"8 d\u00e9cembre 1942",
     "cat":2,
     "pos":11299
+  },
+  {
+    "id":53,
+    "title":"25 avril 1944",
+    "cat":2,
+    "pos":11802
   },
   {
     "id":54,
@@ -326,19 +344,19 @@
   {
     "id":60,
     "title":"1 septembre 1962",
-    "cat":3,
+    "cat":2,
     "pos":18505
   },
   {
     "id":61,
     "title":"2 septembre 1962",
-    "cat":3,
+    "cat":2,
     "pos":18506
   },
   {
     "id":62,
     "title":"19 mai 1966",
-    "cat":3,
+    "cat":2,
     "pos":19861
   },
   {
@@ -348,10 +366,70 @@
     "pos":21279
   },
   {
+    "id":64,
+    "title":"29 juin 1970",
+    "cat":2,
+    "pos":21363
+  },
+  {
+    "id":65,
+    "title":"20 novembre 1970",
+    "cat":3,
+    "pos":21508
+  },
+  {
+    "id":66,
+    "title":"15 juin 1972",
+    "cat":3,
+    "pos":22080
+  },
+  {
+    "id":67,
+    "title":"8 ao\u00fbt 1972",
+    "cat":3,
+    "pos":22134
+  },
+  {
+    "id":68,
+    "title":"1932-1935",
+    "cat":3,
+    "pos":7470
+  },
+  {
+    "id":69,
+    "title":"Avril 1935",
+    "cat":3,
+    "pos":8504
+  },
+  {
     "id":70,
     "title":"Juillet 1936",
     "cat":3,
     "pos":8947
+  },
+  {
+    "id":71,
+    "title":"Septembre 1936",
+    "cat":3,
+    "pos":9010
+  },
+  {
+    "id":72,
+    "title":"Janvier 1937",
+    "cat":3,
+    "pos":9146
+  },
+  {
+    "id":73,
+    "title":1948,
+    "cat":3,
+    "pos":13300
+  },
+  {
+    "id":74,
+    "title":"1 ao\u00fbt 1950",
+    "cat":3,
+    "pos":14091
   },
   {
     "id":113,

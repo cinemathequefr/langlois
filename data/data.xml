@@ -381,10 +381,10 @@
       <cat>1</cat>
       <pos>20882</pos>
       <desc><![CDATA[
-      <p>Francis Ford Coppola, âgé de 29 ans, visite la Cinémathèque à Chaillot et se montre captivé par le grand zootrope exposé à l'entrée. Un peu plus tard, il écrit à Henri Langlois : <em>«&nbsp;Dear Mr. Langlois, upon my recent visit to the Palais d'Challiot [sic], I was fascinated with a large cylindrical motion picture device which was in your lobby. I believe the device is a Zœtrope. Would it be possible for me to get a photo or drawing and any information you might have on it&nbsp;?&nbsp;»</em> (<em>« Cher monsieur Langlois, lors de ma récente visite au Palais d'Challiot, j'ai été fasciné par un grand appareil de cinéma cylindrique que se trouvait dans votre hall. Je crois qu'il s'agit d'un zootrope. Pourriez-vous me fournir une photo, un dessin et toute information que vous auriez à son sujet ? »</em>).</p>
-      <p>La même année, Coppola et George Lucas créent leur propre compagnie, baptisée «&nbsp;American Zœtrope&nbsp;», qui produira notamment par la suite <em>Apocalypse Now</em>.</p>
+      <p>Francis Ford Coppola, âgé de 29 ans, visite la Cinémathèque à Chaillot et se montre captivé par le grand zootrope exposé à l'entrée. Un peu plus tard, il écrit à Henri Langlois : <em>«&nbsp;Dear Mr. Langlois, upon my recent visit to the Palais d'Challiot [sic], I was fascinated with a large cylindrical motion picture device which was in your lobby. I believe the device is a Zoetrope. Would it be possible for me to get a photo or drawing and any information you might have on it&nbsp;?&nbsp;»</em> (<em>« Cher monsieur Langlois, lors de ma récente visite au Palais d'Challiot, j'ai été fasciné par un grand appareil de cinéma cylindrique que se trouvait dans votre hall. Je crois qu'il s'agit d'un zootrope. Pourriez-vous me fournir une photo, un dessin et toute information que vous auriez à son sujet ? »</em>).</p>
+      <p>La même année, Coppola et George Lucas créent leur propre compagnie, baptisée «&nbsp;American Zoetrope&nbsp;», qui produira notamment par la suite <em>Apocalypse Now</em>.</p>
       ]]></desc>
-      <m type="video" id="" width="" height="">
+      <m type="video" id="3479050574001" width="800" height="448">
         <caption></caption>
         <rights></rights>
       </m>
@@ -397,7 +397,7 @@
       <p>Passionné par les arts plastiques, et plus particulièrement par la peinture, Langlois n'a de cesse de chercher à y relier le cinéma, dans une volonté perpétuelle de l'élever, de lui donner enfin les lettres de noblesse que, selon lui, il mérite mais n'a pas. Confronter les arts devient une sorte de quête, si ce n'est d'obsession personnelle.</p>
       <p>Ses multiples amitiés avec des plasticiens, des peintres renommés, en sont autant de témoignages. Langlois prend même parfois des initiatives destinées à mettre en valeur la Cinémathèque avec quelques œuvres. C'est ainsi que le peintre Miró lui promet de créer et d'offrir une céramique et un rideau de scène pour la salle de Chaillot.</p>
       ]]></desc>
-      <m type="img" id="34-1" width="" height="">
+      <m type="img" id="34-1" width="2298" height="2953">
         <caption></caption>
         <rights></rights>
       </m>
@@ -594,26 +594,26 @@
         <rights></rights>
       </m>
     </point>
-    <!--
     <point id="50">
-      <title></title>
+      <title>Automne 1940</title>
       <cat>2</cat>
-      <pos></pos>
+      <pos>10499</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="51">
-      <title></title>
+      <title>Octobre 1941</title>
       <cat>2</cat>
-      <pos></pos>
+      <pos>10879</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="51-1" width="2000" height="1470">
         <caption></caption>
         <rights></rights>
       </m>
     </point>
-    -->
     <point id="52">
       <title>8 décembre 1942</title>
       <cat>2</cat>
@@ -626,19 +626,18 @@
         <rights></rights>
       </m>
     </point>
-    <!--
     <point id="53">
-      <title></title>
+      <title>25 avril 1944</title>
       <cat>2</cat>
-      <pos></pos>
+      <pos>11802</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="video" id="3475767261001" width="720" height="576">
         <caption></caption>
         <rights></rights>
       </m>
     </point>
-    -->
     <point id="54">
       <title>14 décembre 1948</title>
       <cat>2</cat>
@@ -713,11 +712,9 @@
         <rights></rights>
       </m>
     </point>
-
-<!-- Partie 3: Langlois le bâtisseur (68- ) -->
     <point id="60">
       <title>1 septembre 1962</title>
-      <cat>3</cat>
+      <cat>2</cat>
       <pos>18505</pos>
       <desc><![CDATA[
       <p>En septembre 1962, Langlois donne aux <em>Cahiers du cinéma</em> un très long entretien, mené par Michel Mardore et Eric Rohmer. Il revient à cette occasion sur son rôle de directeur de la Cinémathèque, expose ses vues, ses positions, ses différentes conceptions de la Cinémathèque et de son musée, fait part des difficultés qu'il rencontre, et surtout laisse paraître la passion qui l'anime.</p>
@@ -731,7 +728,7 @@
 
     <point id="61">
       <title>2 septembre 1962</title>
-      <cat>3</cat>
+      <cat>2</cat>
       <pos>18506</pos>
       <desc><![CDATA[
       <p>Dès la fondation de la Cinémathèque française, il est fréquemment reproché à Henri Langlois de mener une politique de collecte et de restauration des films plutôt hasardeuse. Il répond clairement à ces accusations dans une interview donnée aux <em>Cahiers du cinéma</em>&nbsp;:<br /><em>«&nbsp;Nous en sommes arrivés à concevoir très vite qu'il nous fallait essayer de tout conserver, de tout sauver, de tout maintenir, de renoncer à jouer à l'amateur de classiques.<br />[...]<br />– Vous-même, est-ce que vous acceptez tout, à présent&nbsp;?<br />– Tout, absolument tout. Si la Cinémathèque française faisait une sélection, où irions-nous&nbsp;?&nbsp;»</em></p>
@@ -743,7 +740,7 @@
     </point>
     <point id="62">
       <title>19 mai 1966</title>
-      <cat>3</cat>
+      <cat>2</cat>
       <pos>19861</pos>
       <desc><![CDATA[
       <p>À l'occasion de l'exposition <em>70 ans de cinéma</em> de la Cinémathèque à Cannes, à l'hôtel Martinez, Henri Langlois donne une conférence de presse sur ses futurs projets de musée du cinéma. Sa conception correspond aux principes énoncés dans l'entretien accordé aux <em>Cahiers du cinéma</em> en 1962&nbsp;: <em>«&nbsp;Indépendamment de la collection, pour moi, une cinémathèque, c'est un musée avec une salle de projection&nbsp;; dans ce musée, il faut pouvoir initier les masses et pouvoir également donner satisfaction aux cent personnes qui s'intéressent passionnément au patrimoine cinématographique. [...] Conserver est bien, mais projeter est essentiel&nbsp;»</em>.</p>
@@ -765,10 +762,77 @@
         <rights></rights>
       </m>
     </point>
+    <point id="64">
+      <title>29 juin 1970</title>
+      <cat>2</cat>
+      <pos>21363 </pos> 
+      <desc><![CDATA[
+      <p>Le décorateur allemand du <em>Cabinet du docteur Caligari</em>, Hermann Warm, accepte de recréer, pour le futur musée du cinéma, <em>«&nbsp;la place du marché de <em>Caligari</em>, avec au premier plan l'entrée de l'hôtel de ville, avec la rue de gauche et de droite, et la maison de François&nbsp;»</em>. Ce sera l'une des pièces emblématiques du musée.</p>
+      ]]></desc>
+      <m type="video" id="" width="" height="">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="65">
+      <title>20 novembre 1970</title>
+      <cat>3</cat>
+      <pos>21508</pos>
+      <desc><![CDATA[
+      <p>Collecte de costumes à Hollywood pour le futur musée du cinéma. Langlois explique alors au directeur de la Cinémathèque polonaise&nbsp;: <em>«&nbsp;Ce qui nous intéresse dans les costumes, c'est moins qui les a portés que leur valeur caractéristique et éducative. Bien sûr, il y aura dans l'exposition le blouson de James Dean, mais il est évident qu'il sera plus évocatif (<em>sic</em>) que quand il aura cessé d'être un vêtement courant – il ne sera d'ailleurs plus un vêtement fétichiste, mais l'illustration d'une époque.&nbsp;»</em> Cet amour du costume, comme le fera remarquer en 1975, un peu méchamment, un journaliste du <em>Figaro</em>, est <em>«&nbsp;paradoxal pour un homme qui a toujours l'air d'avoir dormi avec le sien&nbsp;»</em>.</p>
+      ]]></desc>
+      <m type="img" id="65-1" width="2000" height="2451">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="66">
+      <title>15 juin 1972</title>
+      <cat>3</cat>
+      <pos>22080</pos>
+      <desc><![CDATA[
+      TEXTE
+      ]]></desc>
+      <m type="video" id="3475717313001" width="720" height="576">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="67">
+      <title>8 août 1972</title>
+      <cat>3</cat>
+      <pos>22134</pos>
+      <desc><![CDATA[
+      TEXTE
+      ]]></desc>
+      <m type="video" id="" width="" height="">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
 
+<!-- Partie 3: Langlois le bâtisseur (68- ) -->
 
-
-
+    <point id="68">
+      <title>1932-1935</title>
+      <cat>3</cat>
+      <pos>7470</pos>
+      <desc><![CDATA[
+      TEXTE
+      ]]></desc>
+      <m type="img" id="68-1" width="2000" height="2623">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="69">
+      <title>Avril 1935</title>
+      <cat>3</cat>
+      <pos>8504</pos>
+      <desc><![CDATA[
+      TEXTE
+      ]]></desc>
+    </point>
     <point id="70">
       <title>Juillet 1936</title>
       <cat>3</cat>
@@ -782,7 +846,399 @@
         <rights>© INA</rights>
       </m>
     </point>
-
+    <point id="71">
+      <title>Septembre 1936</title>
+      <cat>3</cat>
+      <pos>9010</pos>
+      <desc><![CDATA[
+      TEXTE
+      ]]></desc>
+      <m type="img" id="71-1" width="2378" height="2988">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="72">
+      <title>Janvier 1937</title>
+      <cat>3</cat>
+      <pos>9146</pos>
+      <desc><![CDATA[
+      TEXTE
+      ]]></desc>
+    </point>
+    <point id="73">
+      <title>1948</title>
+      <cat>3</cat>
+      <pos>13300</pos>
+      <desc><![CDATA[
+      TEXTE
+      ]]></desc>
+    </point>
+    <point id="74">
+      <title>1 août 1950</title>
+      <cat>3</cat>
+      <pos>14091</pos>
+      <desc><![CDATA[
+      TEXTE
+      ]]></desc>
+      <m type="img" id="74-1" width="584" height="892">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <!--
+    <point id="75">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="75-1" width="2000" height="1800">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="76">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="77">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="77-1" width="1640" height="1338">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="78">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="79">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="80">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="81">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="82">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="83">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="84">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="84-1" width="2000" height="2597">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="85">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="video" id="" width="" height="">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="86">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="87">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="88">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="88-1" width="3266" height="2431">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="89">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="89-1" width="6640" height="8260">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="90">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="91">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="video" id="3475730231001" width="720" height="576">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="92">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="92-1" width="2329" height="3175">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="93">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="video" id="3475730173001" width="" height="">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="94">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="95">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="95-1" width="2000" height="2786">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="97">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="98">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="98-1" width="2000" height="2667">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="99">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="99-1" width="5888" height="4525">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="100">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="100-1" width="4832" height="4224">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="101">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="102">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="video" id="" width="" height="">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="103">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="103-1" width="6364" height="4174">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="104">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="104-1" width="2448" height="3264">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="105">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="105-1" width="479" height="1494">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="106">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="106-1" width="896" height="1148">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="107">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="107-1" width="5898" height="4483">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="108">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="108-1" width="2400" height="3076">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="109">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="109-1" width="3184" height="4896">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="110">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="111">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="111-1" width="4208" height="5416">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="112">
+      <title></title>
+      <cat>3</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="112-1" width="2721" height="3898">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+-->
 
 <!-- Partie 4: Langlois l'homme -->
 
@@ -794,7 +1250,7 @@
       <p>Henri Langlois naît à Smyrne, dans l'Empire ottoman (aujourd'hui İzmir, en Turquie). Dans les cahiers qu'il commence à tenir dès l'adolescence, dans des interviews, il aura coutume de rappeler avec humour&nbsp;: <em>«&nbsp;Mes parents étaient des Français de l'étranger, ce qui m'a permis d'être en retard d'un siècle&nbsp;»</em>.</p>
       <p>Son père, Gustave Langlois, est journaliste et fondateur de l'Agence nationale française. Mobilisé sur le front, il ne reviendra qu'à la fin de la guerre et Henri Langlois passe donc ses toutes premières années sans le connaître. Il vit une enfance insouciante et heureuse, entouré de ses grands-mères, de sa mère et de son frère. Mais après-guerre, Smyrne est occupée par l'armée grecque. Le climat devient de plus en plus tendu, et, après l'incendie de septembre 1922 qui détruit presque entièrement la ville, la famille Langlois rentre en France, trouvant refuge à Paris.</p>
       ]]></desc>
-      <m type="img" id="1000-1" width="1500" height="2000">
+      <m type="img" id="113-1" width="9792" height="12512">
         <caption>Horoscope de naissance d'Henri Langlois</caption>
       </m>
     </point>
@@ -804,10 +1260,123 @@
       <pos>3957</pos>
       <desc><![CDATA[
       ]]></desc>
-      <m type="video" id=""></m>
+      <m type="video" id="3475492982001" width="720" height="576">
+        <caption></caption>
+        <rights></rights>
+      </m>
     </point>
 
-
+<!--
+    <point id="115">
+      <title></title>
+      <cat>4</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="115-1" width="3820" height="2820">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="116">
+      <title></title>
+      <cat>4</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="117">
+      <title></title>
+      <cat>4</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="117-1" width="2200" height="3088">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="118">
+      <title></title>
+      <cat>4</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="118-1" width="714" height="894">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="119">
+      <title></title>
+      <cat>4</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="video" id="" width="" height="">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="120">
+      <title></title>
+      <cat>4</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="120-1" width="3532" height="2372">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="121">
+      <title></title>
+      <cat>4</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="121-1" width="3050" height="3931">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="122">
+      <title></title>
+      <cat>4</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="122-1" width="4128" height="5857">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="123">
+      <title></title>
+      <cat>4</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="img" id="123-1" width="4516" height="5835">
+        <caption></caption>
+        <rights></rights>
+      </m>
+    </point>
+    <point id="124">
+      <title></title>
+      <cat>4</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+    <point id="125">
+      <title></title>
+      <cat>4</cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+    </point>
+-->
     <point id="126">
       <title>13 janvier 1977</title>
       <cat>4</cat>
@@ -817,17 +1386,25 @@
       <p>Vers deux heures du matin, il meurt dans les bras de Mary Meerson après trois quarts d'heure d'agonie, terrassé par une crise cardiaque. Le dragon avait 62 ans.</p>
       <p><em>«&nbsp;Que la Cinémathèque vive et respire. Seule sa mort serait la véritable mort d'Henri Langlois.&nbsp;»</em> (Jean Diard, 16 mai 1978)</p>
       ]]></desc>
-      <m type="img" id="126-1" width="2000" height="1160">
+      <m type="img" id="126-1" width="8000" height="4638">
+      </m>
+    </point>
+
+<!--
+    <point id="127">
+      <title></title>
+      <cat></cat>
+      <pos></pos>
+      <desc><![CDATA[
+      ]]></desc>
+      <m type="video" id="3475767262001" width="720" height="576">
+        <caption></caption>
+        <rights></rights>
       </m>
     </point>
 
 
 
-
-
-
-
-<!--
     <point id="">
       <title></title>
       <cat></cat>
