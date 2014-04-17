@@ -7,7 +7,7 @@
         DOMId: "timeline",
         DOMContainerSelector: "body",
         //tlPxWidth: 4000,
-        tlPxWidth: 5000,
+        tlPxWidth: 7000,
         ptPxWidth: 12,
         tlWidth: 24471, // Day count from 01-Jan-12 to 31-Dec-78 = number of virtual timeline 'slots'
         graduation: {
@@ -28,7 +28,7 @@
 		hiddenDimensioned: function ( $e, func, args ) { // Call a function (and returns what it returns) TODO: check (+ save) some initial css values
 			var output;
 			$e.css({ visibility: "hidden", display: "block" });
-			output = func.apply(this, args);
+			output = func.apply(this, args);	
 			$e.css({ visibility: "visible", display: "none" });
 			return output;
 		}
