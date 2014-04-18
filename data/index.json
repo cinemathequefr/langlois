@@ -432,6 +432,228 @@
     "pos":14091
   },
   {
+    "id":75,
+    "title":"Mai-juin 1938",
+    "cat":3,
+    "pos":9639
+  },
+  {
+    "id":76,
+    "title":"20 d\u00e9cembre 1938",
+    "cat":3,
+    "pos":9850
+  },
+  {
+    "id":77,
+    "title":1939,
+    "cat":3,
+    "pos":9876
+  },
+  {
+    "id":78,
+    "title":"5 avril 1940",
+    "cat":3,
+    "pos":10321
+  },
+  {
+    "id":79,
+    "title":"25 avril 1944",
+    "cat":3,
+    "pos":11802
+  },
+  {
+    "id":80,
+    "title":"26 mai 1944",
+    "cat":3,
+    "pos":11833
+  },
+  {
+    "id":81,
+    "title":"25 octobre 1946",
+    "cat":3,
+    "pos":12715
+  },
+  {
+    "id":82,
+    "title":"2 mars 1948",
+    "cat":3,
+    "pos":13210
+  },
+  {
+    "id":83,
+    "title":"3 novembre 1948",
+    "cat":3,
+    "pos":13456
+  },
+  {
+    "id":84,
+    "title":"Octobre 1952",
+    "cat":3,
+    "pos":14897
+  },
+  {
+    "id":85,
+    "title":"Novembre 1953",
+    "cat":3,
+    "pos":15294
+  },
+  {
+    "id":86,
+    "title":"23 mai 1955",
+    "cat":3,
+    "pos":15847
+  },
+  {
+    "id":87,
+    "title":"1 d\u00e9cembre 1955",
+    "cat":3,
+    "pos":16040
+  },
+  {
+    "id":88,
+    "title":"23 juin 1959",
+    "cat":3,
+    "pos":17339
+  },
+  {
+    "id":89,
+    "title":"10 juillet 1959",
+    "cat":3,
+    "pos":17356
+  },
+  {
+    "id":90,
+    "title":"Novembre 1959",
+    "cat":3,
+    "pos":17471
+  },
+  {
+    "id":91,
+    "title":1961,
+    "cat":3,
+    "pos":18077
+  },
+  {
+    "id":92,
+    "title":"5 juillet 1962",
+    "cat":3,
+    "pos":18447
+  },
+  {
+    "id":93,
+    "title":"Ao\u00fbt 1962",
+    "cat":3,
+    "pos":18488
+  },
+  {
+    "id":94,
+    "title":"Septembre 1962",
+    "cat":3,
+    "pos":18505
+  },
+  {
+    "id":95,
+    "title":"16 mai 1963",
+    "cat":3,
+    "pos":18762
+  },
+  {
+    "id":97,
+    "title":"17 juillet 1964",
+    "cat":3,
+    "pos":19190
+  },
+  {
+    "id":98,
+    "title":"9 f\u00e9vrier 1968",
+    "cat":3,
+    "pos":20493
+  },
+  {
+    "id":99,
+    "title":"11 f\u00e9vrier 1968",
+    "cat":3,
+    "pos":20495
+  },
+  {
+    "id":100,
+    "title":"13 f\u00e9vrier 1968",
+    "cat":3,
+    "pos":20497
+  },
+  {
+    "id":101,
+    "title":"16 f\u00e9vrier 1968",
+    "cat":3,
+    "pos":20500
+  },
+  {
+    "id":102,
+    "title":"24 mars 1968",
+    "cat":3,
+    "pos":20537
+  },
+  {
+    "id":103,
+    "title":"21 mars 1968",
+    "cat":3,
+    "pos":20534
+  },
+  {
+    "id":104,
+    "title":"22 mars 1968",
+    "cat":3,
+    "pos":20535
+  },
+  {
+    "id":105,
+    "title":"31 juillet 1968",
+    "cat":3,
+    "pos":20665
+  },
+  {
+    "id":106,
+    "title":1952,
+    "cat":3,
+    "pos":14916
+  },
+  {
+    "id":107,
+    "title":"13 juillet 1976",
+    "cat":3,
+    "pos":23569
+  },
+  {
+    "id":108,
+    "title":"Janvier 1942",
+    "cat":3,
+    "pos":10972
+  },
+  {
+    "id":109,
+    "title":"1 janvier 1946",
+    "cat":3,
+    "pos":12419
+  },
+  {
+    "id":110,
+    "title":"3 mai 1942",
+    "cat":3,
+    "pos":11079
+  },
+  {
+    "id":111,
+    "title":"2 mai 1967",
+    "cat":3,
+    "pos":20209
+  },
+  {
+    "id":112,
+    "title":"3 avril 1953",
+    "cat":3,
+    "pos":15067
+  },
+  {
     "id":113,
     "title":"13 novembre 1914",
     "cat":4,
@@ -444,9 +666,81 @@
     "pos":3957
   },
   {
+    "id":115,
+    "title":1934,
+    "cat":4,
+    "pos":8186
+  },
+  {
+    "id":116,
+    "title":1932,
+    "cat":4,
+    "pos":7456
+  },
+  {
+    "id":117,
+    "title":"Mars 1937",
+    "cat":4,
+    "pos":9205
+  },
+  {
+    "id":118,
+    "title":"Juillet 1939",
+    "cat":4,
+    "pos":10056
+  },
+  {
+    "id":119,
+    "title":1950,
+    "cat":4,
+    "pos":14059
+  },
+  {
+    "id":120,
+    "title":"15 septembre 1955",
+    "cat":4,
+    "pos":15962
+  },
+  {
+    "id":121,
+    "title":1960,
+    "cat":4,
+    "pos":17697
+  },
+  {
+    "id":122,
+    "title":1971,
+    "cat":4,
+    "pos":21714
+  },
+  {
+    "id":123,
+    "title":"Avril-mai 1968",
+    "cat":4,
+    "pos":20604
+  },
+  {
+    "id":124,
+    "title":"20 mai 1974",
+    "cat":4,
+    "pos":22784
+  },
+  {
+    "id":125,
+    "title":"2 avril 1974",
+    "cat":4,
+    "pos":22736
+  },
+  {
     "id":126,
     "title":"13 janvier 1977",
     "cat":4,
     "pos":23754
+  },
+  {
+    "id":127,
+    "title":"Fin",
+    "cat":4,
+    "pos":23773
   }
 ]

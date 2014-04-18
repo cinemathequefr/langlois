@@ -886,12 +886,12 @@
         <rights></rights>
       </m>
     </point>
-    <!--
     <point id="75">
-      <title></title>
+      <title>Mai-juin 1938</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>9639</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="75-1" width="2000" height="1800">
         <caption></caption>
@@ -899,17 +899,19 @@
       </m>
     </point>
     <point id="76">
-      <title></title>
+      <title>20 décembre 1938</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>9850</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="77">
-      <title></title>
+      <title>1939</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>9876</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="77-1" width="1640" height="1338">
         <caption></caption>
@@ -917,52 +919,60 @@
       </m>
     </point>
     <point id="78">
-      <title></title>
+      <title>5 avril 1940</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>10321</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="79">
-      <title></title>
+      <title>25 avril 1944</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>11802</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="80">
-      <title></title>
+      <title>26 mai 1944</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>11833</pos>
       <desc><![CDATA[
+      <p>Création des «&nbsp;Amis de la Cinémathèque française&nbsp;», qui donnera naissance plus tard à de multiples cinémathèques en province.</p>
       ]]></desc>
     </point>
     <point id="81">
-      <title></title>
+      <title>25 octobre 1946</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>12715</pos>
       <desc><![CDATA[
+      <p>Promulgation de la loi n°46-2360, portant création d'un Centre national de la cinématographie, dont le siège est 12, rue de Lübeck.</p>
+      <p>La Cinémathèque récupère les locaux laissés vacants par l'ex-Direction générale du cinéma, avenue de Messine, dans le 8ème arrondissement.</p>
       ]]></desc>
     </point>
     <point id="82">
-      <title></title>
+      <title>2 mars 1948</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>13210</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="83">
-      <title></title>
+      <title>3 novembre 1948</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>13456</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="84">
-      <title></title>
+      <title>Octobre 1952</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>14897</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="84-1" width="2000" height="2597">
         <caption></caption>
@@ -970,10 +980,11 @@
       </m>
     </point>
     <point id="85">
-      <title></title>
+      <title>Novembre 1953</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>15294</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="video" id="" width="" height="">
         <caption></caption>
@@ -981,24 +992,26 @@
       </m>
     </point>
     <point id="86">
-      <title></title>
+      <title>23 mai 1955</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>15847</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="87">
-      <title></title>
+      <title>1 décembre 1955</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>16040</pos>
       <desc><![CDATA[
       ]]></desc>
     </point>
     <point id="88">
-      <title></title>
+      <title>23 juin 1959</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>17339</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="88-1" width="3266" height="2431">
         <caption></caption>
@@ -1006,10 +1019,11 @@
       </m>
     </point>
     <point id="89">
-      <title></title>
+      <title>10 juillet 1959</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>17356</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="89-1" width="6640" height="8260">
         <caption></caption>
@@ -1017,17 +1031,19 @@
       </m>
     </point>
     <point id="90">
-      <title></title>
+      <title>Novembre 1959</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>17471</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="91">
-      <title></title>
+      <title>1961</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>18077</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="video" id="3475730231001" width="720" height="576">
         <caption></caption>
@@ -1035,10 +1051,11 @@
       </m>
     </point>
     <point id="92">
-      <title></title>
+      <title>5 juillet 1962</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>18447</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="92-1" width="2329" height="3175">
         <caption></caption>
@@ -1046,28 +1063,31 @@
       </m>
     </point>
     <point id="93">
-      <title></title>
+      <title>Août 1962</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>18488</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
-      <m type="video" id="3475730173001" width="" height="">
+      <m type="video" id="3475730173001" width="720" height="576">
         <caption></caption>
         <rights></rights>
       </m>
     </point>
     <point id="94">
-      <title></title>
+      <title>Septembre 1962</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>18505</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="95">
-      <title></title>
+      <title>16 mai 1963</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>18762</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="95-1" width="2000" height="2786">
         <caption></caption>
@@ -1075,17 +1095,19 @@
       </m>
     </point>
     <point id="97">
-      <title></title>
+      <title>17 juillet 1964</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>19190</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="98">
-      <title></title>
+      <title>9 février 1968</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>20493</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="98-1" width="2000" height="2667">
         <caption></caption>
@@ -1093,10 +1115,11 @@
       </m>
     </point>
     <point id="99">
-      <title></title>
+      <title>11 février 1968</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>20495</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="99-1" width="5888" height="4525">
         <caption></caption>
@@ -1104,10 +1127,11 @@
       </m>
     </point>
     <point id="100">
-      <title></title>
+      <title>13 février 1968</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>20497</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="100-1" width="4832" height="4224">
         <caption></caption>
@@ -1115,17 +1139,19 @@
       </m>
     </point>
     <point id="101">
-      <title></title>
+      <title>16 février 1968</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>20500</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="102">
-      <title></title>
+      <title>24 mars 1968</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>20537</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="video" id="" width="" height="">
         <caption></caption>
@@ -1133,9 +1159,9 @@
       </m>
     </point>
     <point id="103">
-      <title></title>
+      <title>21 mars 1968</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>20534</pos>
       <desc><![CDATA[
       ]]></desc>
       <m type="img" id="103-1" width="6364" height="4174">
@@ -1144,10 +1170,11 @@
       </m>
     </point>
     <point id="104">
-      <title></title>
+      <title>22 mars 1968</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>20535</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="104-1" width="2448" height="3264">
         <caption></caption>
@@ -1155,10 +1182,11 @@
       </m>
     </point>
     <point id="105">
-      <title></title>
+      <title>31 juillet 1968</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>20665</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="105-1" width="479" height="1494">
         <caption></caption>
@@ -1166,10 +1194,11 @@
       </m>
     </point>
     <point id="106">
-      <title></title>
+      <title>1952</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>14916</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="106-1" width="896" height="1148">
         <caption></caption>
@@ -1177,10 +1206,11 @@
       </m>
     </point>
     <point id="107">
-      <title></title>
+      <title>13 juillet 1976</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>23569</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="107-1" width="5898" height="4483">
         <caption></caption>
@@ -1188,10 +1218,11 @@
       </m>
     </point>
     <point id="108">
-      <title></title>
+      <title>Janvier 1942</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>10972</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="108-1" width="2400" height="3076">
         <caption></caption>
@@ -1199,10 +1230,11 @@
       </m>
     </point>
     <point id="109">
-      <title></title>
+      <title>1 janvier 1946</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>12419</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="109-1" width="3184" height="4896">
         <caption></caption>
@@ -1210,17 +1242,19 @@
       </m>
     </point>
     <point id="110">
-      <title></title>
+      <title>3 mai 1942</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>11079</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="111">
-      <title></title>
+      <title>2 mai 1967</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>20209</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="111-1" width="4208" height="5416">
         <caption></caption>
@@ -1228,20 +1262,19 @@
       </m>
     </point>
     <point id="112">
-      <title></title>
+      <title>3 avril 1953</title>
       <cat>3</cat>
-      <pos></pos>
+      <pos>15067</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="112-1" width="2721" height="3898">
         <caption></caption>
         <rights></rights>
       </m>
     </point>
--->
 
 <!-- Partie 4: Langlois l'homme -->
-
     <point id="113">
       <title>13 novembre 1914</title>
       <cat>4</cat>
@@ -1265,13 +1298,12 @@
         <rights></rights>
       </m>
     </point>
-
-<!--
     <point id="115">
-      <title></title>
+      <title>1934 </title>
       <cat>4</cat>
-      <pos></pos>
+      <pos>8186</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="115-1" width="3820" height="2820">
         <caption></caption>
@@ -1279,17 +1311,19 @@
       </m>
     </point>
     <point id="116">
-      <title></title>
+      <title>1932</title>
       <cat>4</cat>
-      <pos></pos>
+      <pos>7456</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="117">
-      <title></title>
+      <title>Mars 1937</title>
       <cat>4</cat>
-      <pos></pos>
+      <pos>9205</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="117-1" width="2200" height="3088">
         <caption></caption>
@@ -1297,10 +1331,11 @@
       </m>
     </point>
     <point id="118">
-      <title></title>
+      <title>Juillet 1939</title>
       <cat>4</cat>
-      <pos></pos>
+      <pos>10056</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="118-1" width="714" height="894">
         <caption></caption>
@@ -1308,10 +1343,11 @@
       </m>
     </point>
     <point id="119">
-      <title></title>
+      <title>1950</title>
       <cat>4</cat>
-      <pos></pos>
+      <pos>14059</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="video" id="" width="" height="">
         <caption></caption>
@@ -1319,10 +1355,11 @@
       </m>
     </point>
     <point id="120">
-      <title></title>
+      <title>15 septembre 1955</title>
       <cat>4</cat>
-      <pos></pos>
+      <pos>15962</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="120-1" width="3532" height="2372">
         <caption></caption>
@@ -1330,10 +1367,11 @@
       </m>
     </point>
     <point id="121">
-      <title></title>
+      <title>1960</title>
       <cat>4</cat>
-      <pos></pos>
+      <pos>17697</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="121-1" width="3050" height="3931">
         <caption></caption>
@@ -1341,10 +1379,11 @@
       </m>
     </point>
     <point id="122">
-      <title></title>
+      <title>1971</title>
       <cat>4</cat>
-      <pos></pos>
+      <pos>21714</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="122-1" width="4128" height="5857">
         <caption></caption>
@@ -1352,10 +1391,11 @@
       </m>
     </point>
     <point id="123">
-      <title></title>
+      <title>Avril-mai 1968</title>
       <cat>4</cat>
-      <pos></pos>
+      <pos>20604</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="img" id="123-1" width="4516" height="5835">
         <caption></caption>
@@ -1363,20 +1403,21 @@
       </m>
     </point>
     <point id="124">
-      <title></title>
+      <title>20 mai 1974</title>
       <cat>4</cat>
-      <pos></pos>
+      <pos>22784</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
     <point id="125">
-      <title></title>
+      <title>2 avril 1974</title>
       <cat>4</cat>
-      <pos></pos>
+      <pos>22736</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
     </point>
--->
     <point id="126">
       <title>13 janvier 1977</title>
       <cat>4</cat>
@@ -1389,13 +1430,12 @@
       <m type="img" id="126-1" width="8000" height="4638">
       </m>
     </point>
-
-<!--
     <point id="127">
-      <title></title>
-      <cat></cat>
-      <pos></pos>
+      <title>Fin</title>
+      <cat>4</cat>
+      <pos>23773</pos>
       <desc><![CDATA[
+      TEXTE
       ]]></desc>
       <m type="video" id="3475767262001" width="720" height="576">
         <caption></caption>
@@ -1404,7 +1444,7 @@
     </point>
 
 
-
+<!--
     <point id="">
       <title></title>
       <cat></cat>
