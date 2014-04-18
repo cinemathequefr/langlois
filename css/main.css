@@ -20,7 +20,7 @@ h1 {
 }
 
 iframe {
-    border: 0; overflow: hidden; width: 100%; height: 100%;
+    border: 0; overflow: hidden; width: 100%; height: 100%; background-color: #111;
 }
 
 img {
@@ -34,6 +34,19 @@ em em {
 div > p, div > h1, article > h1, article > p {
 	margin-top: 0;
 }
+
+a.app-title {
+    position: absolute; display: block;
+    top: 12px; left: 36px;
+    width: 350px; height: 57px;
+
+    background-image: url(images/title4.png);
+    text-decoration: none; color: inherit;
+    text-indent: -10000px;
+    outline: none;
+}
+
+
 
 .container {
 	position: fixed; overflow: hidden;
@@ -51,38 +64,14 @@ div > p, div > h1, article > h1, article > p {
 	margin: 0; padding: 0;
 }
 
-
 .quadrant > .quadrant-zone1 { background-color: #369; }
-.quadrant > .quadrant-zone2 { background-color: #693; }
-.quadrant > .quadrant-zone3 { background-color: #936; }
-.quadrant > .quadrant-zone4 { background-color: #639; }
-.icon1 { background-color: #297acc; }
-.icon2 { background-color: #7acc29; }
-.icon3 { background-color: #cc297a; }
-.icon4  background-color: #5c1f99; 
-
-
-/* Proposition Xavier 100414 */
-/*.quadrant > .quadrant-zone1 { background-color: #5a587d; }
-.quadrant > .quadrant-zone2 { background-color: #64cbc4; }
-.quadrant > .quadrant-zone3 { background-color: #ff6b6b; }
-.quadrant > .quadrant-zone4 { background-color: #b2da5a; }
-.icon1 { background-color: #5a587d; }
-.icon2 { background-color: #64cbc4; }
-.icon3 { background-color: #ff6b6b;; }
-.icon4 { background-color: #b2da5a; }*/
-
-.quadrant > .quadrant-zone1 { background-color: #3f3aa6; }
-.quadrant > .quadrant-zone2 { background-color: #a63a3a; }
-.quadrant > .quadrant-zone3 { background-color: #3aa69f; }
-.quadrant > .quadrant-zone4 { background-color: #84a63a; }
-.icon1 { background-color: #3d34ff; }
-.icon2 { background-color: #ff3434; }
-.icon3 { background-color: #34fff2; }
-.icon4 { background-color: #bfff34; }
-
-
-
+.quadrant > .quadrant-zone2 { background-color: #999333; }
+.quadrant > .quadrant-zone3 { background-color: #399; }
+.quadrant > .quadrant-zone4 { background-color: #993385; }
+.icon1 { background-color: #3d85cc; }
+.icon2 { background-color: #ccc23d; }
+.icon3 { background-color: #3dcccc; }
+.icon4 { background-color: #cc3daf; }
 
 .point-container {
 	display: block; position: absolute; overflow: hidden;
@@ -98,7 +87,7 @@ div > p, div > h1, article > h1, article > p {
 	position: absolute; overflow: auto;
 	left: 0; top: 0; bottom: 0;
 	width: 50%;
-	padding: 0 48px 0 24px;
+	/*padding: 0 48px 0 24px;*/ padding: 0 48px 0 48px;
 	box-sizing: border-box; -moz-box-sizing: border-box;
 }
 
@@ -116,6 +105,28 @@ div > p, div > h1, article > h1, article > p {
     color: #fff;
 }
 
+.cat {
+    position: fixed;
+    width: 29px; height: 418px; left:0; bottom: 50%;
+    background-image: url(images/categories.png);
+    background-repeat: no-repeat;
+}
+
+.cat.cat1 {
+    background-position: 0 bottom; height: 301px;
+}
+
+.cat.cat2 {
+    background-position: -29px bottom; height: 418px;
+}
+
+.cat.cat3 {
+    background-position: -58px bottom; height: 327px;
+}
+
+.cat.cat4 {
+    background-position: -87px bottom; height: 265px;
+}
 
 .media {
 	padding: 36px;
@@ -132,20 +143,6 @@ div > p, div > h1, article > h1, article > p {
 .media > object {
 	display: block;
 	width: 100%; height: 100%;
-}
-
-a.app-title {
-	position: absolute; display: block;
-	/*top: 4px; left: 4px;*/
-	/*width: 400px; height: 69px;*/
-
-    top: 12px; left: 24px;
-    width: 350px; height: 57px;
-
-	background-image: url(images/title4.png);
-	text-decoration: none; color: inherit;
-	text-indent: -10000px;
-	outline: none;
 }
 
 

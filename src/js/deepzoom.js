@@ -88,6 +88,13 @@ DeepZoom.prototype.open = function () {
 
 	if (this.$el.is(":visible") === false) {
 		this.$el.fadeIn(500, function () {
+
+            $(document).one("keyup", function (e) { // Close with Escape key
+                if (e.which  === 27) {
+                    self.close();
+                }
+            });
+
 			self.$el.css({ cursor: "move" });
 		});
 	}
@@ -125,6 +132,11 @@ DeepZoom.prototype.initControls = function () {
 	        self.viewer.addHandler("zoom", function () {
 	            $slider.slider("value", currentZoomLevel());
 	        });
+
+	        $(".dzscalebutton.minus").on("click", zoomOut);
+	        $(".dzscalebutton.plus").on("click", zoomIn);
+
+
 		});
 	}
 

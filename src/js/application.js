@@ -35,9 +35,11 @@
 	};
 
 	app.templates = {
-		point: "<div class='left'><article><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>{{/m}}</article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
+		point: "<div class='cat cat{{&cat.id}}'></div><div class='left'><article><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>{{/m}}</article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
+		//point: "<div class='cat cat{{&cat.id}}'></div><div class='left'><article><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>{{/m}}</article>{{#prev}}<a href='#!/point/{{&prev}}'>Prev</a>{{/prev}}{{#next}}<a href='#!/point/{{&next}}'>Next</a>{{/next}}</div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
 		img: "<div class='media' width='{{&width}}' height='{{&height}}'><img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' alt='{{&caption}}'></div>",
-        video: "<div class='media' width='{{&width}}' height='{{&height}}'><div style='display:none'></div><object id='myExperience2292442024001' class='BrightcoveExperience'><param name='bgcolor' value='#111111' /><param name='playerID' value='592570533001' /><param name='playerKey' value='AQ~~,AAAAiWK05bE~,EapetqFlUMNn0qIYma980_NuvlxhZfq6' /><param name='isVid' value='true' /><param name='isUI' value='true' /><param name='dynamicStreaming' value='true' /><param name='@videoPlayer' value='{{&id}}' /></object></div>"
+        //video: "<div class='media' width='{{&width}}' height='{{&height}}'><div style='display:none'></div><object id='myExperience2292442024001' class='BrightcoveExperience'><param name='bgcolor' value='#111111' /><param name='playerID' value='592570533001' /><param name='playerKey' value='AQ~~,AAAAiWK05bE~,EapetqFlUMNn0qIYma980_NuvlxhZfq6' /><param name='isVid' value='true' /><param name='isUI' value='true' /><param name='dynamicStreaming' value='true' /><param name='@videoPlayer' value='{{&id}}' /></object></div>"
+        video: "<div class='media' width='{{&width}}' height='{{&height}}'><iframe width='{{&width}}' height='{{&height}}' src='video.php?id={{&id}}'></iframe></div>"
 	};
 
 	// app.controller
@@ -86,7 +88,18 @@
     // At this point, the index has been successfully loaded into data
     app.init = function (data) {
 
-    	app.points = data;
+    	app.points = _.sortBy(data, function (i) { return i.pos }); // Data sorted by pos
+
+    	// Add prev and next ids to each point
+    	_.each(app.points, function (pt, i) {
+    		if (!_.isUndefined(app.points[i - 1])) {
+    			_.extend(pt, { prev: app.points[i - 1].id });
+    		}
+    		if (!_.isUndefined(app.points[i + 1])) {
+    			_.extend(pt, { next: app.points[i + 1].id });
+    		}
+    	});
+
     	app.points.get = function (id) {
 			return _.find(this, function (pt) { return (pt.id === id); });
     	};
@@ -141,17 +154,15 @@
 
 
 	app.renderPoint = function (point) {
-
-
-		console.log(point);
 		// 1: transition out
 		// 2: hide content
 		// 3: load new content + assets
 		// 4: computes dimensions relative to viewport
 		// 5: transition in / show content
+
 		app.state.transitionOut(function () {
 
-			point.renderImg = function () { // Mustache lambda
+			point.renderImg = function () { // Define Mustache lambda
 				return function (text, render) {
 					if (this.type === "img") {
 						return render(app.templates.img);
@@ -170,8 +181,17 @@
 
 				$(".loading").hide();
 
+				$(document).on("keyup", function (e) {
+					if (e.which === 37 && point.prev) {
+						app.state.navigate({ type: "point", id: point.prev });
+					}
+					if (e.which === 39 && point.next) {
+						app.state.navigate({ type: "point", id: point.next });
+					}
+				});
+
 				$(".media > img").on("click", function() {
-					new DeepZoom({
+					app.dz = new DeepZoom({
 						$el: $(".overlay"),
 						url: "http://cf.pasoliniroma.com/static/langlois/dz/" + point.m.id,
 						width: point.m.width,
@@ -248,17 +268,17 @@
 		save = function () {
 			var state = {},
 				h = window.location.hash.split("/"); // Reads current location.hash
-    
-            if (h.length < 1) {
-            	return;
-            }
 
             state.type = h[1] || "index"; // Implicit type "index"
             if (h[2]) { state.id = parseInt(h[2], 10); } // Important: convert to Int
 
             // If type is point, we get the cat and add it to current state
             if (state.type === "point") {
-            	state.cat = app.points.get(state.id).cat;
+            	if (_.find(app.points, function (pt) { return pt.id === state.id; })) {
+	            	state.cat = app.points.get(state.id).cat;
+            	} else {
+            		state = { type: "index" };
+            	}
             }
 
             old = current || {};
@@ -268,6 +288,11 @@
 
 
 		transitionOut = function (onAfter) {
+
+			if (!_.isUndefined(app.dz) && app.dz.isOpen) { // Close deep zoom overlay before
+				app.dz.close();
+			}
+
 			if (typeof onAfter !== "function") onAfter = $.noop;
 
 			if (old.type === "undefined") {}
