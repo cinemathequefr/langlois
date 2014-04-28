@@ -1,11 +1,17 @@
-
+html {
+    height: 100%;
+}
 
 body {
 	position: relative;
+    height: 100%;
 	background: #444;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+    color: inherit;
+}
 
 nav {
 	position: fixed; overflow: hidden;
@@ -64,14 +70,24 @@ a.app-title {
 	margin: 0; padding: 0;
 }
 
-.quadrant > .quadrant-zone1 { background-color: #369; }
-.quadrant > .quadrant-zone2 { background-color: #999333; }
-.quadrant > .quadrant-zone3 { background-color: #399; }
-.quadrant > .quadrant-zone4 { background-color: #993385; }
+.quadrant-zone1 { background-color: #369; }
+.quadrant-zone2 { background-color: #999333; }
+.quadrant-zone3 { background-color: #399; }
+.quadrant-zone4 { background-color: #993385; }
 .icon1 { background-color: #3d85cc; }
 .icon2 { background-color: #ccc23d; }
 .icon3 { background-color: #3dcccc; }
 .icon4 { background-color: #cc3daf; }
+
+
+
+.quadrant-zone3 a:hover, .quadrant-zone3 a:active {
+    color: #399;
+}
+
+
+
+
 
 .point-container {
 	display: block; position: absolute; overflow: hidden;
