@@ -2,16 +2,16 @@
 <root>
   <cats>
     <cat id="1">
-      <name>Langlois le passeur</name>
+      <name>Langlois, le passeur</name>
     </cat>
     <cat id="2">
-      <name>Langlois le collectionneur</name>
+      <name>Langlois, le collectionneur</name>
     </cat>
     <cat id="3">
-      <name>Langlois le bâtisseur</name>
+      <name>Langlois, le bâtisseur</name>
     </cat>
     <cat id="4">
-      <name>Langlois l'homme</name>
+      <name>Langlois, l'homme</name>
     </cat>
   </cats>
   <points>
@@ -414,10 +414,7 @@
       <p>Ouverture de l'exposition consacrée au réalisateur Jean Grémillon.</p>
       <p>Disparu dix ans auparavant, il avait été le premier président de la Cinémathèque, élu à la Libération, et Langlois lui avait alors rendu hommage en ces termes&nbsp;: <em>«&nbsp;Jean Grémillon n'était pas seulement ce metteur en scène dont on nous chuchotait en 1937 qu'il était l'espoir de sa génération, l'homme qui allait nous donner <em>Lumière d'été</em> et <em>Le Ciel est à vous</em>, et cet extraordinaire <em>Six juin à l'aube</em>, il était aussi le président qui arriva à un moment où nul autre – nous nous en sommes rendu compte depuis – n'aurait pu faire ce qu'il a fait pour la Cinémathèque, à l'heure où il l'a prise, et l'a sauvegardée.&nbsp;»</em></p>
       ]]></desc>
-      <m type="img" id="35-1" width="937" height="1358">
-        <caption></caption>
-        <rights></rights>
-      </m>
+      <m type="img" id="35-1" width="937" height="1358"/>
     </point>
     <point id="36">
       <title>14 janvier 1971</title>
@@ -518,8 +515,6 @@
       <p><em>« Je suis tombé amoureux fou du cinéma d'une façon majeure en 1928. »</em> (Henri Langlois à Rui Nogueira le 27 avril 1972)</p>
       ]]></desc>
       <m type="img" id="43-1" width="1365" height="1032">
-        <caption></caption>
-        <rights></rights>
       </m>
     </point>
     <point id="44">
@@ -834,7 +829,7 @@
       <p>À Londres, fondation du British Film Institute en 1933, qui instaurera en 1935 la National Film Library, future National Film Archive.</p>
       <p>À Stockholm, constitution par une poignée d'intellectuels et de cinéphiles de la cinémathèque Filmhistoriska Samlingarna, le 31 octobre 1933.</p>
       <p>Dans l'Allemagne nazie, Josef Goebbels, ministre de l'information et de la propagande, forme la Reichsfilmarchiv le 4 février 1935.</p>
-      <p>En Italie, un jeune cinéphile antifasciste, Mario Ferrari, crée en 1935 la Cinémathèque de Milan, au statut privé.</p>
+      <p>En Italie, un jeune cinéphile antifasciste, Mario Ferrari, crée en 1935 la Cinémathèque de Milan, de statut privé.</p>
       ]]></desc>
       <m type="img" id="68-1" width="2000" height="2623">
         <caption></caption>
@@ -1264,7 +1259,7 @@
       <p>Inauguration de la Cinémathèque de Nice, en présence de Dennis Hopper et Henri Langlois. Cette cinémathèque a été conçue par Langlois comme une délégation permanente de la Cinémathèque française à Nice.</p>
       ]]></desc>
       <m type="img" id="107-1" width="5898" height="4483">
-        <caption>Inauguration de la Cinémathèque de Nice avec Denis Hopper et Henri Langlois</caption>
+        <caption>Inauguration de la Cinémathèque de Nice avec Dennis Hopper et Henri Langlois</caption>
         <rights>© Norbert Huffschmitt</rights>
       </m>
     </point>

@@ -35,12 +35,15 @@
 	};
 
 	app.templates = {
-		point: "<div class='cat cat{{&cat.id}}'></div><div class='left'><article><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>{{/m}}</article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
-		//point: "<div class='cat cat{{&cat.id}}'></div><div class='left'><article><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>{{/m}}</article>{{#prev}}<a href='#!/point/{{&prev}}'>Prev</a>{{/prev}}{{#next}}<a href='#!/point/{{&next}}'>Next</a>{{/next}}</div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
+		//point: "<div class='left'><article><div class='cat cat{{&cat.id}}'>{{&cat.name}}</div><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>{{/m}}</article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
+		point: "<div class='left'><article><div class='cat cat{{&cat.id}}'>{{&cat.name}}</div><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}{{#renderCaption}}{{/renderCaption}}{{/m}}</article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
 		img: "<div class='media' width='{{&width}}' height='{{&height}}'><img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' alt='{{&caption}}'></div>",
         //video: "<div class='media' width='{{&width}}' height='{{&height}}'><div style='display:none'></div><object id='myExperience2292442024001' class='BrightcoveExperience'><param name='bgcolor' value='#111111' /><param name='playerID' value='592570533001' /><param name='playerKey' value='AQ~~,AAAAiWK05bE~,EapetqFlUMNn0qIYma980_NuvlxhZfq6' /><param name='isVid' value='true' /><param name='isUI' value='true' /><param name='dynamicStreaming' value='true' /><param name='@videoPlayer' value='{{&id}}' /></object></div>"
-        video: "<div class='media' width='{{&width}}' height='{{&height}}'><iframe width='{{&width}}' height='{{&height}}' src='video.php?id={{&id}}'></iframe></div>"
+        video: "<div class='media' width='{{&width}}' height='{{&height}}'><iframe width='{{&width}}' height='{{&height}}' src='video.php?id={{&id}}'></iframe></div>",
+        caption: "<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>"
 	};
+
+
 
 	// app.controller
     app.controller = function () {
@@ -90,6 +93,7 @@
 
     	app.points = _.sortBy(data, function (i) { return i.pos }); // Data sorted by pos
 
+
     	// Add prev and next ids to each point
     	_.each(app.points, function (pt, i) {
     		if (!_.isUndefined(app.points[i - 1])) {
@@ -109,10 +113,10 @@
 		app.$pointContainer = $("<div class='point-container'></div>").appendTo(".container");
 
 		_.each(app.points, function (point, i) { // Populate timeline with points
-			var tle = app.timeline.add(point.id, point.pos).$point; // Timeline element
-			tle.attr("data-id", point.id);
-			tle.addClass("icon" + point.cat); // Warning : at this point (points loaded from index.json) cat is a number, later it'll be an object! TODO: normalize
-			point.$timelineElement = tle; // Add reference to jquery timeline element
+				var tle = app.timeline.add(point.id, point.pos).$point; // Timeline element
+				tle.attr("data-id", point.id);
+				tle.addClass("icon" + point.cat); // Warning : at this point (points loaded from index.json) cat is a number, later it'll be an object! TODO: normalize
+				point.$timelineElement = tle; // Add reference to jquery timeline element
 		});
 
 		// Routing
@@ -122,13 +126,15 @@
 		Path.rescue(function () { alert("No route found"); });
 		Path.listen();
 
-        // Timeline rendering
-		app.timeline.bind("click", function (id) { // NEW: event binding uses a `Timeline.bind` method
+        // Timeline binding and rendering
+		app.timeline.bind("click", function (id) {
 			app.state.navigate({
 				type: "point",
 				id: id
 			});
 		}).render();
+
+		app.timeline.scrollTo(_.last(app.points).id);
 
 
 		// Quadrant rendering + dimensions computations on resize
@@ -147,8 +153,16 @@
 
     app.renderIndex = function () {
     	app.state.transitionOut(function () {
+    		app.$pointContainer.hide().html("<div class='center'><p>La vie d'Henri Langlois (1914-1977) se confond largement avec l'existence de la Cinémathèque française, institution qu'il a créée en 1936 avec Georges Franju, Paul-Auguste Harlé et Jean Mitry.</p><p>À travers plus de 120 dates, importantes ou anecdotiques, parcourez en tous sens l'histoire mouvementée de l'homme qui a poursuivi inlassablement la mission qu'il s'était fixé : sauver les films de la destruction et de l'oubli, les montrer.</p><p><a class='enter' href='#!/point/113'>Entrer</a></p></div>");
 			$(".timeline-point-on").removeClass("timeline-point-on");
-			app.quadrant.scrollTo({ pos: 0 });
+
+			app.quadrant.scrollTo({
+				pos: 0,
+				onAfter: function () {
+					app.$pointContainer.fadeIn(500);
+				}
+			});
+    		
     	});
     }
 
@@ -162,7 +176,7 @@
 
 		app.state.transitionOut(function () {
 
-			point.renderImg = function () { // Define Mustache lambda
+			point.renderImg = function () {
 				return function (text, render) {
 					if (this.type === "img") {
 						return render(app.templates.img);
@@ -172,8 +186,16 @@
 				};
 			};
 
+			point.renderCaption = function () {
+				return function (text, render) {
+					if(this.caption || this.rights) {
+						return render(app.templates.caption);
+					}
+				};
+			};
+
 			// $pointContainer gets current quadrant-zone's bgcol
-			app.$pointContainer.css({ backgroundColor: $(".quadrant-zone" + point.cat.id).css("background-color") });
+			//app.$pointContainer.css({ backgroundColor: $(".quadrant-zone" + point.cat.id).css("background-color") });
 
 			$(".loading").show();
 
@@ -200,6 +222,7 @@
 				});
 
 				app.pointResize(point);
+
 				app.quadrant.scrollTo({
 					pos: point.cat.id,
 					onAfter: function () {
@@ -295,9 +318,10 @@
 
 			if (typeof onAfter !== "function") onAfter = $.noop;
 
-			if (old.type === "undefined") {}
+			// if (old.type === "index") {}
+			if (_.isUndefined(old.type)) {}
 
-			if (old.type === "point") {
+			if (old.type === "point" || old.type === "index") {
 				app.$pointContainer.fadeOut(500, function () {
 					onAfter.call();
 				});
@@ -305,8 +329,6 @@
 				return; // Return to prevent final call of onAfter
 			}
 
-			if (old.type === "index") {
-			}
 
 			onAfter.call();
 		};

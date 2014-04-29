@@ -111,10 +111,8 @@ Timeline.prototype.scrollTo = function (ptId) {
     try {
         var ptPxPos = _.find(this.points, function (i) { return (i.id == ptId ? i : false); }).pxPos;
         this.$tl.mCustomScrollbar("scrollTo", ptPxPos + (this.ptPxWidth - $(window).width()) / 2);
-        return true;
     }
     catch (err) {
-        return false;
     }
 };
 
