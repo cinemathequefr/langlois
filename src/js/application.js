@@ -36,7 +36,7 @@
 
 	app.templates = {
 		//point: "<div class='left'><article><div class='cat cat{{&cat.id}}'>{{&cat.name}}</div><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>{{/m}}</article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
-		point: "<div class='left'><article><div class='cat cat{{&cat.id}}'>{{&cat.name}}</div><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}{{#renderCaption}}{{/renderCaption}}{{/m}}</article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
+		point: "<div class='left'><article><div class='cat cat{{&cat.id}}'>{{&cat.name}}</div><h1>{{&title}}</h1><div class='content'>{{&desc}}{{#m}}{{#renderCaption}}{{/renderCaption}}{{/m}}</div></article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
 		img: "<div class='media' width='{{&width}}' height='{{&height}}'><img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' alt='{{&caption}}'></div>",
         //video: "<div class='media' width='{{&width}}' height='{{&height}}'><div style='display:none'></div><object id='myExperience2292442024001' class='BrightcoveExperience'><param name='bgcolor' value='#111111' /><param name='playerID' value='592570533001' /><param name='playerKey' value='AQ~~,AAAAiWK05bE~,EapetqFlUMNn0qIYma980_NuvlxhZfq6' /><param name='isVid' value='true' /><param name='isUI' value='true' /><param name='dynamicStreaming' value='true' /><param name='@videoPlayer' value='{{&id}}' /></object></div>"
         video: "<div class='media' width='{{&width}}' height='{{&height}}'><iframe width='{{&width}}' height='{{&height}}' src='video.php?id={{&id}}'></iframe></div>",
@@ -194,13 +194,9 @@
 				};
 			};
 
-			// $pointContainer gets current quadrant-zone's bgcol
-			//app.$pointContainer.css({ backgroundColor: $(".quadrant-zone" + point.cat.id).css("background-color") });
-
 			$(".loading").show();
 
 			app.$pointContainer.css({visibility: "hidden"}).html(Mustache.render(app.templates.point, point)).imagesLoaded(function () {
-
 				$(".loading").hide();
 
 				$(document).on("keyup", function (e) {
@@ -240,24 +236,34 @@
 
 
 	app.pointResize = function (point) {
-		var $p = app.$pointContainer,
-			$left = $p.find(".left"),
-			$right = $p.find(".right"),
-			$h1 = $left.children("h1").eq(0),
-			$article = $left.children("article").eq(0),
-			$media = $right.children("div.media").eq(0),
-			fit = fitInBox($media.attr("width"), $media.attr("height"), $p.innerWidth() / 2, $p.innerHeight(), true),
-			dims = app.utils.hiddenDimensioned($p, function () {
+
+		var $p = app.$pointContainer;
+		var $left = $p.find(".left");
+		var $right = $p.find(".right");
+		var $article = $left.find("article").eq(0);
+		var $media = $right.find("div.media").eq(0);
+		var $content = $p.find(".content");
+		var fit = fitInBox($media.attr("width"), $media.attr("height"), $p.innerWidth() / 2, $p.innerHeight(), true);
+		var dims = app.utils.hiddenDimensioned($p, function () {
 				return {
 					containerHeight: $p.innerHeight(),
-					articleHeight: $article.innerHeight()
+					articleHeight: $article.innerHeight(),
 				};
 			});
+
 
 		$media.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
 		$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((dims.containerHeight - fit.height) / 2) + "px" });
 		$left.css({ width: ($p.innerWidth() - fit.width) + "px" });
-		$article.css({ paddingTop: ((dims.containerHeight - dims.articleHeight) / 2) + "px" });
+		//$article.css({ paddingTop:  ((dims.containerHeight - dims.articleHeight) / 2) + "px" });
+		//$content.css({ height: ($p.innerHeight() - $content.position().top) + "px" });
+
+
+		// TEST: with https://github.com/noraesae/perfect-scrollbar
+		$left.perfectScrollbar({
+			suppressScrollX: true
+		});
+
 
 		try {
 			if (point.m.type === "video") {

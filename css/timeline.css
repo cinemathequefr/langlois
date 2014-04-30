@@ -1,3 +1,5 @@
+/* Timeline */
+/* Includes specific styling for mCustomScrollbar */
 
 #timeline {
     position: fixed;
@@ -5,7 +7,6 @@
     color: #eee;
     -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
     background-color: #444;
-
 }
 
 .timeline > .timeline-container {
@@ -22,13 +23,12 @@
     top: 34px; height: 49px;
 }
 
-
 .timeline-point {
     margin: 0;  border: solid 1px transparent;
     -webkit-box-shadow: inset 0px -36px 4px 1px rgba(0, 0, 0, 0.15);
     box-shadow: inset 0px -80px 4px 1px rgba(0, 0, 0, 0.15);
     cursor: pointer;
-    background-color: #69f; /* Test */
+    background-color: #ccc;
 }
 
 .timeline-point:hover, .timeline-point-on {
@@ -49,16 +49,58 @@
 }
 
 .timeline-graduation.g1 {
-    /*z-index: 2; overflow: hidden;*/
     height: 86px;
     border-left:solid 1px #999;
     color: #ccc;
 }
 
 .timeline-graduation.g2 {
-    /*z-index: 1; overflow: hidden;*/
     height: 18px;
     border-left:solid 1px #999;
     color: #999;
 }
 
+/* mCustomScrollbar: overwrites the default styling in jquery.mCustomScrollbar.css */
+
+#timeline .mCSB_scrollTools .mCSB_dragger {
+    cursor: w-resize;
+}
+
+#timeline .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#timeline .mCSB_horizontal.mCustomScrollBox>.mCSB_scrollTools {
+    height:34px;
+    left: 0; top: 0; right: auto; bottom: auto;
+}
+
+#timeline .mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    height: 32px;
+    margin: 1px auto;
+}
+
+#timeline .mCSB_scrollTools .mCSB_draggerRail {
+    display: none;
+}
+
+#timeline .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: rgba(255, 255, 255, 0.2);
+    filter: "alpha(opacity=20)";
+    -ms-filter: "alpha(opacity=20)";
+}
+
+#timeline .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background:rgba(255, 255, 255, 0.3);
+    filter:"alpha(opacity=30)";
+    -ms-filter:"alpha(opacity=30)";
+}
+
+#timeline .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+#timeline .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background:rgba(255, 255, 255, 0.4);
+    filter:"alpha(opacity=40)";
+    -ms-filter:"alpha(opacity=40)";
+}
