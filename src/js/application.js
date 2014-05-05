@@ -24,28 +24,14 @@
 		defaultEasing: "easeInOutSine"
 	};
 
-	app.utils = {
-		hiddenDimensioned: function ( $e, func, args ) { // Call a function (and returns what it returns) TODO: check (+ save) some initial css values
-			var output;
-			$e.css({ visibility: "hidden", display: "block" });
-			output = func.apply(this, args);	
-			$e.css({ visibility: "visible", display: "none" });
-			return output;
-		}
-	};
-
 	app.templates = {
-		//point: "<div class='left'><article><div class='cat cat{{&cat.id}}'>{{&cat.name}}</div><h1>{{&title}}</h1><div class='content'>{{&desc}}</div>{{#m}}<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>{{/m}}</article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
-		point: "<div class='left'><article><div class='cat cat{{&cat.id}}'>{{&cat.name}}</div><h1>{{&title}}</h1><div class='content'>{{&desc}}{{#m}}{{#renderCaption}}{{/renderCaption}}{{/m}}</div></article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
+		point: "<div class='left'><article><div class='cat cat{{&cat.id}}'>{{&cat.name}}</div><h1>{{&title}}</h1><div class='text-container'><div class='text-content'>{{&desc}}{{#m}}{{#renderCaption}}{{/renderCaption}}{{/m}}</div></div></article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
 		img: "<div class='media' width='{{&width}}' height='{{&height}}'><img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' alt='{{&caption}}'></div>",
-        //video: "<div class='media' width='{{&width}}' height='{{&height}}'><div style='display:none'></div><object id='myExperience2292442024001' class='BrightcoveExperience'><param name='bgcolor' value='#111111' /><param name='playerID' value='592570533001' /><param name='playerKey' value='AQ~~,AAAAiWK05bE~,EapetqFlUMNn0qIYma980_NuvlxhZfq6' /><param name='isVid' value='true' /><param name='isUI' value='true' /><param name='dynamicStreaming' value='true' /><param name='@videoPlayer' value='{{&id}}' /></object></div>"
         video: "<div class='media' width='{{&width}}' height='{{&height}}'><iframe width='{{&width}}' height='{{&height}}' src='video.php?id={{&id}}'></iframe></div>",
         caption: "<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>"
 	};
 
 
-
-	// app.controller
     app.controller = function () {
 		var state = app.state.save(),
 			type = state.type,
@@ -138,24 +124,27 @@
 
 
 		// Quadrant rendering + dimensions computations on resize
-		
 		$(window).on("debouncedresize.main", app.quadrant, function (e) {
 			var quadrant = e.data;
 			quadrant.render();
 			quadrant.scrollTo({ pos: quadrant.currentPos });
+
 			// if (!_.isUndefined(app.$pointContainer)) {
 			// 	app.pointResize();
+			// 	app.$pointContainer.hide().css({ visibility: "visible" }).fadeIn(500);
+			// 	$(".text-container").perfectScrollbar({ suppressScrollX: true });
 			// }
+
 		}).trigger("debouncedresize.main"); // Initial quadrant rendering
 
     }
 
 
     app.renderIndex = function () {
+    	console.log("Render index");
     	app.state.transitionOut(function () {
     		app.$pointContainer.hide().html("<div class='center'><p>La vie d'Henri Langlois (1914-1977) se confond largement avec l'existence de la Cinémathèque française, institution qu'il a créée en 1936 avec Georges Franju, Paul-Auguste Harlé et Jean Mitry.</p><p>À travers plus de 120 dates, importantes ou anecdotiques, parcourez en tous sens l'histoire mouvementée de l'homme qui a poursuivi inlassablement la mission qu'il s'était fixé : sauver les films de la destruction et de l'oubli, les montrer.</p><p><a class='enter' href='#!/point/113'>Entrer</a></p></div>");
 			$(".timeline-point-on").removeClass("timeline-point-on");
-
 			app.quadrant.scrollTo({
 				pos: 0,
 				onAfter: function () {
@@ -168,7 +157,8 @@
 
 
 	app.renderPoint = function (point) {
-		// 1: transition out
+		console.log("Render point");
+		// 1: transition out ()
 		// 2: hide content
 		// 3: load new content + assets
 		// 4: computes dimensions relative to viewport
@@ -196,9 +186,12 @@
 
 			$(".loading").show();
 
-			app.$pointContainer.css({visibility: "hidden"}).html(Mustache.render(app.templates.point, point)).imagesLoaded(function () {
-				$(".loading").hide();
+			//app.$pointContainer.css({ visibility: "hidden" });
+			app.$pointContainer.hide();
 
+			app.$pointContainer.html(Mustache.render(app.templates.point, point)).imagesLoaded(function () {
+
+				$(".loading").hide();
 
 				$(document).on("keyup", function (e) {
 					if (e.which === 37 && point.prev) {
@@ -214,7 +207,7 @@
 						$el: $(".overlay"),
 						url: "http://cf.pasoliniroma.com/static/langlois/dz/" + point.m.id,
 						width: point.m.width,
-						height: point.m.height,
+						height: point.m.height
 					});
 				});
 
@@ -224,7 +217,6 @@
 					pos: point.cat.id,
 					onAfter: function () {
 						app.$pointContainer.hide().css({ visibility: "visible" }).fadeIn(500);
-						$(".left").perfectScrollbar({ suppressScrollX: true });
 					}
 				});
 
@@ -238,31 +230,39 @@
 
 
 	app.pointResize = function (point) {
+		console.log("Point resize");
 
-		var $p = app.$pointContainer;
-		var $left = $p.find(".left");
-		var $right = $p.find(".right");
-		var $article = $left.find("article").eq(0);
-		var $media = $right.find("div.media").eq(0);
-		var $content = $p.find(".content");
+		var $p = app.$pointContainer.css({ visibility: "hidden", display: "block" }); // For all computations, elements must be hidden but dimensioned
+		var $left = $p.children(".left").eq(0);
+		var $right = $p.children(".right").eq(0);
+		var $article = $left.children("article").eq(0);
+		var $media = $right.children(".media").eq(0);
+		var $textContainer = $article.children(".text-container").eq(0);
+		var $textContent = $textContainer.children(".text-content").eq(0);
 		var fit = fitInBox($media.attr("width"), $media.attr("height"), $p.innerWidth() / 2, $p.innerHeight(), true);
-		var dims = app.utils.hiddenDimensioned($p, function () {
-				return {
-					containerHeight: $p.innerHeight(),
-					articleHeight: $article.innerHeight(),
-				};
-			});
+		var dims;
+		var articlePaddingTop;
 
+		dims = {
+			containerHeight: $p.innerHeight(),
+			articleHeight: $article.innerHeight()
+		};
 
+		// Resize media + .left and .right accordingly
 		$media.css({ width: (fit.width) + "px", height: (fit.height) + "px" });
-		$right.css({ width: (fit.width) + "px", height: (fit.height) + "px", paddingTop: ((dims.containerHeight - fit.height) / 2) + "px" });
+		$right.css({ width: (fit.width) +"px" });
 		$left.css({ width: ($p.innerWidth() - fit.width) + "px" });
-		//$article.css({ paddingTop:  ((dims.containerHeight - dims.articleHeight) / 2) + "px" });
-		//$content.css({ height: ($p.innerHeight() - $content.position().top) + "px" });
+
+		// Center article vertically within .left
+		articlePaddingTop = Math.max((dims.containerHeight - dims.articleHeight) / 2, 0);
+		$article.css({ paddingTop:  articlePaddingTop + "px" });
+		$right.css({ paddingTop: ((dims.containerHeight - fit.height) / 2) + "px" });
 
 
-
-
+		if (articlePaddingTop === 0) { // Text will overflow: set textContainer height
+			$textContent.css({ paddingBottom: "24px", paddingRight: "12px" }); // Extra padding for better scrollbar UX
+			$textContainer.css({ height: ($left.innerHeight() - $textContainer.position().top) - 8 + "px" }).perfectScrollbar({ suppressScrollX: true });
+		}
 
 		try {
 			if (point.m.type === "video") {
@@ -270,6 +270,7 @@
 			}
 		} catch(e) {}
 
+		$p.css({ visibility: "visible", display: "none" });
 	}
 
 
@@ -317,28 +318,22 @@
 
 		transitionOut = function (onAfter) {
 
-			if (!_.isUndefined(app.dz) && app.dz.isOpen) { // Close deep zoom overlay before
+			console.log("Transition out", old.type);
+
+			if (typeof onAfter !== "function") onAfter = $.noop;
+			if (!_.isUndefined(app.dz) && app.dz.isOpen) { // Close deepZoom overlay if necessary
 				app.dz.close();
 			}
 
-			if (typeof onAfter !== "function") onAfter = $.noop;
-
-			// if (old.type === "index") {}
-			if (_.isUndefined(old.type)) {}
-
 			if (old.type === "point" || old.type === "index") {
-				app.$pointContainer.fadeOut(500, function () {
+				app.$pointContainer.fadeOut(250, function () {
 					onAfter.call();
 				});
+			} else {
+				onAfter.call();
 
-				return; // Return to prevent final call of onAfter
 			}
-
-
-			onAfter.call();
 		};
-
-
 
 		return {
 			get: get,

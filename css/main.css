@@ -93,6 +93,11 @@ a.app-title {
     font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 18px;
 }
 
+
+
+
+/* Main content zone */
+
 .point-container {
 	display: block; position: absolute; /*overflow: hidden;*/
 	top: 80px; bottom: 0; width: 100%;
@@ -111,25 +116,33 @@ a.app-title {
 	box-sizing: border-box; -moz-box-sizing: border-box;
 }
 
+.point-container article {
+    position: relative;
+}
+
+.point-container .text-container {
+    display: block; position: relative; overflow: hidden;
+}
+
+.point-container .text-content {
+}
+
 .point-container > .right {
-    position: absolute;
+    position: absolute; overflow: hidden;
     top: 0; right: 0; bottom: 0;
     width: 50%;
     box-sizing: border-box; -moz-box-sizing: border-box;
-}
-
-
-article {
-    position: absolute;
-}
-
-.content {
 }
 
 .point-container > .center {
     width: 700px; margin: 15% auto 0 auto;
     font-family: 'Source Sans Pro', 'Quicksand', sans-serif; font-weight: normal;
 }
+
+
+
+
+
 
 .enter {
     display: inline-block;
