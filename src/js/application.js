@@ -199,6 +199,7 @@
 			app.$pointContainer.css({visibility: "hidden"}).html(Mustache.render(app.templates.point, point)).imagesLoaded(function () {
 				$(".loading").hide();
 
+
 				$(document).on("keyup", function (e) {
 					if (e.which === 37 && point.prev) {
 						app.state.navigate({ type: "point", id: point.prev });
@@ -223,6 +224,7 @@
 					pos: point.cat.id,
 					onAfter: function () {
 						app.$pointContainer.hide().css({ visibility: "visible" }).fadeIn(500);
+						$(".left").perfectScrollbar({ suppressScrollX: true });
 					}
 				});
 
@@ -259,10 +261,7 @@
 		//$content.css({ height: ($p.innerHeight() - $content.position().top) + "px" });
 
 
-		// TEST: with https://github.com/noraesae/perfect-scrollbar
-		$left.perfectScrollbar({
-			suppressScrollX: true
-		});
+
 
 
 		try {
