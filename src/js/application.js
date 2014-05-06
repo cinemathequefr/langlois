@@ -103,10 +103,19 @@
 				point.$timelineElement = tle; // Add reference to jquery timeline element
 		});
 
+
+
 		// Routing
+
+        // Define own GA update method (cf https://github.com/mtrpcic/pathjs/wiki/Integrating-Google-Analytics)
+        function updateAnalytics () {
+            _gaq.push(['_trackPageview', document.location.href]);
+            //ga('send', 'pageview', document.location.href);
+        }
+
 		Path.root("#!/index");
-		Path.map("#!/index").to(app.controller);
-		Path.map("#!/:point(/:id)").to(app.controller);
+		Path.map("#!/index").enter(updateAnalytics).to(app.controller);
+		Path.map("#!/:point(/:id)").enter(updateAnalytics).to(app.controller);
 		Path.rescue(function () { alert("No route found"); });
 		Path.listen();
 
