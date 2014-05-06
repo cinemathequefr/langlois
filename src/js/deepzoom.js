@@ -145,7 +145,10 @@ DeepZoom.prototype.initControls = function () {
 		$closeButton.on("click", function () { self.close(); });
 	}
 
-    $("body").spotlight({ fadeables: ".dzzoomcontrols, .dzclosebutton", interval: 800});
+	// Activate spotlight on non-touch devices
+    if ("ontouchstart" in document.documentElement === false) {
+    	$("body").spotlight({ fadeables: ".dzzoomcontrols, .dzclosebutton", interval: 800 });
+    }
 
     function convertZoomLevel (level) { // OSD zoom to UI zoom
         return 100 * Math.log(level / self.viewer.viewport.getMinZoom()) / Math.log(2);

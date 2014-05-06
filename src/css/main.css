@@ -1,0 +1,354 @@
+html {
+    height: 100%;
+}
+
+body {
+	position: relative;
+    height: 100%;
+	background: #444;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+nav {
+	position: fixed; overflow: hidden;
+	left: 0px; top: 0px; right: 0px; height: 75px;
+	z-index: 100;
+}
+
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif; font-weight: 700; font-size: 28px;
+}
+
+iframe {
+    border: 0; overflow: hidden; width: 100%; height: 100%; background-color: #111;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+em em {
+    font-style: normal;
+}
+
+div > p, div > h1, article > h1, article > p {
+	margin-top: 0;
+}
+
+a.app-title {
+    position: absolute; display: block;
+    top: 12px; left: 36px;
+    width: 350px; height: 57px;
+    background-image: url(images/title.png);
+    text-decoration: none; color: inherit;
+    text-indent: -10000px;
+    outline: none;
+}
+
+a.logocf {
+    position: absolute; display: block;
+    top: 12px; right: 36px;
+    width: 109px; height: 50px;
+    background-image: url(images/logocf.png);
+    text-decoration: none; color: inherit;
+    text-indent: -10000px;
+    outline: none;
+}
+
+
+
+.container {
+	position: fixed; overflow: hidden;
+	top: 0; left: 0; bottom: 0; right: 0;
+	margin-bottom: 86px;
+	/*background-image: url(images/langlois.jpg);*/
+    background-size: cover; position: 50% 50%;
+}
+
+.quadrant {
+	position: absolute; overflow: hidden;
+}
+
+.quadrant-zone {
+	display: block; position: absolute;
+	margin: 0; padding: 0;
+}
+
+.quadrant-zone1 { background-color: #335e80; }
+.quadrant-zone2 { background-color: #7a8033; }
+.quadrant-zone3 { background-color: #338080; }
+.quadrant-zone4 { background-color: #338033; }
+
+.icon1 { background-color: #367cb3; }
+.icon2 { background-color: #a8b336; }
+.icon3 { background-color: #36b3b3; }
+.icon4 { background-color: #36b336; }
+
+.cat.cat1 { color: #335e80; }
+.cat.cat2 { color: #7a8033; }
+.cat.cat3 { color: #338080; }
+.cat.cat4 { color: #338033; }
+
+.cat {
+    display: inline-block;
+    padding: 2px 8px 2px 48px; margin-left: -48px;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase; white-space: nowrap;
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 18px;
+}
+
+
+
+
+/* Main content zone */
+
+.point-container {
+	display: block; position: absolute; /*overflow: hidden;*/
+	top: 80px; bottom: 0; width: 100%;
+	color: #fff;
+	font-size: 20px;
+    font-size: 18px;
+    font-weight: 400;
+	z-index: 1000;
+}
+
+.point-container > .left {
+	position: absolute; overflow: hidden;
+	left: 0; top: 0; bottom: 0;
+	width: 50%;
+	padding: 0 48px 0 48px;
+	box-sizing: border-box; -moz-box-sizing: border-box;
+}
+
+.point-container article {
+    position: relative;
+}
+
+.point-container .text-container {
+    display: block; position: relative; overflow: hidden;
+}
+
+.point-container .text-content {
+}
+
+.point-container > .right {
+    position: absolute; overflow: hidden;
+    top: 0; right: 0; bottom: 0;
+    width: 50%;
+    box-sizing: border-box; -moz-box-sizing: border-box;
+}
+
+.point-container > .center {
+    width: 700px; margin: 15% auto 0 auto;
+    font-family: 'Source Sans Pro', 'Quicksand', sans-serif; font-weight: normal;
+}
+
+
+
+
+
+
+.enter {
+    display: inline-block;
+    margin-top: 12px; padding: 1px 18px;
+    background-color: rgba(255, 255, 255, 0.3); color: #eee;
+    border-radius: 3px; border: solid 2px #ddd;
+    text-decoration: none;
+}
+
+.enter:active {
+    margin-top: 13px; margin-left: 1px;
+}
+
+.caption {
+    margin-top: 36px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.media {
+	padding: 36px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.media > img {
+	display: block;
+	width: 100%; height: 100%;
+	cursor: pointer;
+}
+
+.media > object {
+	display: block;
+	width: 100%; height: 100%;
+}
+
+.loading {
+	display: none; position:fixed; 
+	top: 50%; left: 0; padding: 2px 12px 2px 2px;
+	background-color: #fff; color: #222;
+	min-width: 180px; height: 36px; line-height: 36px;
+	font-family: 'Source Sans Pro'; font-size: 18px;
+	z-index: 1000;
+}
+
+.overlay {
+    position: fixed; overflow: hidden; display: none;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #333;
+    z-index: 2000;
+}
+
+
+/* mCustomScrollbar */
+/*
+.left .mCSB_scrollTools .mCSB_draggerRail {
+    display: none;
+}
+
+.left .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 8px;
+}
+
+.left .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: rgba(255, 255, 255, 0.4);
+    filter: "alpha(opacity=40)";
+    -ms-filter: "alpha(opacity=40)";
+}
+
+.left .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background:rgba(255, 255, 255, 0.5);
+    filter:"alpha(opacity=50)";
+    -ms-filter:"alpha(opacity=50)";
+}
+
+.left .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.left .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background:rgba(255, 255, 255, 0.6);
+    filter:"alpha(opacity=60)";
+    -ms-filter:"alpha(opacity=60)";
+}
+*/
+
+
+/* DeepZoom */
+.dzzoomcontrols {
+    position: fixed;
+    bottom: 35px; left: 50%;
+    margin-left: -256px;
+    width: 512px; height: 35px;
+    background-color: rgba(3, 3, 3, 0.8);
+    border-radius: 2px;
+    background-image: url(images/zoom.png); background-repeat: no-repeat; background-position: 50% 50%;
+    z-index: 1000; /* Test */
+}
+
+.dzzoomcontrols .dzscalebutton {
+    float: left;
+    width: 32px; height: 32px;
+    margin-top: 1px; margin-left: 3px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dzzoomcontrols .dzscalebutton.plus {
+    float: right;
+    margin-left: 0; margin-right: 3px;
+}
+
+.dzzoomcontrols .ui-slider {
+    float: left;
+    width: 425px; height: 4px;
+    margin-left: 10px; margin-top: 16px;
+    background-color: transparent;
+}
+
+.dzzoomcontrols .ui-slider a.ui-slider-handle {
+    position: relative; display: block; float: left;
+    top: -9px; width: 22px; height: 22px;
+    margin-left: -12px; padding: 0;
+    color: transparent; background-color: transparent;
+    background-position: center center; background-repeat: no-repeat; background-image: url(images/zoom-handle.png);
+}
+
+.dzclosebutton {
+    position: fixed;
+    top: 12px; right: 12px;
+    width: 60px; height: 60px; line-height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff; font-size: 60px; font-family: Arial, Helvetica, sans-serif;
+    z-index: 1000; /* Test */
+    text-align: center;
+}
+
+.dzclosebutton:before {
+    content: '\00D7';
+}
+
+
+/* fadeable */
+.fadeable {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.fade_out {
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+}
+
+/* Perfect Scrollbar - we use this custom styling only */
+
+.ps-container:hover .ps-scrollbar-y {
+    opacity: 0.75;
+    filter: alpha(opacity = 75);
+}
+
+.ps-container .ps-scrollbar-y-rail {
+    position: absolute; /* please don't change 'position' */
+    right: 1px; /* there must be 'right' for ps-scrollbar-y-rail */
+    width: 8px;
+}
+
+.ps-container .ps-scrollbar-y {
+    position: absolute; /* please don't change 'position' */
+    right: 0; /* there must be 'right' for ps-scrollbar-y */
+    width: 8px;
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    opacity: 0.5;
+    filter: alpha(opacity = 50);
+    -o-transition: opacity .2s linear;
+    -webkit-transition: opacity .2s linear;
+    -moz-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+
+}
+
+.ps-container.ie6 .ps-scrollbar-y {
+    font-size: 0; /* fixed scrollbar height in xp sp3 ie6 */
+}
+
+.ps-container .ps-scrollbar-y-rail {
+        cursor: pointer;
+}
+
+

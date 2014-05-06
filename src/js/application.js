@@ -30,13 +30,17 @@
         caption: "<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>"
 	};
 
+	// DOM
+	app.$ = {
+		container: $(".container").eq(0)
+	}
+
 
     app.controller = function () {
 		var state = app.state.save(),
 			type = state.type,
 			id = state.id || null,
 			point;
-
 
 		if (type === "index") {
 			app.renderIndex();
@@ -62,25 +66,20 @@
 
 
     app.fail = function () {
-    	app.state.navigate({ type: "index", il: null});
-    }
+    	app.state.navigate({ type: "index", id: null});
+    };
 
-
-	// app.fetchData
     app.fetchData = function (url) {
         return $.getJSON(url);
     };
 
 
-    // app.init
-    // At this point, the index has been successfully loaded into data
+    // app.init (at this point, the index has been successfully loaded into data)
     app.init = function (data) {
 
     	app.points = _.sortBy(data, function (i) { return i.pos }); // Data sorted by pos
-
-
-    	// Add prev and next ids to each point
-    	_.each(app.points, function (pt, i) {
+    	
+    	_.each(app.points, function (pt, i) { // Add prev and next ids to each point
     		if (!_.isUndefined(app.points[i - 1])) {
     			_.extend(pt, { prev: app.points[i - 1].id });
     		}
@@ -93,7 +92,7 @@
 			return _.find(this, function (pt) { return (pt.id === id); });
     	};
 
-    	app.timeline = new Timeline(app.config.timeline),
+    	app.timeline = new Timeline(app.config.timeline);
 		app.quadrant = new Quadrant(app.config.quadrant);
 		app.$pointContainer = $("<div class='point-container'></div>").appendTo(".container");
 
@@ -127,11 +126,13 @@
 			quadrant.render();
 			quadrant.scrollTo({ pos: quadrant.currentPos });
 
-			// if (!_.isUndefined(app.$pointContainer)) {
-			// 	app.pointResize();
-			// 	app.$pointContainer.hide().css({ visibility: "visible" }).fadeIn(500);
-			// 	$(".text-container").perfectScrollbar({ suppressScrollX: true });
-			// }
+			app.$.container.css({ backgroundImage: "url(css/images/langlois.jpg)" });
+
+			if (!_.isUndefined(app.$pointContainer)) {
+				app.pointResize();
+				app.$pointContainer.hide().css({ visibility: "visible" }).fadeIn(500);
+				$(".text-container").perfectScrollbar("update");
+			}
 
 		}).trigger("debouncedresize.main"); // Initial quadrant rendering
 
@@ -139,7 +140,6 @@
 
 
     app.renderIndex = function () {
-    	console.log("Render index");
     	app.state.transitionOut(function () {
     		app.$pointContainer.hide().html("<div class='center'><p>La vie d'Henri Langlois (1914-1977) se confond largement avec l'existence de la Cinémathèque française, institution qu'il a créée en 1936 avec Georges Franju, Paul-Auguste Harlé et Jean Mitry.</p><p>À travers plus de 120 dates, importantes ou anecdotiques, parcourez en tous sens l'histoire mouvementée de l'homme qui a poursuivi inlassablement la mission qu'il s'était fixé : sauver les films de la destruction et de l'oubli, les montrer.</p><p><a class='enter' href='#!/point/113'>Entrer</a></p></div>");
 			$(".timeline-point-on").removeClass("timeline-point-on");
@@ -155,12 +155,6 @@
 
 
 	app.renderPoint = function (point) {
-		console.log("Render point");
-		// 1: transition out ()
-		// 2: hide content
-		// 3: load new content + assets
-		// 4: computes dimensions relative to viewport
-		// 5: transition in / show content
 
 		app.state.transitionOut(function () {
 
@@ -186,6 +180,8 @@
 
 			//app.$pointContainer.css({ visibility: "hidden" });
 			app.$pointContainer.hide();
+
+
 
 			app.$pointContainer.html(Mustache.render(app.templates.point, point)).imagesLoaded(function () {
 
@@ -222,14 +218,13 @@
 				point.$timelineElement.addClass("timeline-point-on");
 				app.timeline.scrollTo(point.id);
 
-			});			
+			});	
+
 		});
 	}
 
 
 	app.pointResize = function (point) {
-		console.log("Point resize");
-
 		var $p = app.$pointContainer.css({ visibility: "hidden", display: "block" }); // For all computations, elements must be hidden but dimensioned
 		var $left = $p.children(".left").eq(0);
 		var $right = $p.children(".right").eq(0);
@@ -315,9 +310,6 @@
 
 
 		transitionOut = function (onAfter) {
-
-			console.log("Transition out", old.type);
-
 			if (typeof onAfter !== "function") onAfter = $.noop;
 			if (!_.isUndefined(app.dz) && app.dz.isOpen) { // Close deepZoom overlay if necessary
 				app.dz.close();
