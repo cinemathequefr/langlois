@@ -6,7 +6,6 @@
 	app.config.timeline = {
         DOMId: "timeline",
         DOMContainerSelector: "body",
-        //tlPxWidth: 4000,
         tlPxWidth: 7000,
         ptPxWidth: 12,
         tlWidth: 24471, // Day count from 01-Jan-12 to 31-Dec-78 = number of virtual timeline 'slots'
@@ -121,7 +120,6 @@
 		}).render();
 
 		app.timeline.scrollTo(_.last(app.points).id);
-
 
 		// Quadrant rendering + dimensions computations on resize
 		$(window).on("debouncedresize.main", app.quadrant, function (e) {
