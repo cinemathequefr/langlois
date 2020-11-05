@@ -1,0 +1,18 @@
+{
+  "id":35,
+  "title":"Novembre 1969",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":21138,
+  "desc":"<p>Ouverture de l'exposition consacr\u00e9e au r\u00e9alisateur Jean Gr\u00e9millon.<\/p><p>Disparu dix ans auparavant, il avait \u00e9t\u00e9 le premier pr\u00e9sident de la Cin\u00e9math\u00e8que, \u00e9lu \u00e0 la Lib\u00e9ration, et Langlois lui avait alors rendu hommage en ces termes&nbsp;: <em>\u00ab&nbsp;Jean Gr\u00e9millon n'\u00e9tait pas seulement ce metteur en sc\u00e8ne dont on nous chuchotait en 1937 qu'il \u00e9tait l'espoir de sa g\u00e9n\u00e9ration, l'homme qui allait nous donner <em>Lumi\u00e8re d'\u00e9t\u00e9<\/em> et <em>Le Ciel est \u00e0 vous<\/em>, et cet extraordinaire <em>Six juin \u00e0 l'aube<\/em>, il \u00e9tait aussi le pr\u00e9sident qui arriva \u00e0 un moment o\u00f9 nul autre \u2013 nous nous en sommes rendu compte depuis \u2013 n'aurait pu faire ce qu'il a fait pour la Cin\u00e9math\u00e8que, \u00e0 l'heure o\u00f9 il l'a prise, et l'a sauvegard\u00e9e.&nbsp;\u00bb<\/em><\/p>",
+  "m":{
+    "type":"img",
+    "id":"35-1",
+    "width":937,
+    "height":1358,
+    "caption":"Maurice Henry, portrait de Jean Gr\u00e9millon [s.d.]",
+    "rights":"\u00a9 ADAGP, Paris, 2014"
+  }
+}

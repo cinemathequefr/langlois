@@ -1,0 +1,18 @@
+{
+  "id":92,
+  "title":"5 juillet 1962",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":18447,
+  "desc":"<p>Dans une lettre adress\u00e9e \u00e0 Langlois, Jean Cocteau l'assure de son soutien ind\u00e9fectible et a ce c\u00e9l\u00e8bre mot&nbsp;: <em>\u00ab&nbsp;Comptez sur moi pour convaincre de leur erreur ceux qui ne vous savent pas le seul dragon gardien des tr\u00e9sors&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"92-1",
+    "width":2329,
+    "height":3175,
+    "caption":"Lettre de Jean Cocteau \u00e0 Henri Langlois dat\u00e9e du 5 juillet 1962",
+    "rights":"\u00a9 DR"
+  }
+}

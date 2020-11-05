@@ -1,0 +1,18 @@
+{
+  "id":77,
+  "title":1939,
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":9876,
+  "desc":"<p>Chez Catherine Hessling, premi\u00e8re femme de Jean Renoir, Langlois rencontre la veuve du d\u00e9corateur Lazare Meerson, Mary Meerson (n\u00e9e Mary Popoff \u00e0 Sofia en 1902). Elle est entr\u00e9e en France en 1923 au titre d'\u00e9tudiante et ne renouvellera jamais ni sa carte de r\u00e9sidente, ni ses papiers d'identit\u00e9. Elle sera la compagne et l'\u00e9minence grise de Langlois jusqu'\u00e0 sa mort.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"77-1",
+    "width":1640,
+    "height":1338,
+    "caption":"Henri Langlois et Mary Meerson \u00e0 table [s.d.]",
+    "rights":"\u00a9 DR"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id":48,
+  "title":"F\u00e9vrier 1939",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":9893,
+  "desc":"<p>Au Mus\u00e9e de l'Homme, dans la salle toute neuve du Cercle du Cin\u00e9ma, au Trocad\u00e9ro, une soir\u00e9e de projections permet \u00e0 Paul-Auguste Harl\u00e9 de faire le point&nbsp;: la collection de la Cin\u00e9math\u00e8que se monte alors \u00e0 3&nbsp;000 films de tous pays, muets et sonores.<\/p>",
+  "m":{
+    "type":"video",
+    "id":3470556173001,
+    "width":720,
+    "height":576,
+    "caption":"Henri Langlois (extrait de l'\u00e9mission \u00ab Pour le plaisir \u00bb du 4 novembre 1964)",
+    "rights":"\u00a9 INA"
+  }
+}

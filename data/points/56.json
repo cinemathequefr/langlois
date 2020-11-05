@@ -1,0 +1,18 @@
+{
+  "id":56,
+  "title":"D\u00e9cembre 1952",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":14959,
+  "desc":"<p>Les dessins originaux du <em>Cabinet du docteur Caligari<\/em> (Robert Wiene, 1920), retrouv\u00e9s par le d\u00e9corateur Hermann Warm, arrivent \u00e0 la Cin\u00e9math\u00e8que. Lotte Eisner et Langlois les d\u00e9couvrent, \u00e9blouis, et les exposent aussit\u00f4t avenue de Messine.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"56-1",
+    "width":1222,
+    "height":888,
+    "caption":"Hermann Warm, maquette de d\u00e9cor pour Le Cabinet du docteur Caligari, 1919",
+    "rights":"\u00a9 Hermann Warm"
+  }
+}

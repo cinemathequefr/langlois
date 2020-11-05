@@ -1,0 +1,18 @@
+{
+  "id":22,
+  "title":"Avril 1961",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":18001,
+  "desc":"<p>Rue de Courcelles, importante exposition d'affiches polonaises accompagn\u00e9e, rue d'Ulm, d'une r\u00e9trospective de films en pr\u00e9sence d'Aleksander Ford, r\u00e9alisateur et sc\u00e9nariste polonais venu pour l'occasion repr\u00e9senter son pays.<\/p>",
+  "m":{
+    "type":"video",
+    "id":3475730229001,
+    "width":720,
+    "height":576,
+    "caption":"L'exposition d'affiches polonaises rue de Courcelles (\u00e9mission \u00ab Les \u00e9chos du cin\u00e9ma \u00bb, 1er janvier 1961)",
+    "rights":"\u00a9 INA"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id":21,
+  "title":"18 mars 1961",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":17974,
+  "desc":"<p>Sur une suggestion de Lotte Eisner et Henri Langlois, Federico Fellini accepte de faire partie du Comit\u00e9 international Georges M\u00e9li\u00e8s, cr\u00e9\u00e9 \u00e0 l'occasion de l'Exposition du centenaire. Cette grande exposition consacr\u00e9e au cin\u00e9aste-magicien est organis\u00e9e \u00e0 Turin, au Palazzo Chiablese, en collaboration avec sa directrice, Maria Adriana Prolo.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"21-1",
+    "width":2000,
+    "height":2667,
+    "caption":"Lettre de Federico Fellini \u00e0 Lotte Eisner et Henri Langlois dat\u00e9e du 18 mars 1961"
+  }
+}

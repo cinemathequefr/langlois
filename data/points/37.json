@@ -1,0 +1,18 @@
+{
+  "id":37,
+  "title":"F\u00e9vrier 1973",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":22326,
+  "desc":"<p>Lotte Eisner, qui a rencontr\u00e9 Rainer Werner Fassbinder, le fait d\u00e9couvrir \u00e0 Langlois, qui d\u00e9cide de pr\u00e9senter le jeune (27 ans) et d\u00e9j\u00e0 prolifique r\u00e9alisateur allemand au public parisien. Fassbinder vient donc en f\u00e9vrier 1973 \u00e0 Chaillot inaugurer une s\u00e9rie de projections.<\/p><p>L'ann\u00e9e 1973 marque la visite d'une autre grande gloire du cin\u00e9ma, idole de toujours d'Henri Langlois&nbsp;: Charlie Chaplin.<\/p><p><em>\u00ab&nbsp;Avec Chaplin, toutes les hyperboles deviennent lieu commun. Un mot suffit \u00e0 d\u00e9finir sa place&nbsp;: il personnifie depuis plus de quarante ans le cin\u00e9ma, il est la constante qui t\u00e9moigne de l'universalit\u00e9 de cet art, il s'identifie si bien avec son langage qu'il d\u00e9fie la mode et le temps.&nbsp;\u00bb<\/em><\/p>",
+  "m":{
+    "type":"img",
+    "id":"37-1",
+    "width":1943,
+    "height":2875,
+    "caption":"Henri Langlois et Charlie Chaplin",
+    "rights":"\u00a9 AFP"
+  }
+}

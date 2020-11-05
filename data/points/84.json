@@ -1,0 +1,18 @@
+{
+  "id":84,
+  "title":"Octobre 1952",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":14897,
+  "desc":"<p>Henri Langlois s'implique dans le projet de constitution d'une \u00ab&nbsp;Cin\u00e9math\u00e8que catholique&nbsp;\u00bb au Vatican, la cr\u00e9ation de nouvelles cin\u00e9math\u00e8ques sous son \u00e9gide lui permettant de consolider son influence au sein de la F\u00e9d\u00e9ration internationale des archives du film (FIAF). Le projet \u00e9choue cependant quelques mois plus tard.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"84-1",
+    "width":2000,
+    "height":2597,
+    "caption":"Lettre de Enrico Fulchignoni \u00e0 Henri Langlois dat\u00e9e du 15 octobre 1952",
+    "rights":"\u00a9 DR"
+  }
+}

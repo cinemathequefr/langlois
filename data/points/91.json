@@ -1,0 +1,18 @@
+{
+  "id":91,
+  "title":1961,
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":18077,
+  "desc":"<p>En parall\u00e8le de ses activit\u00e9s \u00e0 la t\u00eate de la Cin\u00e9math\u00e8que, Langlois a depuis toujours l'habitude de coucher sur le papier ses \u00e9tats d'\u00e2me, ses r\u00e9flexions, et bien s\u00fbr sa conception de ce que doit \u00eatre une cin\u00e9math\u00e8que&nbsp;: <em>\u00ab&nbsp;Une cin\u00e9math\u00e8que est aussi une universit\u00e9, o\u00f9 si l'on sait se garder d'enseigner en expliquant ce qui doit \u00eatre senti avant d'\u00eatre compris, tout \u00eatre humain peut apprendre \u00e0 voir, \u00e0 d\u00e9velopper ce sens et par l\u00e0 pouvoir tout comprendre, tout saisir, puisqu'il suffit d'ouvrir ses yeux sur la vie pour tout deviner au-del\u00e0 de la tour de Babel des langues. C'est pourquoi c'est dans les cin\u00e9math\u00e8ques que se forge le renouveau de l'art cin\u00e9matographique, en y apprenant \u00e0 regarder, \u00e0 voir donc \u00e0 observer. On cesse d'\u00eatre abstrait, on tire son improvisation de l'observation du mouvement de la vie. C'est le retour aux sources. C'est ce qui d\u00e9finit, malgr\u00e9 les vari\u00e9t\u00e9s de l'inspiration, le jeune cin\u00e9ma des pays o\u00f9 existent des cin\u00e9math\u00e8ques, jeune cin\u00e9ma qui sait improviser et d\u00e9crire en images&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"video",
+    "id":3475730231001,
+    "width":720,
+    "height":576,
+    "caption":"Interview de L\u00e9on Mathot, pr\u00e9sident de la Cin\u00e9math\u00e8que fran\u00e7aise (extrait de l'\u00e9mission \u00ab Pour le plaisir \u00bb du 4 novembre 1964)",
+    "rights":"\u00a9 INA"
+  }
+}

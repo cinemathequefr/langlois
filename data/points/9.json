@@ -1,0 +1,18 @@
+{
+  "id":9,
+  "title":"14 mai 1952",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":14743,
+  "desc":"<p>R\u00e9ception en l'honneur du prolifique r\u00e9alisateur am\u00e9ricain Mack Sennett, en sa pr\u00e9sence.<\/p><p>Langlois est tr\u00e8s attach\u00e9 au cin\u00e9ma muet et burlesque, et la venue du \u00ab&nbsp;King of Comedy&nbsp;\u00bb, comme \u00e9tait surnomm\u00e9 Mack Sennett, n'est pas anodine.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"9-1",
+    "width":919,
+    "height":1252,
+    "caption":"Affiche fran\u00e7aise du film La Noce \u00e0 Boursoufl\u00e9 (Mack Sennett, Clarence G. Badger, 1917)",
+    "rights":"\u00a9 D. Stoyanovitch \/ Path\u00e9 cin\u00e9ma"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id":105,
+  "title":"31 juillet 1968",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":20665,
+  "desc":"<p>La page de l'affaire Langlois se tourne fin juillet 1968 avec la reprise des activit\u00e9s. La salle de Chaillot (entretemps r\u00e9nov\u00e9e aux frais de l'\u00c9tat) rouvre ses portes avec <em>Monsieur Verdoux<\/em> de Chaplin, qui avait d\u00e9j\u00e0 fait l'inauguration du palais, en 1963. Langlois re\u00e7oit de longs applaudissements de la part du public. Le 2 septembre 1968, c'est au tour de la salle de la rue d'Ulm d'\u00eatre rouverte.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"105-1",
+    "width":479,
+    "height":1494,
+    "caption":"Affiche anglaise de Monsieur Verdoux (Charles Chaplin, 1946) [s.d.]",
+    "rights":"\u00a9 DR"
+  }
+}

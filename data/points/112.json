@@ -1,0 +1,18 @@
+{
+  "id":112,
+  "title":"3 avril 1953",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":15067,
+  "desc":"<p>Mort de Jean Epstein.<\/p><p>Jean Epstein et sa s\u0153ur Marie ont toujours entretenu des liens \u00e9troits avec Langlois. Celui-ci, grand admirateur du r\u00e9alisateur, programme fr\u00e9quemment ses films \u2013&nbsp;c'est par exemple avec <em>La Chute de la Maison Usher<\/em> qu'il avait tenu \u00e0 inaugurer le <a href='#!\/point\/1'>Cercle du Cin\u00e9ma<\/a> en octobre 1935.<\/p><p>Pour Langlois, Epstein n'est rien moins qu'un g\u00e9nie incompris&nbsp;: <em>\u00ab&nbsp;Il fallait voir mourir Epstein pour s'apercevoir qu'il vivait&nbsp;\u00bb<\/em>, \u00e9crira-t-il. <em>\u00ab&nbsp;Quels que soient les films qu'il ait sign\u00e9s, il n'en est pas un o\u00f9 Epstein n'ait avanc\u00e9 dans son exploration. [...] Ce n'\u00e9tait pas un homme \u00e0 la mode&nbsp;; il \u00e9tait trop vivant pour accepter de se momifier et faire durer \u00e0 ce prix une r\u00e9putation usurp\u00e9e. Il est mort b\u00e2illonn\u00e9 sans pouvoir s'exprimer alors qu'il \u00e9tait tout plein de choses \u00e0 dire, \u00e0 nous apprendre, et qu'il faudra des ann\u00e9es pour trouver un autre Epstein&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"112-1",
+    "width":2721,
+    "height":3898,
+    "caption":"Portrait de Jean Epstein vers 1921",
+    "rights":"\u00a9 DR"
+  }
+}

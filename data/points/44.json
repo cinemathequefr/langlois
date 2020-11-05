@@ -1,0 +1,18 @@
+{
+  "id":44,
+  "title":"19 novembre 1936",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":9089,
+  "desc":"<p>Iris Barry, fondatrice et responsable du d\u00e9partement film du MoMA, annonce \u00e0 Henri Langlois l'envoi d'une copie du <em>Voyage dans la lune<\/em> (1902) de Georges M\u00e9li\u00e8s \u00e0 Paris, pour tirage. Le 2 f\u00e9vrier 1937, Langlois \u00e9crit \u00e0 M\u00e9li\u00e8s pour lui annoncer la nouvelle, pr\u00e9cisant que son film inaugure les premiers \u00e9changes entre l'institution am\u00e9ricaine et la Cin\u00e9math\u00e8que fran\u00e7aise. Et, d\u00e8s le 10 f\u00e9vrier 1937, le film est enfin projet\u00e9 dans le cadre du Cercle du cin\u00e9ma. M\u00e9li\u00e8s, invit\u00e9 pour la projection, commente les images en direct.<\/p><p>Langlois est depuis toujours un grand admirateur du \u00ab&nbsp;cin\u00e9-magicien&nbsp;\u00bb&nbsp;: <em>\u00ab&nbsp;M\u00e9li\u00e8s est le premier cin\u00e9aste. Pour lui la cam\u00e9ra est un enregistreur&nbsp;\u00bb<\/em>. Et il n'aura de cesse de l'aider, de tenter de le r\u00e9habiliter aux yeux d'une opinion oublieuse, de chercher \u00e0 sauver son \u0153uvre co\u00fbte que co\u00fbte.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"44-1",
+    "width":2305,
+    "height":3483,
+    "caption":"Lettre de Georges M\u00e9li\u00e8s \u00e0 Henri Langlois [s.d.]",
+    "rights":"\u00a9 DR"
+  }
+}

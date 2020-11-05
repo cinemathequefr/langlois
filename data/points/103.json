@@ -1,0 +1,18 @@
+{
+  "id":103,
+  "title":"21 mars 1968",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":20534,
+  "desc":"<p>Un meeting est organis\u00e9 \u00e0 Grenoble&nbsp;: <em>\u00ab&nbsp;le plus gros coup que nous puissions frapper actuellement&nbsp;\u00bb<\/em>, selon Truffaut. Deux discours enregistr\u00e9s de Jean Renoir et Pierre Mend\u00e8s-France y sont diffus\u00e9s devant environ 600 personnes.<\/p><p>Mend\u00e8s-France d\u00e9clare&nbsp;: <em>\u00ab&nbsp;L'affaire Langlois n'est rien d'autre qu'un \u00e9pisode du grand conflit ouvert entre la d\u00e9mocratie et la technocratie administrative. La d\u00e9mocratie de la Cin\u00e9math\u00e8que, c'est l'ensemble de tous ces jeunes qui, en France et \u00e0 l'\u00e9tranger, ont r\u00e9pondu \u00e0 l'initiative de Langlois&nbsp;; ce sont les producteurs qui ont remis leurs films&nbsp;; c'est la veuve d'Eisenstein qui a donn\u00e9 les dessins de son mari&nbsp;; ce sont les \u00e9tudiants qui, de l'avenue de Messine \u00e0 la rue d'Ulm, ont profit\u00e9 du capital que la Cin\u00e9math\u00e8que a amass\u00e9 pour eux. En face, la technocratie administrative, ce sont les fonctionnaires du CNC qui veulent mettre de l'ordre, c'est-\u00e0-dire leur ordre \u00e0 eux&nbsp;; qui veulent mettre d'autres hommes \u00e0 eux parce que l'\u00c9tat donne une subvention de 120 millions par an compar\u00e9 \u00e0 plus de trois milliards pour l'Op\u00e9ra. Ils pensent que la d\u00e9mocratie vivante de la Cin\u00e9math\u00e8que n'existe pas, qu'ils peuvent la confisquer&nbsp;\u00bb<\/em>.<\/p><p>Mend\u00e8s-France compare enfin la Cin\u00e9math\u00e8que \u00e0 <em>\u00ab&nbsp;un mus\u00e9e du Louvre qui aurait enfant\u00e9 Renoir et Braque, une Biblioth\u00e8que nationale qui aurait nourri Proust et \u00c9luard&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"103-1",
+    "width":6364,
+    "height":4174,
+    "caption":"Meeting de soutien \u00e0 Langlois (avec Jean Rouch, Jean Renoir, Jean-Luc Godard, Jacques Rivette, Claude Chabrol)",
+    "rights":"\u00a9 DR"
+  }
+}

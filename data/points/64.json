@@ -1,0 +1,18 @@
+{
+  "id":64,
+  "title":"29 juin 1970",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":"21363 ",
+  "desc":"<p>Le d\u00e9corateur allemand du <em>Cabinet du docteur Caligari<\/em>, Hermann Warm, accepte de recr\u00e9er, pour le futur mus\u00e9e du cin\u00e9ma, <em>\u00ab&nbsp;la place du march\u00e9 de <em>Caligari<\/em>, avec au premier plan l'entr\u00e9e de l'h\u00f4tel de ville, avec la rue de gauche et de droite, et la maison de Fran\u00e7ois&nbsp;\u00bb<\/em>. Ce sera l'une des pi\u00e8ces embl\u00e9matiques du mus\u00e9e.<\/p>",
+  "m":{
+    "type":"video",
+    "id":3481159785001,
+    "width":720,
+    "height":576,
+    "caption":"Henri Langlois dans les d\u00e9cors recr\u00e9\u00e9s du Cabinet du docteur Caligari (extrait non sonoris\u00e9)",
+    "rights":"\u00a9 La Cin\u00e9math\u00e8que fran\u00e7aise"
+  }
+}

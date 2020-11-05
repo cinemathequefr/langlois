@@ -1,0 +1,18 @@
+{
+  "id":123,
+  "title":"Avril 1968",
+  "cat":{
+    "id":4,
+    "name":"Langlois, l'homme"
+  },
+  "pos":20604,
+  "desc":"<p>D\u00e8s la fondation des <em>Cahiers du cin\u00e9ma<\/em> en 1951, Langlois entretient de bons rapports avec les critiques et jeunes auteurs qui alimentent la revue. Ce sont pour la plupart de jeunes cin\u00e9philes passionn\u00e9s et admiratifs de Langlois, qui incarne une sorte de pygmalion et qu'ils c\u00f4toient pour certains depuis plusieurs ann\u00e9es&nbsp;: Eric Rohmer, Jean-Luc Godard, Fran\u00e7ois Truffaut, Claude Chabrol, Jacques Rivette...<\/p><p>En 1962, une longue interview de Langlois dans les <em>Cahiers<\/em> fait date dans l'histoire des cin\u00e9math\u00e8ques.<\/p><p>Au moment de l'affaire Langlois, d\u00e8s le mois de f\u00e9vrier et les premi\u00e8res attaques contre la direction de la Cin\u00e9math\u00e8que, les auteurs de la revue sont parmi les premiers \u00e0 s'\u00e9riger en d\u00e9fenseurs du \u00ab ma\u00eetre \u00bb. Langlois figure d'ailleurs en couverture du n\u00b0200\/201 d'avril 1968.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"123-1",
+    "width":4516,
+    "height":5835,
+    "caption":"Couverture des Cahiers du cin\u00e9ma, avril 1968",
+    "rights":"\u00a9 Cahiers du cin\u00e9ma"
+  }
+}

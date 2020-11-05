@@ -1,0 +1,18 @@
+{
+  "id":27,
+  "title":"Juin 1964",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":19158,
+  "desc":"<p>Exposition d\u00e9di\u00e9e \u00e0 Friedrich Wilhelm Murnau \u00e0 la Cin\u00e9math\u00e8que, au 82, rue de Courcelles. Le d\u00e9corateur Rochus Gliese reconstitue pour l'occasion une maquette \u00e0 l'\u00e9chelle 1\/150e de la ville dans <em>L'Aurore<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"27-1",
+    "width":1281,
+    "height":907,
+    "caption":"Rochus Gliese, dessin de d\u00e9cor de pour L'Aurore (Friedrich W. Murnau), 1925",
+    "rights":"\u00a9 Rochus Gliese"
+  }
+}

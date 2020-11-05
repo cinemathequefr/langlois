@@ -1,0 +1,17 @@
+{
+  "id":104,
+  "title":"22 mars 1968",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":20535,
+  "desc":"<p>Un \u00ab&nbsp;Comit\u00e9 de d\u00e9fense de la Cin\u00e9math\u00e8que fran\u00e7aise&nbsp;\u00bb est constitu\u00e9, qui fera para\u00eetre des brochures de soutien.<\/p><p>Par la suite, dans l'effervescence de Mai 68, le Festival de Cannes est interrompu en partie dans un \u00e9lan de soutien \u00e0 Langlois. Sous les diverses pressions, et apr\u00e8s s'\u00eatre mieux pench\u00e9 sur le dossier, Malraux, qui a paradoxalement toujours donn\u00e9 ses procurations de vote \u00e0 Langlois, d\u00e9cide de le r\u00e9int\u00e9grer. Il est ainsi confirm\u00e9 dans ses fonctions le 22 avril. L'Affaire Langlois est close.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"104-1",
+    "width":2448,
+    "height":3264,
+    "caption":"Brochure du Comit\u00e9 de d\u00e9fense de la Cin\u00e9math\u00e8que fran\u00e7aise"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id":8,
+  "title":"20 septembre 1951",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":14506,
+  "desc":"<p>Le 20 septembre 1951, Langlois re\u00e7oit une lettre d'un jeune cin\u00e9phile, Jacques Rivette, qui, trop pauvre pour se payer les entr\u00e9es \u00e0 la Cin\u00e9math\u00e8que, lui demande un acc\u00e8s libre. Sa demande n'est pas suivie d'effet, mais le 20 d\u00e9cembre 1951, Jacques Rivette re\u00e7oit de la Cin\u00e9math\u00e8que cinq bobines de pellicule vierge Kodak.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"8-1",
+    "width":2000,
+    "height":1442,
+    "caption":"Lettre de Jacques Rivette \u00e0 Henri Langlois dat\u00e9e du 20 septembre 1951"
+  }
+}

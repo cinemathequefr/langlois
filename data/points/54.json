@@ -1,0 +1,16 @@
+{
+  "id":54,
+  "title":"14 d\u00e9cembre 1948",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":13497,
+  "desc":"<p>Article d'Andr\u00e9 Bazin dans l'<em>\u00c9cran fran\u00e7ais<\/em> sur le mus\u00e9e de la Cin\u00e9math\u00e8que&nbsp;: <em>\u00ab&nbsp;Henri Langlois est un homme qui a compris que, dans mus\u00e9e il y a muse, comme dans amusement&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"54-1",
+    "width":2000,
+    "height":2559
+  }
+}

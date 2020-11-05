@@ -1,0 +1,18 @@
+{
+  "id":26,
+  "title":"6 juin 1963",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":18783,
+  "desc":"<p>\u00c0 Chaillot, vernissage de l'exposition d\u00e9di\u00e9e au physiologiste-cin\u00e9aste \u00c9tienne-Jules Marey. C'est la premi\u00e8re fois qu'une telle exposition lui est consacr\u00e9e. C'est aussi la premi\u00e8re fois que des artistes tels que Marcel Duchamp, Max Ernst ou Gino Severini s'associent \u00e0 une institution pour illustrer, formellement, les liens essentiels qui attachent l'\u0153uvre de Marey \u00e0 l'art moderne du XXe si\u00e8cle.<\/p><p><em>\u00ab&nbsp;Comme tous les \u00eatres de g\u00e9nie, \u00c9tienne-Jules Marey est multiple. Il est un savant. Mais aussi un artiste. Il analyse, il diss\u00e8que, il d\u00e9couvre avec une minutie, un soin extr\u00eame et soudain avec l'impulsivit\u00e9 des po\u00e8tes, il cr\u00e9e...&nbsp;\u00bb<\/em>, \u00e9crit Langlois pour l'inauguration de l'\u00e9v\u00e9nement.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"26-1",
+    "width":2000,
+    "height":2689,
+    "caption":"Victor Vasarely, affiche de l'exposition Hommage \u00e0 J. E. [sic] Marey",
+    "rights":"\u00a9 ADAGP, Paris 2014"
+  }
+}

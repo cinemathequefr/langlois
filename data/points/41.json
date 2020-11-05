@@ -1,0 +1,18 @@
+{
+  "id":41,
+  "title":"Ao\u00fbt 1962",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":18488,
+  "desc":"<em>\u00ab&nbsp;Je joue, pour une part, un r\u00f4le de m\u00e9dium. Le conservateur de cin\u00e9math\u00e8que, le vrai, a la manie des listes et son travail tient alors de la g\u00e9om\u00e9trie abstraite, de l'alg\u00e8bre. Sur ces listes, vous n'avez pas toujours les noms des metteurs en sc\u00e8ne.&nbsp;\u00bb<\/em> (Henri Langlois, propos recueillis par Yvonne Baby et Elvire de Brissac)",
+  "m":{
+    "type":"img",
+    "id":"41-1",
+    "width":7141,
+    "height":9193,
+    "caption":"Henri Langlois, liste de films agrement\u00e9e d'un dessin [s.d.]",
+    "rights":"\u00a9 DR"
+  }
+}

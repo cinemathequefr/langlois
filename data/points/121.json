@@ -1,0 +1,18 @@
+{
+  "id":121,
+  "title":1960,
+  "cat":{
+    "id":4,
+    "name":"Langlois, l'homme"
+  },
+  "pos":17697,
+  "desc":"<p>Langlois est un gourmand, boulimique presque, d\u00e9vorant des p\u00e2tisseries comme il d\u00e9vore des films, montrant une pr\u00e9f\u00e9rence marqu\u00e9e pour la confiture de roses. Nombreux sont ceux qui le taquinent sur le sujet... Du reste, Langlois entretient cette gloutonnerie au frais de la Cin\u00e9math\u00e8que en donnant la plupart de ses rendez-vous d'affaires au restaurant.<\/p><p>C'est aussi en partie sous l'influence de Mary Meerson, excellente cuisini\u00e8re, qu'il passera, selon Lotte Eisner, d'<em>\u00ab&nbsp;ange byzantin \u00e0 \u00e9l\u00e9phant mozartien&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"121-1",
+    "width":3050,
+    "height":3931,
+    "caption":"D\u00e9gustation de confitures rue Gazan",
+    "rights":"\u00a9 Enrico Sarsini"
+  }
+}

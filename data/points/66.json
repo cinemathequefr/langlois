@@ -1,0 +1,18 @@
+{
+  "id":66,
+  "title":"15 juin 1972",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":22080,
+  "desc":"<p>Grand reportage du journal <em>Le Monde<\/em> sur le mus\u00e9e. <em>\u00ab&nbsp;Dans les galeries souterraines du palais de Chaillot, un labyrinthe magique avec ses pi\u00e8ges, ses trompe-l'\u0153il, ses tr\u00e9sors fabuleux. Un enchev\u00eatrement d'images et d'objets gard\u00e9s en vie par la puissance d'un amour fou&nbsp;: la passion selon Henri Langlois.&nbsp;\u00bb<\/em><\/p><p>Interview\u00e9 \u00e0 cette occasion, Langlois explique&nbsp;: <em>\u00ab&nbsp;Je travaille dans l'improvisation, dans le d\u00e9sordre, je veux dire dans le d\u00e9sordre apparent de la vie&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"video",
+    "id":3475717313001,
+    "width":720,
+    "height":576,
+    "caption":"Georges Franju parle d'Henri Langlois. Extrait de l'\u00e9mission \u00ab Pour le plaisir \u00bb (4 novembre 1964)",
+    "rights":"\u00a9 INA"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id":6,
+  "title":"4 novembre 1948",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":13457,
+  "desc":"<p>D\u00e8s le milieu des ann\u00e9es quarante, la Cin\u00e9math\u00e8que conna\u00eet un rayonnement et une influence grandissants. En 1948, un jeune cin\u00e9phile nomm\u00e9 Fran\u00e7ois Truffaut d\u00e9sire emprunter \u00e0 la Cin\u00e9math\u00e8que plusieurs films pour les projeter dans son cin\u00e9-club \u00ab&nbsp;Cin\u00e9mane&nbsp;\u00bb. Langlois r\u00e9pond en le persuadant d'abandonner son projet (qui sera effectivement un fiasco financier). En 1949, Truffaut devient un habitu\u00e9 de la Cin\u00e9math\u00e8que.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"6-1",
+    "width":2000,
+    "height":2580,
+    "caption":"Lettre d'Henri Langlois \u00e0 Fran\u00e7ois Truffaut dat\u00e9e du 4 novembre 1948"
+  }
+}

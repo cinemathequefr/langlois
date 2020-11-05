@@ -1,0 +1,18 @@
+{
+  "id":88,
+  "title":"23 juin 1959",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":17339,
+  "desc":"<p>Inauguration des nouveaux locaux de la rue de Courcelles avec l'exposition <em>Path\u00e9<\/em>, en pr\u00e9sence d'Andr\u00e9 Malraux, ministre charg\u00e9 des Affaires culturelles.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"88-1",
+    "width":3266,
+    "height":2431,
+    "caption":"Andr\u00e9 Malraux et Henri Langlois lors de l'inauguration de l'exposition Path\u00e9",
+    "rights":"\u00a9 DR"
+  }
+}

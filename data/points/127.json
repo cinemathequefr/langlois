@@ -1,0 +1,17 @@
+{
+  "id":127,
+  "title":"Fin",
+  "cat":{
+    "id":4,
+    "name":"Langlois, l'homme"
+  },
+  "pos":23773,
+  "m":{
+    "type":"video",
+    "id":3524381633001,
+    "width":720,
+    "height":576,
+    "caption":"Henri Langlois dans les tunnels du fort de Saint-Cyr",
+    "rights":"\u00a9 INA"
+  }
+}

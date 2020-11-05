@@ -1,0 +1,18 @@
+{
+  "id":57,
+  "title":"Janvier 1954",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":"15345 ",
+  "desc":"<p>Le 5 janvier, le d\u00e9corateur Robert Herlth envoie \u00e0 Paris, pour Lotte Eisner, les magnifiques dessins du <em>Faust<\/em> de Murnau. Le 19 janvier, c'est Rochus Gliese qui retrouve quatre dessins originaux pour <em>L'Aurore<\/em> de Murnau et les envoie aussit\u00f4t \u00e0 la Cin\u00e9math\u00e8que avec qui il entretient, gr\u00e2ce \u00e0 Lotte Eisner, des relations suivies.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"57-1",
+    "width":1400,
+    "height":971,
+    "caption":"Robert Herlth, maquette de d\u00e9cor pour Faust \u2013 eine deutsche Volkssage, 1926",
+    "rights":"\u00a9 Robert Herlth"
+  }
+}

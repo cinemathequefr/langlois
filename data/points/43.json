@@ -1,0 +1,18 @@
+{
+  "id":43,
+  "title":1928,
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":5995,
+  "desc":"<p><em>\u00ab Je suis tomb\u00e9 amoureux fou du cin\u00e9ma d'une fa\u00e7on majeure en 1928. \u00bb<\/em> (Henri Langlois \u00e0 Rui Nogueira le 27 avril 1972)<\/p>",
+  "m":{
+    "type":"img",
+    "id":"43-1",
+    "width":1365,
+    "height":1032,
+    "caption":"Henri Langlois [s.d.]",
+    "rights":"\u00a9 DR"
+  }
+}

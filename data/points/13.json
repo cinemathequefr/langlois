@@ -1,0 +1,18 @@
+{
+  "id":13,
+  "title":1956,
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":16222,
+  "desc":"<p><em>\u00ab&nbsp;Je pense que, quand un film ne peut pas \u00eatre montr\u00e9 quelque part, il faut bien qu'il le soit \u00e0 la Cin\u00e9math\u00e8que fran\u00e7aise, mais il ne me viendrait jamais \u00e0 l'id\u00e9e d'exclure un film de mon programme en fonction de mon propre go\u00fbt. Je n'ai, par contre, aucune fausse honte \u00e0 montrer un film qui me pla\u00eet.&nbsp;\u00bb<\/em> (Henri Langlois, entretien avec Eric Rohmer et Michel Mardore, <em>Cahiers du cin\u00e9ma<\/em> n\u00b0135, septembre 1962)<\/p><p>Quatre grandes r\u00e9trospectives ponctuent la programmation de l'ann\u00e9e 1956&nbsp;: <em>25 ann\u00e9es de cin\u00e9ma sovi\u00e9tique<\/em>, <em>Images du cin\u00e9ma allemand<\/em>, <em>Images du cin\u00e9ma anglais<\/em>, <em>Images du cin\u00e9ma scandinave<\/em>. Cette ouverture marqu\u00e9e vers des programmations \u00e9trang\u00e8res t\u00e9moigne une fois de plus de la volont\u00e9 de Langlois de montrer la diversit\u00e9 du cin\u00e9ma international.<\/p>",
+  "m":{
+    "type":"video",
+    "id":3475641769001,
+    "width":720,
+    "height":576,
+    "caption":"Georges Franju \u00e0 propos d'Henri Langlois",
+    "rights":"\u00a9 INA"
+  }
+}

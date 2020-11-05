@@ -1,0 +1,18 @@
+{
+  "id":29,
+  "title":"16 juin 1965",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":19524,
+  "desc":"<p>Ouverture au 82, rue de Courcelles d'une exposition consacr\u00e9e \u00e0 l'\u0153uvre du d\u00e9corateur Alfred Junge, mort en 1964 et dont la Cin\u00e9math\u00e8que poss\u00e8de de nombreux dessins.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"29-1",
+    "width":1182,
+    "height":1767,
+    "caption":"Alfred Junge, dessins de d\u00e9cor pour L'Homme qui en savait trop (Alfred Hitchcock, 1934) et Le Narcisse noir (Michael Powell, Emeric Pressburger, 1947)",
+    "rights":"\u00a9 Alfred Junge"
+  }
+}

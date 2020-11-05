@@ -1,0 +1,18 @@
+{
+  "id":30,
+  "title":"6 octobre 1965",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":"19636 ",
+  "desc":"<p>Fritz Lang revient \u00e0 la Cin\u00e9math\u00e8que pour pr\u00e9senter deux de ses films am\u00e9ricains, <em>Western Union<\/em> (1941) et <em>The Return of Frank James<\/em> (1940). Lotte Eisner, qui est en contact avec les d\u00e9corateurs allemands, r\u00e9cup\u00e8re des dessins, des maquettes, et c'est elle encore qui obtiendra de Walter Schulze-Mittendorff qu'il recr\u00e9e pour la Cin\u00e9math\u00e8que le robot de <em>Metropolis<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"30-1",
+    "width":866,
+    "height":1179,
+    "caption":"Affiche fran\u00e7aise du Retour de Frank James (Fritz Lang, 1940)",
+    "rights":"\u00a9 Joseph Koutachy"
+  }
+}

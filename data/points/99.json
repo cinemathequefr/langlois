@@ -1,0 +1,17 @@
+{
+  "id":99,
+  "title":"11 f\u00e9vrier 1968",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":20495,
+  "desc":"<p>Fran\u00e7ois Truffaut \u00e9crit \u00e0 l'avocat Georges Kiejman pour lui demander d'\u00e9tudier la possibilit\u00e9 de faire interdire, par les cin\u00e9astes, la projection de leurs \u0153uvres \u00e0 la Cin\u00e9math\u00e8que.<\/p><p>Bien qu'il soit en plein tournage, Truffaut d\u00e9pense une \u00e9nergie incroyable pour sauver Langlois. Il rencontre tr\u00e8s peu de r\u00e9ticences aupr\u00e8s de ses coll\u00e8gues&nbsp;: <em>\u00ab&nbsp;Pour vous donner le sentiment exact de l'unanimit\u00e9 qui se fait autour de Langlois, sachez que sur environ 80 metteurs en sc\u00e8ne contact\u00e9s depuis trois jours, deux seulement ont refus\u00e9 de s'associer \u00e0 cette d\u00e9cision&nbsp;: Claude Autant-Lara et Roger Leenhardt. Voil\u00e0 o\u00f9 nous en sommes, tenons-nous au courant jour par jour&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"99-1",
+    "width":5888,
+    "height":4525,
+    "caption":"T\u00e9l\u00e9grammes de soutien \u00e0 Henri Langlois"
+  }
+}

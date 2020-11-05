@@ -1,0 +1,17 @@
+{
+  "id":10,
+  "title":"Septembre 1954",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":"15603 ",
+  "desc":"<p>Dans sa volont\u00e9 perp\u00e9tuelle de hisser le cin\u00e9ma au rang des autres arts, Langlois se lie avec de nombreux peintres, notamment Marc Chagall. Celui-ci fr\u00e9quente d'ailleurs la Cin\u00e9math\u00e8que aux c\u00f4t\u00e9s d'autres plasticiens comme Fernand L\u00e9ger, Cocteau ou Severini. Entre eux s'\u00e9tablit un \u00e9change \u00e9pistolaire amical \u2013 Chagall envoie parfois des po\u00e8mes \u00e0 Langlois.<\/p><p>En 1951, Langlois souhaite r\u00e9aliser un court m\u00e9trage documentaire sur l'\u0153uvre du peintre, dans l'id\u00e9e de retracer sa vie \u00e0 travers ses tableaux. Chagall lui facilite la t\u00e2che en lui donnant un acc\u00e8s privil\u00e9gi\u00e9 pour filmer ses \u0153uvres. Langlois envoie Fr\u00e9d\u00e9ric Rossif tourner les images, et charge ensuite Joris Ivens, \u00e9paul\u00e9 par Ren\u00e9e Lichtig et David Perlov, du montage. Ne subsistent malheureusement aujourd'hui du film que quelques rushes, passionnants.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"10-1",
+    "width":1603,
+    "height":1775,
+    "caption":"Lettre de Marc Chagall \u00e0 Henri Langlois dat\u00e9e du 21 septembre 1954"
+  }
+}

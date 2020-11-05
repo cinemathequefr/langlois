@@ -1,0 +1,18 @@
+{
+  "id":34,
+  "title":"16 juin 1969",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":20988,
+  "desc":"<p>Passionn\u00e9 par les arts plastiques, et plus particuli\u00e8rement par la peinture, Langlois n'a de cesse de chercher \u00e0 y relier le cin\u00e9ma, dans une volont\u00e9 perp\u00e9tuelle de l'\u00e9lever, de lui donner enfin les lettres de noblesse que, selon lui, il m\u00e9rite mais n'a pas. Confronter les arts devient une sorte de qu\u00eate, si ce n'est d'obsession personnelle.<\/p><p>Ses multiples amiti\u00e9s avec des plasticiens, des peintres renomm\u00e9s, en sont autant de t\u00e9moignages. Langlois prend m\u00eame parfois des initiatives destin\u00e9es \u00e0 mettre en valeur la Cin\u00e9math\u00e8que avec quelques \u0153uvres. C'est ainsi que le peintre Mir\u00f3 lui promet de cr\u00e9er et d'offrir une c\u00e9ramique et un rideau de sc\u00e8ne pour la salle de Chaillot.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"34-1",
+    "width":2298,
+    "height":2953,
+    "caption":"Lettre dactylographi\u00e9e de Miro \u00e0 Langlois agr\u00e9ment\u00e9e de dessins au bic, Joan Mir\u00f3, 1964",
+    "rights":"\u00a9 Successi\u00f3 Mir\u00f3 \/ ADAGP, Paris, 2014"
+  }
+}

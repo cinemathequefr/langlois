@@ -1,0 +1,18 @@
+{
+  "id":59,
+  "title":"7 juin 1961",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":18054,
+  "desc":"<p>Inauguration de l'exposition <em>Georges M\u00e9li\u00e8s<\/em> organis\u00e9e par la Cin\u00e9math\u00e8que au mus\u00e9e des arts d\u00e9coratifs, en pr\u00e9sence d'Andr\u00e9 Malraux, Ga\u00ebtan Picon, Michel Fourr\u00e9-Cormeray, et de la famille M\u00e9li\u00e8s.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"59-1",
+    "width":2000,
+    "height":2575,
+    "caption":"Communiqu\u00e9 de presse pour l'exposition Georges M\u00e9li\u00e8s, 1961",
+    "rights":"\u00a9 DR"
+  }
+}

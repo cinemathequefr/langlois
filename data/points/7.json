@@ -1,0 +1,17 @@
+{
+  "id":7,
+  "title":"Mars-avril 1950",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":"13940 ",
+  "desc":"<p>En mars 1950, le jeune cin\u00e9aste Kenneth Anger prend contact pour la premi\u00e8re fois avec Langlois et lui annonce son intention de venir travailler \u00e0 Paris. Il arrive en France en avril et s'installe dans la chambre de bonne que poss\u00e8de Mary Meerson au 21, rue Gazan, pr\u00e8s du parc Montsouris. C'est le d\u00e9but d'une longue relation entre les deux hommes.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"7-1",
+    "width":2000,
+    "height":2589,
+    "caption":"Lettre de Kenneth Anger \u00e0 Henri Langlois dat\u00e9e du 2 mars 1950"
+  }
+}

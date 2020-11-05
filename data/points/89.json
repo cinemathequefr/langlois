@@ -1,0 +1,18 @@
+{
+  "id":89,
+  "title":"10 juillet 1959",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":17356,
+  "desc":"<p>Un incendie se d\u00e9clare dans la cour de la Cin\u00e9math\u00e8que, au 82, rue de Courcelles. De nombreux films nitrate y \u00e9taient stock\u00e9s, certains pr\u00eat\u00e9s par des cin\u00e9math\u00e8ques \u00e9trang\u00e8res&nbsp;: la Pologne perd 23 films, la Belgique, 17, la Suisse, 14, la Tch\u00e9coslovaquie, 10, le Danemark, 7, le Japon, 6 (des Kurosawa), les \u00c9tats-Unis, 5, etc. Une copie unique appartenant \u00e0 la Cin\u00e9math\u00e8que, <em>Mariage du prince<\/em> d'Erich von Stroheim, dispara\u00eet. Quasiment toute la FIAF est concern\u00e9e, et cet incendie va pr\u00e9cipiter la crise qui couvait entre cette institution et la Cin\u00e9math\u00e8que.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"89-1",
+    "width":6640,
+    "height":8260,
+    "caption":"Apr\u00e8s l'incendie rue de Courcelles",
+    "rights":"\u00a9 DR"
+  }
+}

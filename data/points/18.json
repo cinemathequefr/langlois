@@ -1,0 +1,17 @@
+{
+  "id":18,
+  "title":"22 avril 1960",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":17643,
+  "desc":"<p>Exposition de 300 dessins originaux du r\u00e9alisateur Sergue\u00ef M. Eisenstein au 82, rue de Courcelles. De nombreux artistes viennent les d\u00e9couvrir, comme en t\u00e9moigne le livre d'or de l'exposition et les signatures prestigieuses qu'il contient.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"18-1",
+    "width":2000,
+    "height":3026,
+    "caption":"Affiche de l'exposition S. M. Eisenstein (1960)"
+  }
+}

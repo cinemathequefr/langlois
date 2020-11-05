@@ -1,0 +1,17 @@
+{
+  "id":117,
+  "title":"Mars 1937",
+  "cat":{
+    "id":4,
+    "name":"Langlois, l'homme"
+  },
+  "pos":9205,
+  "desc":"<p>Parution du premier num\u00e9ro de la revue <em>Cin\u00e9matographe<\/em>, fond\u00e9e par Henri Langlois et Georges Franju.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"117-1",
+    "width":2200,
+    "height":3088,
+    "caption":"Revue Cin\u00e9matographe, mars 1932"
+  }
+}

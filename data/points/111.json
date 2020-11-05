@@ -1,0 +1,18 @@
+{
+  "id":111,
+  "title":"2 mai 1967",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":20209,
+  "desc":"<p>La biblioth\u00e9caire Nicole Barberot, assist\u00e9e du technicien Franz Schmitt, commence les travaux d'inventaire des collections films de la Cin\u00e9math\u00e8que \u00e0 Bois d'Arcy sous la responsabilit\u00e9 du directeur du CNC, mais en collaboration \u00e9troite \u2013 du moins en principe \u2013 avec Langlois. Le travail \u00e0 effectuer est consid\u00e9rable.<\/p><p>Marie Epstein, \u00e9videmment la sp\u00e9cialiste la plus comp\u00e9tente dans le domaine du film, aide les deux catalogueurs. L'inventaire doit \u00eatre \u00e9tabli \u0153uvre par \u0153uvre, bo\u00eete par bo\u00eete, avec indication de l'\u00e9tat physique de chaque bobine. Les copies non flamme seront cens\u00e9es \u00eatre rang\u00e9es, au fur et \u00e0 mesure de leur r\u00e9colement, dans le nouveau et immense blockhaus que le CNC fait b\u00e2tir pour la Cin\u00e9math\u00e8que \u00e0 Bois-d'Arcy&nbsp;: un vaste b\u00e2timent, d'une hauteur de 80 m, enti\u00e8rement recouvert de feuilles d'aluminium et permettant le stockage d'environ 300&nbsp;000 bo\u00eetes. Ce premier b\u00e2timent sera livr\u00e9 en janvier 1968.<\/p><p>Marie Epstein d\u00e9crit l'anarchie qui r\u00e9gnait alors dans l'organisation des d\u00e9p\u00f4ts de films \u00e0 Bois d'Arcy&nbsp;: <em>\u00ab Les films nitrate arrivaient par camions \u00e0 nos portes. Il y avait des films avec titres et propri\u00e9taires, il y avait des films avec titres sans propri\u00e9taires, mais il y avait aussi des chiens perdus sans collier, sans titres et propri\u00e9taires, par centaines, par milliers... Langlois les acceptait tous \u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"111-1",
+    "width":4208,
+    "height":5416,
+    "caption":"Portrait de Marie Epstein",
+    "rights":"\u00a9 DR"
+  }
+}

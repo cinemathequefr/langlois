@@ -1,0 +1,18 @@
+{
+  "id":62,
+  "title":"19 mai 1966",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":19861,
+  "desc":"<p>\u00c0 l'occasion de l'exposition <em>70 ans de cin\u00e9ma<\/em> de la Cin\u00e9math\u00e8que \u00e0 Cannes, \u00e0 l'h\u00f4tel Martinez, Henri Langlois donne une conf\u00e9rence de presse sur ses futurs projets de mus\u00e9e du cin\u00e9ma. Sa conception correspond aux principes \u00e9nonc\u00e9s dans l'entretien accord\u00e9 aux <em>Cahiers du cin\u00e9ma<\/em> en 1962&nbsp;: <em>\u00ab&nbsp;Ind\u00e9pendamment de la collection, pour moi, une cin\u00e9math\u00e8que, c'est un mus\u00e9e avec une salle de projection&nbsp;; dans ce mus\u00e9e, il faut pouvoir initier les masses et pouvoir \u00e9galement donner satisfaction aux cent personnes qui s'int\u00e9ressent passionn\u00e9ment au patrimoine cin\u00e9matographique. [...] Conserver est bien, mais projeter est essentiel&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"video",
+    "id":3475717265001,
+    "width":720,
+    "height":576,
+    "caption":"Extrait de l'\u00e9mission \u00ab Pour le plaisir \u00bb du 4 mai 1967",
+    "rights":"\u00a9 INA"
+  }
+}

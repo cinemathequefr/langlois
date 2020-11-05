@@ -1,0 +1,17 @@
+{
+  "id":14,
+  "title":"1 octobre 1956",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":16334,
+  "desc":"<p>Ouverture du cycle <em>25 ans de cin\u00e9ma<\/em> rue d'Ulm pour le vingti\u00e8me anniversaire de la Cin\u00e9math\u00e8que fran\u00e7aise. \u00c0 cette occasion, Langlois publie un programme illustr\u00e9 contenant l'un de ses textes les plus vindicatifs et les plus importants&nbsp;:<\/p><p><em>\u00ab&nbsp;Nous sommes en train de vivre, jour apr\u00e8s jour, l'incendie de la Biblioth\u00e8que d'Alexandrie, et avec quelle indiff\u00e9rence. Ceci explique la profonde solitude des cin\u00e9math\u00e8ques. Elles n'ont pas seulement \u00e0 lutter contre le temps qui, chaque jour, rend plus difficile la recherche et la sauvegarde de 60 ans de cin\u00e9ma, contre les ravageurs pilleurs d'\u00e9paves, contre la m\u00e9fiance d'une industrie qui craint, \u00e0 juste titre, la d\u00e9possession de ses droits, contre les int\u00e9r\u00eats de cette machine, qui veut que le cin\u00e9ma ne produise qu'en se d\u00e9vorant lui-m\u00eame, contre les difficult\u00e9s financi\u00e8res que connaissent toutes les activit\u00e9s d\u00e9sint\u00e9ress\u00e9es, contre tous ces obstacles qui freinent quotidiennement toute activit\u00e9 humaine, et qui lui \u00e9vitent de tomber dans une routine, plus ruineuse encore. Elles doivent aussi faire face \u00e0 une indiff\u00e9rence universelle, provoqu\u00e9e par ce m\u00e9pris, d'autant plus sournois et dangereux, qu'il n'est plus visible, puisque tout le monde est d'accord&nbsp;: on adore le cin\u00e9ma...&nbsp;\u00bb<\/em><\/p>",
+  "m":{
+    "type":"img",
+    "id":"14-1",
+    "width":5379,
+    "height":6726,
+    "caption":"Brochure 25 ans de cin\u00e9ma (1956)"
+  }
+}

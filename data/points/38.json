@@ -1,0 +1,18 @@
+{
+  "id":38,
+  "title":"27 mars 1974",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":22731,
+  "desc":"<p>L'actrice am\u00e9ricaine Gloria Swanson est invit\u00e9e \u00e0 Chaillot, et f\u00eate \u00e0 la Cin\u00e9math\u00e8que son 75\u00e8me anniversaire. Pour Langlois, elle est l'une des derni\u00e8res repr\u00e9sentantes de l'\u00e2ge d'or hollywoodien, \u00e9poque r\u00e9volue dont il est toujours le fervent admirateur.<\/p><p>L'ann\u00e9e suivante, la Cin\u00e9math\u00e8que accueillera \u00e9galement en juin Ken Russell et sa femme, venus inaugurer l'exposition qui leur est consacr\u00e9e, et l'acteur-r\u00e9alisateur italien Alberto Sordi, lui aussi c\u00e9l\u00e9br\u00e9 par une r\u00e9trospective de son \u0153uvre \u00e0 l'automne.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"38-1",
+    "width":4139,
+    "height":3216,
+    "caption":"Henri Langlois entour\u00e9 de Darryl F. Zanuck, Otto Preminger et Gloria Swanson [s.d.]. Photographie de Harry Benson",
+    "rights":"\u00a9 Harry Benson"
+  }
+}

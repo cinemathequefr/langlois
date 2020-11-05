@@ -1,0 +1,18 @@
+{
+  "id":45,
+  "title":"Avril 1937",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":9235,
+  "desc":"<p>\u00c0 la demande de la Cin\u00e9math\u00e8que fran\u00e7aise, Georges M\u00e9li\u00e8s refait <em>\u00ab&nbsp;les maquettes, model\u00e9es \u00e0 l'encre de Chine, de 60 de [ses] principaux d\u00e9cors de f\u00e9eries cin\u00e9matographiques&nbsp;\u00bb<\/em>. C'est l'occasion pour Langlois de r\u00e9cup\u00e9rer des dessins et d'enrichir les collections.<\/p><p><em>\u00ab&nbsp;Le p\u00e8re du cin\u00e9ma, l'horloger d\u00e9licat de tant de subtils m\u00e9canismes, l'inventeur de tous les trucages, de tous les proc\u00e9d\u00e9s, passionn\u00e9 de f\u00e9\u00e9rie et miraculeusement affranchi des lois de la pesanteur, a \u00e9t\u00e9 un dessinateur merveilleux et un admirable coloriste&nbsp;\u00bb<\/em>, \u00e9crit-il dans un des cartels qui illustre l'exposition <em>Images du cin\u00e9ma fran\u00e7ais<\/em> \u00e0 Lausanne en septembre 1945.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"45-1",
+    "width":2000,
+    "height":1533,
+    "caption":"Dessin de d\u00e9cor de Georges M\u00e9li\u00e8s pour son film \u00c0 la conqu\u00eate du p\u00f4le, 1911",
+    "rights":"\u00a9 DR"
+  }
+}

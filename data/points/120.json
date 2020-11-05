@@ -1,0 +1,17 @@
+{
+  "id":120,
+  "title":"15 septembre 1955",
+  "cat":{
+    "id":4,
+    "name":"Langlois, l'homme"
+  },
+  "pos":15962,
+  "desc":"<p>La m\u00e8re de Langlois d\u00e9c\u00e8de. Leur relation \u00e9tait particuli\u00e8rement forte, lui demeurant avec elle durant de nombreuses ann\u00e9es&nbsp;; elle le soutenant dans ses projets, ses entreprises et sa passion.<\/p><p><em>\u00ab&nbsp;Le seul alli\u00e9 v\u00e9ritable, c'est la m\u00e8re. Son instinct, car ce ne peut \u00eatre que l'instinct maternel, lui fait deviner la lutte magistrale qui se passe en moi et ce m\u00eame instinct lui fait trouver les mots qui d\u00e9routent, qui blessent la b\u00eate. Aussi est-ce ma m\u00e8re, c'est-\u00e0-dire la seule personne qui, dans ma famille, se doute de ce que je vaux, qui, d\u00e9fendant son fils dans sa lutte avec le vampire, est par cela m\u00eame le plus grand danger et le plus grand ennemi de son bonheur&nbsp;\u00bb<\/em>, \u00e9crivait-il \u00e0 20 ans.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"120-1",
+    "width":3532,
+    "height":2372,
+    "caption":"La famille Langlois [s.d.]"
+  }
+}

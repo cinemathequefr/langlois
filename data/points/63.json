@@ -1,0 +1,18 @@
+{
+  "id":63,
+  "title":"6 avril 1970",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":21279,
+  "desc":"<p>Lotte Eisner reprend contact avec les grands d\u00e9corateurs du cin\u00e9ma muet allemand. \u00c0 Berlin, Walter Schulze-Mittendorff, \u00e0 qui la Cin\u00e9math\u00e8que avait d\u00e9j\u00e0 demand\u00e9 en ao\u00fbt 1964 d'\u00e9tudier la possibilit\u00e9 de reconstituer le robot de <em>Metropolis<\/em>, re\u00e7oit cette fois une commande ferme pour le fabriquer. Le d\u00e9corateur de <em>Metropolis<\/em> veut toutefois livrer une version simplifi\u00e9e du <em>Maschinen-Mensch<\/em>, sans aucune partie mobile. Cela co\u00fbte 5 600 DM. C'est Lotte Eisner qui avance l'argent&nbsp;\u2013&nbsp;elle en obtiendra le remboursement huit ans plus tard.<\/p>",
+  "m":{
+    "type":"video",
+    "id":3475481070001,
+    "width":720,
+    "height":576,
+    "caption":"Extrait de l'\u00e9mission \u00ab Hi\u00e9roglyphes \u00bb du 26 octobre 1975",
+    "rights":"\u00a9 INA"
+  }
+}

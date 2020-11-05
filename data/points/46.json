@@ -1,0 +1,17 @@
+{
+  "id":46,
+  "title":"Octobre 1937",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":9418,
+  "desc":"<p>En 1937, M\u00e9li\u00e8s est toujours l'agr\u00e9able et premier pr\u00e9texte des \u00e9changes entre le MoMA et Langlois. Le cin\u00e9aste donne au Cin\u00e9 37, salle construite temporairement sous la tour Eiffel, une s\u00e9rie de conf\u00e9rences, avec projections de films pr\u00eat\u00e9s par la Cin\u00e9math\u00e8que fran\u00e7aise. Parmi les titres propos\u00e9s au public figure <em>Le Palais des Mille et une nuits<\/em>, envoy\u00e9 par Iris Barry, que Langlois remercie chaleureusement&nbsp;: <em>\u00ab&nbsp;A mon avis c'est le meilleur film de M\u00e9li\u00e8s que nous ayons. Dommage qu'il ne soit pas possible de tirer les films en couleurs. Nous allons d'ailleurs y rem\u00e9dier&nbsp;: le film sera teint\u00e9 en partie et Mlle Thuillier peindra le reste. Cela me comble de plaisir&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"46-1",
+    "width":2000,
+    "height":1445,
+    "rights":"\u00a9 DR"
+  }
+}

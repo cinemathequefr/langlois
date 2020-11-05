@@ -1,0 +1,17 @@
+{
+  "id":102,
+  "title":"24 mars 1968",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":20537,
+  "desc":"<p>Truffaut et Godard enregistrent un message de soutien \u00e0 Langlois via un petit film diffus\u00e9 dans certaines salles de cin\u00e9ma d'Art et d'Essai \u00e0 Paris. Les deux r\u00e9alisateurs, face cam\u00e9ra, y prononcent gauchement un plaidoyer en faveur de Langlois et du Comit\u00e9 de D\u00e9fense. <em>\u00ab&nbsp;Cette intervention film\u00e9e est assez mal accueillie, [...] les gens qui voient ce film plusieurs fois par semaine en ont marre \u00e0 juste titre&nbsp;\u00bb<\/em>, \u00e9crit une journaliste \u00e0 Truffaut.<\/p>",
+  "m":{
+    "type":"video",
+    "id":3481159808001,
+    "width":720,
+    "height":576,
+    "caption":"Film de soutien \u00e0 Langlois par Fran\u00e7ois Truffaut et Jean-Luc Godard"
+  }
+}

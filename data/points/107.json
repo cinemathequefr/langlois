@@ -1,0 +1,18 @@
+{
+  "id":107,
+  "title":"13 juillet 1976",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":23569,
+  "desc":"<p>Inauguration de la Cin\u00e9math\u00e8que de Nice, en pr\u00e9sence de Dennis Hopper et Henri Langlois. Cette cin\u00e9math\u00e8que a \u00e9t\u00e9 con\u00e7ue par Langlois comme une d\u00e9l\u00e9gation permanente de la Cin\u00e9math\u00e8que fran\u00e7aise \u00e0 Nice.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"107-1",
+    "width":5898,
+    "height":4483,
+    "caption":"Inauguration de la Cin\u00e9math\u00e8que de Nice avec Dennis Hopper et Henri Langlois",
+    "rights":"\u00a9 Norbert Huffschmitt"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id":122,
+  "title":1971,
+  "cat":{
+    "id":4,
+    "name":"Langlois, l'homme"
+  },
+  "pos":21714,
+  "desc":"<p>Henri Langlois passe sa vie \u00e0 la Cin\u00e9math\u00e8que et se consacre enti\u00e8rement \u00e0 l'\u00e9laboration de son mus\u00e9e, sans jamais se m\u00e9nager. Il a besoin de toucher, de placer, de clouer, de fa\u00e7onner lui-m\u00eame chaque recoin, besoin d'imaginer chaque nouvel agencement. Le moindre d\u00e9tail compte, le moindre pli de costume. Il peut passer des heures a ajuster une veste, et la fatigue le surprend parfois au d\u00e9tour d'un escalier...<\/p>",
+  "m":{
+    "type":"img",
+    "id":"122-1",
+    "width":4128,
+    "height":5857,
+    "caption":"Henri Langlois",
+    "rights":"\u00a9 DR"
+  }
+}

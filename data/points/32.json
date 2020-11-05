@@ -1,0 +1,18 @@
+{
+  "id":32,
+  "title":"17 novembre 1965",
+  "cat":{
+    "id":1,
+    "name":"Langlois, le passeur"
+  },
+  "pos":19679,
+  "desc":"<p>Entre 1965 et d\u00e9but 1968 viennent encore \u00e0 la Cin\u00e9math\u00e8que de nombreuses personnalit\u00e9s du cin\u00e9ma. C'est ainsi qu'en novembre 1965, William Wyler est pr\u00e9sent pour l'avant-premi\u00e8re fran\u00e7aise de <em>How to Steal A Million<\/em>, en compagnie d'Audrey Hepburn et de Peter O'Toole.<\/p><p>Le 25 f\u00e9vrier 1966, Roberto Rossellini pr\u00e9sente une \u00ab&nbsp;exp\u00e9rience audio-visuelle nouvelle&nbsp;\u00bb suivie de la projection de son \u0153uvre in\u00e9dite en cinq parties, <em>L'\u00c2ge de fer<\/em>, comment\u00e9e par ses soins.<\/p><p>Jerzy Skolimowski vient inaugurer en janvier 1967 le cycle <em>Vingt ans de cin\u00e9ma polonais<\/em> et projette \u00e0 cette occasion son film <em>La Barri\u00e8re<\/em>.<\/p><p>En 1968, ce sont Jean-Marie Straub et sa <em>Chronique d'Anna Magdalena Bach<\/em>, Philippe Garrel et <em>Marie pour m\u00e9moire<\/em>, et Arthur Penn avec <em>Mickey One<\/em>. Lors de la pr\u00e9sentation au public, le r\u00e9alisateur am\u00e9ricain \u00e9mu d\u00e9clare \u00e0 Langlois devant la salle&nbsp;: <em>\u00ab&nbsp;Lorsque personne n'aimait les films que je faisais, vous \u00e9tiez le seul \u00e0 les projeter. C'est pourquoi je me sens si bien dans votre Cin\u00e9math\u00e8que qui, la premi\u00e8re, m'a accueilli&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"32-1",
+    "width":2885,
+    "height":2115,
+    "caption":"Roberto Rossellini, Henri Langlois et Jean Renoir (circa 1960). Photographie de Man Ray",
+    "rights":"\u00a9 Man Ray Trust \/ ADAGP, Paris 2014"
+  }
+}

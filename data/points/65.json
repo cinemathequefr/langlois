@@ -1,0 +1,18 @@
+{
+  "id":65,
+  "title":"20 novembre 1970",
+  "cat":{
+    "id":3,
+    "name":"Langlois, le b\u00e2tisseur"
+  },
+  "pos":21508,
+  "desc":"<p>Collecte de costumes \u00e0 Hollywood pour le futur mus\u00e9e du cin\u00e9ma. Langlois explique alors au directeur de la Cin\u00e9math\u00e8que polonaise&nbsp;: <em>\u00ab&nbsp;Ce qui nous int\u00e9resse dans les costumes, c'est moins qui les a port\u00e9s que leur valeur caract\u00e9ristique et \u00e9ducative. Bien s\u00fbr, il y aura dans l'exposition le blouson de James Dean, mais il est \u00e9vident qu'il sera plus \u00e9vocatif (<em>sic<\/em>) que quand il aura cess\u00e9 d'\u00eatre un v\u00eatement courant \u2013 il ne sera d'ailleurs plus un v\u00eatement f\u00e9tichiste, mais l'illustration d'une \u00e9poque.&nbsp;\u00bb<\/em> Cet amour du costume, comme le fera remarquer en 1975, un peu m\u00e9chamment, un journaliste du <em>Figaro<\/em>, est <em>\u00ab&nbsp;paradoxal pour un homme qui a toujours l'air d'avoir dormi avec le sien&nbsp;\u00bb<\/em>.<\/p>",
+  "m":{
+    "type":"img",
+    "id":"65-1",
+    "width":2000,
+    "height":2451,
+    "caption":"Henri Langlois [s.d.]. Photographie de Janine Niepse",
+    "rights":"\u00a9 DR"
+  }
+}

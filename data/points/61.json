@@ -1,0 +1,18 @@
+{
+  "id":61,
+  "title":"2 septembre 1962",
+  "cat":{
+    "id":2,
+    "name":"Langlois, le collectionneur"
+  },
+  "pos":18506,
+  "desc":"<p>D\u00e8s la fondation de la Cin\u00e9math\u00e8que fran\u00e7aise, il est fr\u00e9quemment reproch\u00e9 \u00e0 Henri Langlois de mener une politique de collecte et de restauration des films plut\u00f4t hasardeuse. Il r\u00e9pond clairement \u00e0 ces accusations dans une interview donn\u00e9e aux <em>Cahiers du cin\u00e9ma<\/em>&nbsp;:<br \/><em>\u00ab&nbsp;Nous en sommes arriv\u00e9s \u00e0 concevoir tr\u00e8s vite qu'il nous fallait essayer de tout conserver, de tout sauver, de tout maintenir, de renoncer \u00e0 jouer \u00e0 l'amateur de classiques.<br \/>[...]<br \/>\u2013 Vous-m\u00eame, est-ce que vous acceptez tout, \u00e0 pr\u00e9sent&nbsp;?<br \/>\u2013 Tout, absolument tout. Si la Cin\u00e9math\u00e8que fran\u00e7aise faisait une s\u00e9lection, o\u00f9 irions-nous&nbsp;?&nbsp;\u00bb<\/em><\/p>",
+  "m":{
+    "type":"video",
+    "id":3470556176001,
+    "width":720,
+    "height":576,
+    "caption":"Extrait de l'\u00e9mission \u00ab Pour le plaisir \u00bb (4 novembre 1964)",
+    "rights":"\u00a9 INA"
+  }
+}
