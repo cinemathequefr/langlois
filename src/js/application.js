@@ -31,7 +31,8 @@
     point:
       "<div class='left'><article><div class='cat cat{{&cat.id}}'>{{&cat.name}}</div><h1>{{&title}}</h1><div class='text-container'><div class='text-content'>{{&desc}}{{#m}}{{#renderCaption}}{{/renderCaption}}{{/m}}</div></div></article></div><div class='right'>{{#m}}{{#renderImg}}{{/renderImg}}{{/m}}</div>",
     img:
-      "<div class='media' width='{{&width}}' height='{{&height}}'><img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' alt='{{&caption}}'></div>",
+      "<div class='media' width='{{&width}}' height='{{&height}}'><img src='https://www.cinematheque.fr/expositions-virtuelles/langlois_img/{{&id}}.jpg' alt='{{&caption}}'></div>",
+    // "<div class='media' width='{{&width}}' height='{{&height}}'><img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' alt='{{&caption}}'></div>",
     video:
       "<div class='media' width='{{&width}}' height='{{&height}}'><iframe width='{{&width}}' height='{{&height}}' sandbox='allow-same-origin allow-scripts allow-popups' src='https://player.vimeo.com/video/{{&vimeo}}' frameborder='0' allow='fullscreen' allowfullscreen /></div> ",
     // "<div class='media' width='{{&width}}' height='{{&height}}'><iframe width='{{&width}}' height='{{&height}}' src='video.php?id={{&id}}'></iframe></div>",
