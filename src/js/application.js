@@ -33,7 +33,8 @@
     img:
       "<div class='media' width='{{&width}}' height='{{&height}}'><img src='//cf.pasoliniroma.com/static/langlois/img/{{&id}}.jpg' alt='{{&caption}}'></div>",
     video:
-      "<div class='media' width='{{&width}}' height='{{&height}}'><iframe width='{{&width}}' height='{{&height}}' src='video.php?id={{&id}}'></iframe></div>",
+      "<div class='media' width='{{&width}}' height='{{&height}}'><iframe width='{{&width}}' height='{{&height}}' sandbox='allow-same-origin allow-scripts allow-popups' src='https://player.vimeo.com/video/{{&vimeo}}' frameborder='0' allow='fullscreen' allowfullscreen /></div> ",
+    // "<div class='media' width='{{&width}}' height='{{&height}}'><iframe width='{{&width}}' height='{{&height}}' src='video.php?id={{&id}}'></iframe></div>",
     caption:
       "<div class='caption'>Illustration : {{&caption}} {{&rights}}</div>",
   };
@@ -188,6 +189,7 @@
           if (this.type === "img") {
             return render(app.templates.img);
           } else if (this.type === "video") {
+            console.log(this);
             return render(app.templates.video);
           }
         };
@@ -299,11 +301,11 @@
         .perfectScrollbar({ suppressScrollX: true });
     }
 
-    try {
-      if (point.m.type === "video") {
-        $("<script>brightcove.createExperiences();</script>").appendTo($media);
-      }
-    } catch (e) {}
+    // try {
+    //   if (point.m.type === "video") {
+    //     $("<script>brightcove.createExperiences();</script>").appendTo($media);
+    //   }
+    // } catch (e) {}
 
     $p.css({ visibility: "visible", display: "none" });
   };

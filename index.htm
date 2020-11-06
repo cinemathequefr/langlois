@@ -1,46 +1,99 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-        <meta property="og:title" content="Henri Langlois" />
-        <meta property="og:url" content="http://www.cinematheque.fr/expositions-virtuelles/langlois/index.htm" />
-        <meta property="og:image" content="http://www.cinematheque.fr/expositions-virtuelles/langlois/css/images/thumb200x200.png" />
-        <meta property="og:description" content="À travers plus de 120 dates, parcourez en tous sens l'histoire mouvementée d'Henri Langlois, fondateur de la Cinémathèque." />
-        <title>Henri Langlois et la Cinémathèque française</title>
-        <link rel="shortcut icon" href="//www.cinematheque.fr/expositions-virtuelles/langlois/favicon.ico">
-        <link rel="canonical" href="http://www.cinematheque.fr">
-        <link rel="image_src" href="css/images/thumb200x200.png">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Quicksand:400,700">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-12333853-2']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-        </script>
-        <script src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <nav>
-                <a href="#!/index" class="app-title" data-pos="0">Henri Langlois et la Cinémathèque française</a>
-                <a href="http://www.cinematheque.fr" class="logocf">La Cinémathèque française</a>
-            </nav>
-        </div>
-        <div class="loading">Chargement</div>
-        <div class="overlay"></div>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta property="og:title" content="Henri Langlois" />
+    <meta
+      property="og:url"
+      content="http://www.cinematheque.fr/expositions-virtuelles/langlois/index.htm"
+    />
+    <meta
+      property="og:image"
+      content="http://www.cinematheque.fr/expositions-virtuelles/langlois/css/images/thumb200x200.png"
+    />
+    <meta
+      property="og:description"
+      content="À travers plus de 120 dates, parcourez en tous sens l'histoire mouvementée d'Henri Langlois, fondateur de la Cinémathèque."
+    />
+    <title>Henri Langlois et la Cinémathèque française</title>
+    <link
+      rel="shortcut icon"
+      href="//www.cinematheque.fr/expositions-virtuelles/langlois/favicon.ico"
+    />
+    <link rel="canonical" href="http://www.cinematheque.fr" />
+    <link rel="image_src" href="css/images/thumb200x200.png" />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Quicksand:400,700"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-12333853-2"]);
+      _gaq.push(["_trackPageview"]);
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- <script src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script> -->
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="#!/index" class="app-title" data-pos="0"
+          >Henri Langlois et la Cinémathèque française</a
+        >
+        <a href="http://www.cinematheque.fr" class="logocf"
+          >La Cinémathèque française</a
+        >
+      </nav>
+    </div>
+    <div class="loading">Chargement</div>
+    <div class="overlay"></div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>');</script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
-        <script>window._ || document.write('<script src="js/underscore-min.js"><\/script>');</script>
-        <script src="js/main.js"></script>
-    </body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/jquery.min.js"><\/script>');
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+    <script>
+      window._ ||
+        document.write('<script src="js/underscore-min.js"><\/script>');
+    </script>
+
+    <script src="src/js/vendor/jquery.easing.1.3.min.js"></script>
+    <script src="src/js/vendor/jquery.animate-enhanced.min.js"></script>
+    <script src="src/js/vendor/jquery.scrollTo.min.js"></script>
+    <script src="src/js/vendor/jquery.debouncedresize.js"></script>
+    <script src="src/js/vendor/path.js"></script>
+    <script src="src/js/vendor/mustache.js"></script>
+    <script src="src/js/vendor/jquery.imagesloaded.min.js"></script>
+    <script src="src/js/vendor/openseadragon.min.js"></script>
+    <script src="src/js/vendor/spotlight.js"></script>
+    <script src="src/js/vendor/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="src/js/vendor/perfect-scrollbar-0.4.10.with-mousewheel.min.js"></script>
+    <script src="src/js/fitInBox.js"></script>
+    <script src="src/js/vendor/jquery.mCustomScrollbar.min.js"></script>
+    <script src="src/js/timeline.js"></script>
+    <script src="src/js/quadrant.js"></script>
+    <script src="src/js/deepzoom.js"></script>
+    <script src="src/js/application.js"></script>
+
+    <!--<script src="js/main.js"></script>-->
+  </body>
 </html>
