@@ -1,18 +1,19 @@
 {
-  "id":31,
-  "title":"9 octobre 1965",
-  "cat":{
-    "id":1,
-    "name":"Langlois, le passeur"
+  "id": 31,
+  "title": "9 octobre 1965",
+  "cat": {
+    "id": 1,
+    "name": "Langlois, le passeur"
   },
-  "pos":19639,
-  "desc":"<p>Mary Pickford vient \u00e0 Chaillot inaugurer la r\u00e9trospective de ses films. Langlois re\u00e7oit avec beaucoup de plaisir l'une de ses actrices f\u00e9tiches, la fameuse \u00ab petite fianc\u00e9e de l'Am\u00e9rique \u00bb. Langlois l'admire pour ses films, mais aussi pour son r\u00f4le de productrice et de co-fondatrice de la soci\u00e9t\u00e9 de production et de distribution United Artists avec Chaplin, Griffith et Douglas Fairbanks.<\/p><p><em>\u00ab&nbsp;Pour un observateur superficiel, cette femme cherchant \u00e0 donner l'illusion de l'enfance \u00e0 force d'art, semble \u00eatre un monstre sacr\u00e9, prisonni\u00e8re d'un tour de force et d'un succ\u00e8s, alors qu'elle est l'illustration la plus totale des mythes fondamentaux d'une civilisation&nbsp;\u00bb<\/em>, \u00e9crivait Langlois en d\u00e9cembre 1954.<\/p>",
-  "m":{
-    "type":"video",
-    "id":3475526892001,
-    "width":720,
-    "height":576,
-    "caption":"Visite de Mary Pickford \u00e0 la Cin\u00e9math\u00e8que (journaux t\u00e9l\u00e9vis\u00e9s des 2 et 13 octobre 1965)",
-    "rights":"\u00a9 INA"
+  "pos": 19639,
+  "desc": "<p>Mary Pickford vient \u00e0 Chaillot inaugurer la r\u00e9trospective de ses films. Langlois re\u00e7oit avec beaucoup de plaisir l'une de ses actrices f\u00e9tiches, la fameuse \u00ab petite fianc\u00e9e de l'Am\u00e9rique \u00bb. Langlois l'admire pour ses films, mais aussi pour son r\u00f4le de productrice et de co-fondatrice de la soci\u00e9t\u00e9 de production et de distribution United Artists avec Chaplin, Griffith et Douglas Fairbanks.</p><p><em>\u00ab&nbsp;Pour un observateur superficiel, cette femme cherchant \u00e0 donner l'illusion de l'enfance \u00e0 force d'art, semble \u00eatre un monstre sacr\u00e9, prisonni\u00e8re d'un tour de force et d'un succ\u00e8s, alors qu'elle est l'illustration la plus totale des mythes fondamentaux d'une civilisation&nbsp;\u00bb</em>, \u00e9crivait Langlois en d\u00e9cembre 1954.</p>",
+  "m": {
+    "type": "video",
+    "id": 3475526892001,
+    "vimeo": 476198941,
+    "width": 720,
+    "height": 576,
+    "caption": "Visite de Mary Pickford \u00e0 la Cin\u00e9math\u00e8que (journaux t\u00e9l\u00e9vis\u00e9s des 2 et 13 octobre 1965)",
+    "rights": "\u00a9 INA"
   }
 }

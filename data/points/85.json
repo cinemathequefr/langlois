@@ -1,18 +1,19 @@
 {
-  "id":85,
-  "title":"Novembre 1953",
-  "cat":{
-    "id":3,
-    "name":"Langlois, le b\u00e2tisseur"
+  "id": 85,
+  "title": "Novembre 1953",
+  "cat": {
+    "id": 3,
+    "name": "Langlois, le b\u00e2tisseur"
   },
-  "pos":15294,
-  "desc":"<p>Congr\u00e8s de la F\u00e9d\u00e9ration internationale des archives du film (FIAF) \u00e0 Vence. Est \u00e9voqu\u00e9e notamment la mise en place d'un Institut international du cin\u00e9ma, <em>\u00ab&nbsp;qui aura pour but la formation des cadres et du personnel destin\u00e9 aux archives du film&nbsp;\u00bb<\/em>.<\/p><p>Raymond Borde note qu'\u00e0 cette occasion, <em>\u00ab&nbsp;les archives ont r\u00e9alis\u00e9 dans quels mar\u00e9cages elles menaient leur mission historique de sauvegarde culturelle&nbsp;\u00bb<\/em>.<\/p>",
-  "m":{
-    "type":"video",
-    "id":3481159790001,
-    "width":720,
-    "height":576,
-    "caption":"Images du congr\u00e8s de la FIAF \u00e0 Vence, 1953",
-    "rights":"\u00a9 DR"
+  "pos": 15294,
+  "desc": "<p>Congr\u00e8s de la F\u00e9d\u00e9ration internationale des archives du film (FIAF) \u00e0 Vence. Est \u00e9voqu\u00e9e notamment la mise en place d'un Institut international du cin\u00e9ma, <em>\u00ab&nbsp;qui aura pour but la formation des cadres et du personnel destin\u00e9 aux archives du film&nbsp;\u00bb</em>.</p><p>Raymond Borde note qu'\u00e0 cette occasion, <em>\u00ab&nbsp;les archives ont r\u00e9alis\u00e9 dans quels mar\u00e9cages elles menaient leur mission historique de sauvegarde culturelle&nbsp;\u00bb</em>.</p>",
+  "m": {
+    "type": "video",
+    "id": 3481159790001,
+    "vimeo": 476199540,
+    "width": 720,
+    "height": 576,
+    "caption": "Images du congr\u00e8s de la FIAF \u00e0 Vence, 1953",
+    "rights": "\u00a9 DR"
   }
 }

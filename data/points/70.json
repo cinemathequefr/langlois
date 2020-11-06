@@ -1,18 +1,19 @@
 {
-  "id":70,
-  "title":"Juillet 1936",
-  "cat":{
-    "id":3,
-    "name":"Langlois, le b\u00e2tisseur"
+  "id": 70,
+  "title": "Juillet 1936",
+  "cat": {
+    "id": 3,
+    "name": "Langlois, le b\u00e2tisseur"
   },
-  "pos":8947,
-  "desc":"<p>Paul-Auguste Harl\u00e9 et Henri Langlois exposent le projet de cr\u00e9ation d'une Cin\u00e9math\u00e8que fran\u00e7aise \u00e0 la pr\u00e9sidence du Conseil et au Service des \u0153uvres du minist\u00e8re des Affaires \u00e9trang\u00e8res, qui expriment imm\u00e9diatement une franche adh\u00e9sion.<\/p><p><em>\u00ab&nbsp;Harl\u00e9 eut la vision et la notion exacte de l'avenir et de la mani\u00e8re dont il fallait aborder le probl\u00e8me pour y r\u00e9ussir. Ne serait-ce que l'id\u00e9e du titre &quot;La Cin\u00e9math\u00e8que fran\u00e7aise&quot; dont il me dit&nbsp;: &quot;Ce titre permettra \u00e0 la Cin\u00e9math\u00e8que d'\u00eatre un jour la Cin\u00e9math\u00e8que de la France&quot;&nbsp;\u00bb<\/em>, explique plus tard Henri Langlois.<\/p>",
-  "m":{
-    "type":"video",
-    "id":3470556181001,
-    "width":720,
-    "height":576,
-    "caption":"Extrait de l'\u00e9mission \u00ab Les \u00e9chos du cin\u00e9ma \u00bb du 1er janvier 1961",
-    "rights":"\u00a9 INA"
+  "pos": 8947,
+  "desc": "<p>Paul-Auguste Harl\u00e9 et Henri Langlois exposent le projet de cr\u00e9ation d'une Cin\u00e9math\u00e8que fran\u00e7aise \u00e0 la pr\u00e9sidence du Conseil et au Service des \u0153uvres du minist\u00e8re des Affaires \u00e9trang\u00e8res, qui expriment imm\u00e9diatement une franche adh\u00e9sion.</p><p><em>\u00ab&nbsp;Harl\u00e9 eut la vision et la notion exacte de l'avenir et de la mani\u00e8re dont il fallait aborder le probl\u00e8me pour y r\u00e9ussir. Ne serait-ce que l'id\u00e9e du titre &quot;La Cin\u00e9math\u00e8que fran\u00e7aise&quot; dont il me dit&nbsp;: &quot;Ce titre permettra \u00e0 la Cin\u00e9math\u00e8que d'\u00eatre un jour la Cin\u00e9math\u00e8que de la France&quot;&nbsp;\u00bb</em>, explique plus tard Henri Langlois.</p>",
+  "m": {
+    "type": "video",
+    "id": 3470556181001,
+    "vimeo": 476198849,
+    "width": 720,
+    "height": 576,
+    "caption": "Extrait de l'\u00e9mission \u00ab Les \u00e9chos du cin\u00e9ma \u00bb du 1er janvier 1961",
+    "rights": "\u00a9 INA"
   }
 }

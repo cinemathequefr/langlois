@@ -1,18 +1,18 @@
 {
-  "id":55,
-  "title":"Octobre 1952",
-  "cat":{
-    "id":2,
-    "name":"Langlois, le collectionneur"
+  "id": 55,
+  "title": "Octobre 1952",
+  "cat": {
+    "id": 2,
+    "name": "Langlois, le collectionneur"
   },
-  "pos":14897,
-  "desc":"<p>Somm\u00e9 de rendre tous les films de Leni Riefenstahl conserv\u00e9s jusqu'alors par la Cin\u00e9math\u00e8que, Langlois examine le d\u00e9p\u00f4t de la cin\u00e9aste. Il intervertit <em>L'Enfer blanc du Piz Pal\u00fc<\/em> et <em>Temp\u00eate sur le mont Blanc<\/em> avec <em>Les Dieux du stade<\/em> dont il a plusieurs copies, s'assure que \u00ab&nbsp;<em>Le Triomphe de la volont\u00e9<\/em> et <em>Jour de Libert\u00e9<\/em> sont bien planqu\u00e9s&nbsp;\u00bb et remplace \u00ab&nbsp;la belle copie de <em>La Lumi\u00e8re bleue<\/em> par une de nos mauvaises&nbsp;\u00bb.<\/p><p>Langlois a toujours \u00e9t\u00e9 subjugu\u00e9 par les images de la cin\u00e9aste&nbsp;: <em>\u00ab Le seul chef-d'\u0153uvre du cin\u00e9ma allemand de ce temps fut <em>Le Triomphe de la volont\u00e9<\/em>. Cet extraordinaire message anonyme des prises de vues fix\u00e9s [...] sur un ph\u00e9nom\u00e8ne social aussi trouble, aussi riche en arri\u00e8re-plans et en sous-entendus, voil\u00e0 ce qui fait sa valeur, et pourquoi nous ne pouvons cesser de le voir et de l'analyser, parce qu'il fixe l'un des moments les plus tragiques de l'obscurantisme \u00bb<\/em>, \u00e9crit-il pour la pr\u00e9sentation du cycle <em>Images du cin\u00e9ma allemand<\/em> en 1956.<\/p><p>En 1954, il se f\u00e9licitera en priv\u00e9 d'avoir <em>\u00ab&nbsp;renvoy\u00e9 Leni Riefenstahl en Allemagne les mains vides, mais chantant les louanges de la Cin\u00e9math\u00e8que fran\u00e7aise et nous ayant fait don d'un certain nombre de films&nbsp;\u00bb<\/em>.<\/p>",
-  "m":{
-    "type":"img",
-    "id":"55-1",
-    "width":4513,
-    "height":5979,
-    "caption":"Couverture de l'hebdomadaire Voila, 1936",
-    "rights":"\u00a9 DR"
+  "pos": 14897,
+  "desc": "<p>Somm\u00e9 de rendre tous les films de Leni Riefenstahl conserv\u00e9s jusqu'alors par la Cin\u00e9math\u00e8que, Langlois examine le d\u00e9p\u00f4t de la cin\u00e9aste. Il intervertit <em>L'Enfer blanc du Piz Pal\u00fc</em> et <em>Temp\u00eate sur le mont Blanc</em> avec <em>Les Dieux du stade</em> dont il a plusieurs copies, s'assure que \u00ab&nbsp;<em>Le Triomphe de la volont\u00e9</em> et <em>Jour de Libert\u00e9</em> sont bien planqu\u00e9s&nbsp;\u00bb et remplace \u00ab&nbsp;la belle copie de <em>La Lumi\u00e8re bleue</em> par une de nos mauvaises&nbsp;\u00bb.</p><p>Langlois a toujours \u00e9t\u00e9 subjugu\u00e9 par les images de la cin\u00e9aste&nbsp;: <em>\u00ab Le seul chef-d'\u0153uvre du cin\u00e9ma allemand de ce temps fut <em>Le Triomphe de la volont\u00e9</em>. Cet extraordinaire message anonyme des prises de vues fix\u00e9s (...) sur un ph\u00e9nom\u00e8ne social aussi trouble, aussi riche en arri\u00e8re-plans et en sous-entendus, voil\u00e0 ce qui fait sa valeur, et pourquoi nous ne pouvons cesser de le voir et de l'analyser, parce qu'il fixe l'un des moments les plus tragiques de l'obscurantisme \u00bb</em>, \u00e9crit-il pour la pr\u00e9sentation du cycle <em>Images du cin\u00e9ma allemand</em> en 1956.</p><p>En 1954, il se f\u00e9licitera en priv\u00e9 d'avoir <em>\u00ab&nbsp;renvoy\u00e9 Leni Riefenstahl en Allemagne les mains vides, mais chantant les louanges de la Cin\u00e9math\u00e8que fran\u00e7aise et nous ayant fait don d'un certain nombre de films&nbsp;\u00bb</em>.</p>",
+  "m": {
+    "type": "img",
+    "id": "55-1",
+    "width": 4513,
+    "height": 5979,
+    "caption": "Couverture de l'hebdomadaire Voila, 1936",
+    "rights": "\u00a9 DR"
   }
 }

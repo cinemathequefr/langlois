@@ -1,18 +1,19 @@
 {
-  "id":60,
-  "title":"1 septembre 1962",
-  "cat":{
-    "id":2,
-    "name":"Langlois, le collectionneur"
+  "id": 60,
+  "title": "1 septembre 1962",
+  "cat": {
+    "id": 2,
+    "name": "Langlois, le collectionneur"
   },
-  "pos":18505,
-  "desc":"<p>En septembre 1962, Langlois donne aux <em>Cahiers du cin\u00e9ma<\/em> un tr\u00e8s long entretien, men\u00e9 par Michel Mardore et Eric Rohmer. Il revient \u00e0 cette occasion sur son r\u00f4le de directeur de la Cin\u00e9math\u00e8que, expose ses vues, ses positions, ses diff\u00e9rentes conceptions de la Cin\u00e9math\u00e8que et de son mus\u00e9e, fait part des difficult\u00e9s qu'il rencontre, et surtout laisse para\u00eetre la passion qui l'anime.<\/p><p>Sur la collecte des films et leur conservation, il explique ainsi&nbsp;: <em>\u00ab&nbsp;Le probl\u00e8me, c'est d'abord de d\u00e9terminer qui d\u00e9tient et o\u00f9 se trouvent les films, dans quels locaux, dans quel pays il existe encore une chance de pouvoir les atteindre. Ensuite, il faut pouvoir convaincre celui qui les d\u00e9tient de vous faire confiance, d'avouer qu'il les d\u00e9tient, l'amener \u00e0 vous le confier, quitte \u00e0 lui promettre le sceau du secret, pour pouvoir ainsi les surveiller, assurer leur survie. Enfin, les voir, savoir ce qu'ils valent, finalement pouvoir \u00eatre autoris\u00e9 \u00e0 les tirer et \u00e0 les projeter&nbsp;\u00bb<\/em>.<\/p>",
-  "m":{
-    "type":"video",
-    "id":3470524003001,
-    "width":720,
-    "height":576,
-    "caption":"Extraits des \u00e9missions \u00ab Pour le plaisir \u00bb (4 novembre 1964) et \u00ab D\u00e9mons et merveilles du cin\u00e9ma \u00bb (19 septembre 1964)",
-    "rights":"\u00a9 INA"
+  "pos": 18505,
+  "desc": "<p>En septembre 1962, Langlois donne aux <em>Cahiers du cin\u00e9ma</em> un tr\u00e8s long entretien, men\u00e9 par Michel Mardore et Eric Rohmer. Il revient \u00e0 cette occasion sur son r\u00f4le de directeur de la Cin\u00e9math\u00e8que, expose ses vues, ses positions, ses diff\u00e9rentes conceptions de la Cin\u00e9math\u00e8que et de son mus\u00e9e, fait part des difficult\u00e9s qu'il rencontre, et surtout laisse para\u00eetre la passion qui l'anime.</p><p>Sur la collecte des films et leur conservation, il explique ainsi&nbsp;: <em>\u00ab&nbsp;Le probl\u00e8me, c'est d'abord de d\u00e9terminer qui d\u00e9tient et o\u00f9 se trouvent les films, dans quels locaux, dans quel pays il existe encore une chance de pouvoir les atteindre. Ensuite, il faut pouvoir convaincre celui qui les d\u00e9tient de vous faire confiance, d'avouer qu'il les d\u00e9tient, l'amener \u00e0 vous le confier, quitte \u00e0 lui promettre le sceau du secret, pour pouvoir ainsi les surveiller, assurer leur survie. Enfin, les voir, savoir ce qu'ils valent, finalement pouvoir \u00eatre autoris\u00e9 \u00e0 les tirer et \u00e0 les projeter&nbsp;\u00bb</em>.</p>",
+  "m": {
+    "type": "video",
+    "id": 3470524003001,
+    "vimeo": 476198724,
+    "width": 720,
+    "height": 576,
+    "caption": "Extraits des \u00e9missions \u00ab Pour le plaisir \u00bb (4 novembre 1964) et \u00ab D\u00e9mons et merveilles du cin\u00e9ma \u00bb (19 septembre 1964)",
+    "rights": "\u00a9 INA"
   }
 }

@@ -1,18 +1,19 @@
 {
-  "id":93,
-  "title":"Ao\u00fbt 1962",
-  "cat":{
-    "id":3,
-    "name":"Langlois, le b\u00e2tisseur"
+  "id": 93,
+  "title": "Ao\u00fbt 1962",
+  "cat": {
+    "id": 3,
+    "name": "Langlois, le b\u00e2tisseur"
   },
-  "pos":18488,
-  "desc":"<p>Dans une longue interview au journal <em>Le Monde<\/em>, Henri Langlois expose une nouvelle fois sa vision des choses.<\/p><p><em>\u00ab&nbsp;Pour moi, le vrai r\u00f4le de la Cin\u00e9math\u00e8que c'est sa fonction de laboratoire. [...] Qu'y a-t-il de plus important&nbsp;? Avoir mille spectateurs qui garderont de tr\u00e8s bons souvenirs quand ils seront contr\u00f4leurs d'\u00c9tat, inspecteurs ou simplement employ\u00e9s, ou avoir dans la salle le futur Truffaut, le futur Chabrol, le futur Torre Nilsson, le futur Nicholas Ray, et d'autres&nbsp;? C'est sur ce dernier point que la Cin\u00e9math\u00e8que a, je crois, r\u00e9ussi. [...] Je ne connais pas d'autres cin\u00e9math\u00e8ques que la n\u00f4tre [...] qui aient eu une r\u00e9percussion sur l'\u00e9volution de la production nationale. [...] Nous avons une avance sur les autres parce que, si mes coll\u00e8gues se sont pr\u00e9occup\u00e9s de r\u00e9unir des films, ils ont peu song\u00e9 \u00e0 collectionner dans le but de cr\u00e9er un mus\u00e9e du cin\u00e9ma. Un manuscrit de Murnau est une chose unique. On pourra peut-\u00eatre reproduire les dessins et les d\u00e9cors de Caligari que nous poss\u00e9dons, mais quelle diff\u00e9rence de la copie \u00e0 l'original&nbsp;! Ainsi, pendant dix ans, j'ai \u00e9t\u00e9 consid\u00e9r\u00e9 comme un fou par des tas de gens. J'\u00e9tais le monsieur qui achetait des bouts de papier, ces bouts de papier qui sont tout de m\u00eame des dessins de M\u00e9li\u00e8s. Il faudra venir \u00e0 Paris pour les voir.&nbsp;\u00bb<\/em><\/p>",
-  "m":{
-    "type":"video",
-    "id":3475730173001,
-    "width":720,
-    "height":576,
-    "caption":"Fran\u00e7ois Truffaut (extrait de l'\u00e9mission \u00ab Pour le plaisir \u00bb du 4 novembre 1964)",
-    "rights":"\u00a9 INA"
+  "pos": 18488,
+  "desc": "<p>Dans une longue interview au journal <em>Le Monde</em>, Henri Langlois expose une nouvelle fois sa vision des choses.</p><p><em>\u00ab&nbsp;Pour moi, le vrai r\u00f4le de la Cin\u00e9math\u00e8que c'est sa fonction de laboratoire. (...) Qu'y a-t-il de plus important&nbsp;? Avoir mille spectateurs qui garderont de tr\u00e8s bons souvenirs quand ils seront contr\u00f4leurs d'\u00c9tat, inspecteurs ou simplement employ\u00e9s, ou avoir dans la salle le futur Truffaut, le futur Chabrol, le futur Torre Nilsson, le futur Nicholas Ray, et d'autres&nbsp;? C'est sur ce dernier point que la Cin\u00e9math\u00e8que a, je crois, r\u00e9ussi. (...) Je ne connais pas d'autres cin\u00e9math\u00e8ques que la n\u00f4tre (...) qui aient eu une r\u00e9percussion sur l'\u00e9volution de la production nationale. (...) Nous avons une avance sur les autres parce que, si mes coll\u00e8gues se sont pr\u00e9occup\u00e9s de r\u00e9unir des films, ils ont peu song\u00e9 \u00e0 collectionner dans le but de cr\u00e9er un mus\u00e9e du cin\u00e9ma. Un manuscrit de Murnau est une chose unique. On pourra peut-\u00eatre reproduire les dessins et les d\u00e9cors de Caligari que nous poss\u00e9dons, mais quelle diff\u00e9rence de la copie \u00e0 l'original&nbsp;! Ainsi, pendant dix ans, j'ai \u00e9t\u00e9 consid\u00e9r\u00e9 comme un fou par des tas de gens. J'\u00e9tais le monsieur qui achetait des bouts de papier, ces bouts de papier qui sont tout de m\u00eame des dessins de M\u00e9li\u00e8s. Il faudra venir \u00e0 Paris pour les voir.&nbsp;\u00bb</em></p>",
+  "m": {
+    "type": "video",
+    "id": 3475730173001,
+    "vimeo": 476199175,
+    "width": 720,
+    "height": 576,
+    "caption": "Fran\u00e7ois Truffaut (extrait de l'\u00e9mission \u00ab Pour le plaisir \u00bb du 4 novembre 1964)",
+    "rights": "\u00a9 INA"
   }
 }

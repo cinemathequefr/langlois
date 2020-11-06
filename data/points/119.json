@@ -1,17 +1,18 @@
 {
-  "id":119,
-  "title":1950,
-  "cat":{
-    "id":4,
-    "name":"Langlois, l'homme"
+  "id": 119,
+  "title": 1950,
+  "cat": {
+    "id": 4,
+    "name": "Langlois, l'homme"
   },
-  "pos":14059,
-  "desc":"<p>Tout au long de sa vie, Langlois fait montre d'une r\u00e9elle superstition. Il consulte les horoscopes, se fait r\u00e9guli\u00e8rement tirer les cartes par des voyantes pour percevoir le destin de la Cin\u00e9math\u00e8que... D'une certaine fa\u00e7on, sa passion se nourrit de rencontres, de croyances, de promesses, et de miracles.<\/p>",
-  "m":{
-    "type":"video",
-    "id":3481159818001,
-    "width":720,
-    "height":576,
-    "caption":"Henri Langlois : \u00ab Je crois aux miracles \u00bb"
+  "pos": 14059,
+  "desc": "<p>Tout au long de sa vie, Langlois fait montre d'une r\u00e9elle superstition. Il consulte les horoscopes, se fait r\u00e9guli\u00e8rement tirer les cartes par des voyantes pour percevoir le destin de la Cin\u00e9math\u00e8que... D'une certaine fa\u00e7on, sa passion se nourrit de rencontres, de croyances, de promesses, et de miracles.</p>",
+  "m": {
+    "type": "video",
+    "id": 3481159818001,
+    "vimeo": 476199635,
+    "width": 720,
+    "height": 576,
+    "caption": "Henri Langlois : \u00ab Je crois aux miracles \u00bb"
   }
 }

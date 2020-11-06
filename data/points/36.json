@@ -1,18 +1,19 @@
 {
-  "id":36,
-  "title":"14 janvier 1971",
-  "cat":{
-    "id":1,
-    "name":"Langlois, le passeur"
+  "id": 36,
+  "title": "14 janvier 1971",
+  "cat": {
+    "id": 1,
+    "name": "Langlois, le passeur"
   },
-  "pos":21563,
-  "desc":"<p>Alfred Hitchcock re\u00e7oit la L\u00e9gion d'honneur \u00e0 Chaillot des mains d'Henri Langlois lui-m\u00eame. Le r\u00e9alisateur avait insist\u00e9 pour que cette prestigieuse d\u00e9coration lui soit remise par son ami.<\/p><p>Langlois vouait \u00e0 Hitchcock, \u00e0 qui il pr\u00eatait l'intelligence et l'humour du diable, une admiration sans bornes&nbsp;: <em>\u00ab&nbsp;Hitchcock&nbsp;: c'est pr\u00e8s de quarante films parfaits, toujours surprenants, toujours \u00e9gaux \u00e0 eux-m\u00eames, toujours inattendus. [...] Organisateur des rythmes temporels, Hitchcock manie les mat\u00e9riaux qui composent l'\u0153uvre cin\u00e9matographique avec une ma\u00eetrise, une rigueur qui atteint \u00e0 la perfection dans son absolu. Dans ses mains, le temps, la vision et le son composent des structures cisel\u00e9es avec un pouvoir d'envo\u00fbtement encore in\u00e9gal\u00e9&nbsp;\u00bb<\/em>.<\/p>",
-  "m":{
-    "type":"video",
-    "id":3475717309001,
-    "width":720,
-    "height":576,
-    "caption":"Henri Langlois remet la L\u00e9gion d'honneur \u00e0 Alfred Hitchcock (journal t\u00e9l\u00e9vis\u00e9 du 29 janvier 1971)",
-    "rights":"\u00a9 INA"
+  "pos": 21563,
+  "desc": "<p>Alfred Hitchcock re\u00e7oit la L\u00e9gion d'honneur \u00e0 Chaillot des mains d'Henri Langlois lui-m\u00eame. Le r\u00e9alisateur avait insist\u00e9 pour que cette prestigieuse d\u00e9coration lui soit remise par son ami.</p><p>Langlois vouait \u00e0 Hitchcock, \u00e0 qui il pr\u00eatait l'intelligence et l'humour du diable, une admiration sans bornes&nbsp;: <em>\u00ab&nbsp;Hitchcock&nbsp;: c'est pr\u00e8s de quarante films parfaits, toujours surprenants, toujours \u00e9gaux \u00e0 eux-m\u00eames, toujours inattendus. (...) Organisateur des rythmes temporels, Hitchcock manie les mat\u00e9riaux qui composent l'\u0153uvre cin\u00e9matographique avec une ma\u00eetrise, une rigueur qui atteint \u00e0 la perfection dans son absolu. Dans ses mains, le temps, la vision et le son composent des structures cisel\u00e9es avec un pouvoir d'envo\u00fbtement encore in\u00e9gal\u00e9&nbsp;\u00bb</em>.</p>",
+  "m": {
+    "type": "video",
+    "id": 3475717309001,
+    "vimeo": 476199055,
+    "width": 720,
+    "height": 576,
+    "caption": "Henri Langlois remet la L\u00e9gion d'honneur \u00e0 Alfred Hitchcock (journal t\u00e9l\u00e9vis\u00e9 du 29 janvier 1971)",
+    "rights": "\u00a9 INA"
   }
 }

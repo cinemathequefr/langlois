@@ -1,18 +1,18 @@
 {
-  "id":115,
-  "title":"1934 ",
-  "cat":{
-    "id":4,
-    "name":"Langlois, l'homme"
+  "id": 115,
+  "title": "1934 ",
+  "cat": {
+    "id": 4,
+    "name": "Langlois, l'homme"
   },
-  "pos":8186,
-  "desc":"<p>En 1934, Henri Langlois et son ami Georges Franju r\u00e9alisent un film muet en 16mm, <em>Le M\u00e9tro<\/em>, d'une dur\u00e9e de 8 minutes, gr\u00e2ce au pr\u00eat d'une cam\u00e9ra et \u00e0 de la pellicule achet\u00e9e par la m\u00e8re d'Henri. Il s'agit de plans et d'images du m\u00e9tro a\u00e9rien parisien.<\/p><p>L'amiti\u00e9 entre Langois et Franju est fond\u00e9e sur un grand respect de Langlois pour le r\u00e9alisateur&nbsp;: <em>\u00ab&nbsp;C'est cette ing\u00e9nuit\u00e9 de l'\u0153il, jointe \u00e0 une honn\u00eatet\u00e9 totale, qui fait la force de Franju. Il lui suffit de regarder et de capter ce qu'il voit. Tous les cin\u00e9astes interpr\u00e8tent, lui se contente de d\u00e9shabiller l'objet, de le d\u00e9crasser du vernis de l'habitude et de nous le r\u00e9v\u00e9ler [...]. C'est pourquoi il est le seul metteur en sc\u00e8ne insolite de ce temps&nbsp;\u00bb<\/em>.<\/p><p>En 1935, Langlois r\u00e9alise, seul cette fois-ci, un film 9,5 mm, aujourd'hui disparu&nbsp;: <em>Entre deux ondes<\/em>, qu'il projette en public \u00e0 la Soci\u00e9t\u00e9 fran\u00e7aise de photographie et cin\u00e9ma, section Cin\u00e9-Amateur.<\/p>",
-  "m":{
-    "type":"img",
-    "id":"115-1",
-    "width":3820,
-    "height":2820,
-    "caption":"Henri Langlois et Georges Franju",
-    "rights":"\u00a9 DR"
+  "pos": 8186,
+  "desc": "<p>En 1934, Henri Langlois et son ami Georges Franju r\u00e9alisent un film muet en 16mm, <em>Le M\u00e9tro</em>, d'une dur\u00e9e de 8 minutes, gr\u00e2ce au pr\u00eat d'une cam\u00e9ra et \u00e0 de la pellicule achet\u00e9e par la m\u00e8re d'Henri. Il s'agit de plans et d'images du m\u00e9tro a\u00e9rien parisien.</p><p>L'amiti\u00e9 entre Langois et Franju est fond\u00e9e sur un grand respect de Langlois pour le r\u00e9alisateur&nbsp;: <em>\u00ab&nbsp;C'est cette ing\u00e9nuit\u00e9 de l'\u0153il, jointe \u00e0 une honn\u00eatet\u00e9 totale, qui fait la force de Franju. Il lui suffit de regarder et de capter ce qu'il voit. Tous les cin\u00e9astes interpr\u00e8tent, lui se contente de d\u00e9shabiller l'objet, de le d\u00e9crasser du vernis de l'habitude et de nous le r\u00e9v\u00e9ler (...). C'est pourquoi il est le seul metteur en sc\u00e8ne insolite de ce temps&nbsp;\u00bb</em>.</p><p>En 1935, Langlois r\u00e9alise, seul cette fois-ci, un film 9,5 mm, aujourd'hui disparu&nbsp;: <em>Entre deux ondes</em>, qu'il projette en public \u00e0 la Soci\u00e9t\u00e9 fran\u00e7aise de photographie et cin\u00e9ma, section Cin\u00e9-Amateur.</p>",
+  "m": {
+    "type": "img",
+    "id": "115-1",
+    "width": 3820,
+    "height": 2820,
+    "caption": "Henri Langlois et Georges Franju",
+    "rights": "\u00a9 DR"
   }
 }

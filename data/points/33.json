@@ -1,17 +1,18 @@
 {
-  "id":33,
-  "title":"4 mars 1969",
-  "cat":{
-    "id":1,
-    "name":"Langlois, le passeur"
+  "id": 33,
+  "title": "4 mars 1969",
+  "cat": {
+    "id": 1,
+    "name": "Langlois, le passeur"
   },
-  "pos":20882,
-  "desc":"<p>Francis Ford Coppola, \u00e2g\u00e9 de 29 ans, visite la Cin\u00e9math\u00e8que \u00e0 Chaillot et se montre captiv\u00e9 par le grand zootrope expos\u00e9 \u00e0 l'entr\u00e9e. Un peu plus tard, il \u00e9crit \u00e0 Henri Langlois : <em>\u00ab&nbsp;Dear Mr. Langlois, upon my recent visit to the Palais d'Challiot [sic], I was fascinated with a large cylindrical motion picture device which was in your lobby. I believe the device is a Zoetrope. Would it be possible for me to get a photo or drawing and any information you might have on it&nbsp;?&nbsp;\u00bb<\/em> (<em>\u00ab Cher monsieur Langlois, lors de ma r\u00e9cente visite au Palais d'Challiot, j'ai \u00e9t\u00e9 fascin\u00e9 par un grand appareil de cin\u00e9ma cylindrique que se trouvait dans votre hall. Je crois qu'il s'agit d'un zootrope. Pourriez-vous me fournir une photo, un dessin et toute information que vous auriez \u00e0 son sujet ? \u00bb<\/em>).<\/p><p>La m\u00eame ann\u00e9e, Coppola et George Lucas cr\u00e9ent leur propre compagnie, baptis\u00e9e \u00ab&nbsp;American Zoetrope&nbsp;\u00bb, qui produira notamment par la suite <em>Apocalypse Now<\/em>.<\/p>",
-  "m":{
-    "type":"video",
-    "id":3479050574001,
-    "width":800,
-    "height":448,
-    "caption":"Francis Ford Coppola \u00e9voque, en 2014, le zootrope de la Cin\u00e9math\u00e8que"
+  "pos": 20882,
+  "desc": "<p>Francis Ford Coppola, \u00e2g\u00e9 de 29 ans, visite la Cin\u00e9math\u00e8que \u00e0 Chaillot et se montre captiv\u00e9 par le grand zootrope expos\u00e9 \u00e0 l'entr\u00e9e. Un peu plus tard, il \u00e9crit \u00e0 Henri Langlois : <em>\u00ab&nbsp;Dear Mr. Langlois, upon my recent visit to the Palais d'Challiot [sic], I was fascinated with a large cylindrical motion picture device which was in your lobby. I believe the device is a Zoetrope. Would it be possible for me to get a photo or drawing and any information you might have on it&nbsp;?&nbsp;\u00bb</em> (<em>\u00ab Cher monsieur Langlois, lors de ma r\u00e9cente visite au Palais d'Challiot, j'ai \u00e9t\u00e9 fascin\u00e9 par un grand appareil de cin\u00e9ma cylindrique que se trouvait dans votre hall. Je crois qu'il s'agit d'un zootrope. Pourriez-vous me fournir une photo, un dessin et toute information que vous auriez \u00e0 son sujet ? \u00bb</em>).</p><p>La m\u00eame ann\u00e9e, Coppola et George Lucas cr\u00e9ent leur propre compagnie, baptis\u00e9e \u00ab&nbsp;American Zoetrope&nbsp;\u00bb, qui produira notamment par la suite <em>Apocalypse Now</em>.</p>",
+  "m": {
+    "type": "video",
+    "id": 3479050574001,
+    "vimeo": 476199360,
+    "width": 800,
+    "height": 448,
+    "caption": "Francis Ford Coppola \u00e9voque, en 2014, le zootrope de la Cin\u00e9math\u00e8que"
   }
 }

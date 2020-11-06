@@ -1,17 +1,17 @@
 {
-  "id":100,
-  "title":"13 f\u00e9vrier 1968",
-  "cat":{
-    "id":3,
-    "name":"Langlois, le b\u00e2tisseur"
+  "id": 100,
+  "title": "13 f\u00e9vrier 1968",
+  "cat": {
+    "id": 3,
+    "name": "Langlois, le b\u00e2tisseur"
   },
-  "pos":20497,
-  "desc":"<p>Le cin\u00e9aste Josef von Sternberg est l'un des premiers \u00e0 r\u00e9pondre aux sollicitations de Truffaut pour d\u00e9fendre Langlois&nbsp;: <em>\u00ab&nbsp;Gentlemen, I am mystified by your cable. What is Langlois doing? Of course, I support Langlois&nbsp;\u00bb<\/em> (<em>\u00ab&nbsp;Messieurs, je suis \u00e9berlu\u00e9 par votre t\u00e9l\u00e9gramme. Que fait Langlois&nbsp;? Bien entendu, je soutiens Langlois&nbsp;\u00bb<\/em>).<\/p><p>Truffaut \u00e9crit \u00e0 Rossellini, dont le film <em>Europe 51<\/em> doit \u00eatre projet\u00e9 le 18 f\u00e9vrier \u00e0 la Cin\u00e9math\u00e8que&nbsp;: <em>\u00ab&nbsp;Nous comptons sur toi pour envoyer une lettre ou un t\u00e9l\u00e9gramme interdisant cette projection d'un film dont tu es \u00e0 la fois l'auteur, le metteur en sc\u00e8ne et le producteur. [...] Nicholas Ray a lanc\u00e9 un appel \u00e0 tous les producteurs et metteurs en sc\u00e8ne am\u00e9ricains pour arr\u00eater les projections de films am\u00e9ricains \u00e0 la Cin\u00e9math\u00e8que&nbsp;\u00bb<\/em>. Rossellini avertit ses amis&nbsp;: d\u00e8s le lendemain, une multitude de r\u00e9alisateurs italiens&nbsp;\u2013&nbsp;Antonioni, Bellocchio, Bertolucci, Ferreri, Lattuada, Pasolini, Taviani&nbsp;\u2013 interdisent la projection de leurs films \u00e0 la Cin\u00e9math\u00e8que. D'autres cin\u00e9astes \u00e9trangers font de m\u00eame et menacent de reprendre leurs d\u00e9p\u00f4ts&nbsp;: Lindsay Anderson, Busby Berkeley, John Berry, Luis Bu\u00f1uel, Alberto Cavalcanti, John Cassavetes, George Cukor, Jules Dassin, Delmer Daves, Carl Dreyer, John Ford, Samuel Fuller, Howard Hawks, Alfred Hitchcock, Elia Kazan, Lev Koulechov, Stanley Kubrick, Akira Kurosawa, Fritz Lang, Albert Lewin, Anatole Litvak, Joseph Losey, Vincente Minnelli, Leopoldo Torre Nilsson, Robert Parrish, Roman Polanski, Otto Preminger, Nicholas Ray, Satyajit Ray, Karel Reisz, King Vidor, Sergue\u00ef Youtk\u00e9vitch, Fred Zinnemann, Orson Welles...<\/p>",
-  "m":{
-    "type":"img",
-    "id":"100-1",
-    "width":4832,
-    "height":4224,
-    "caption":"T\u00e9l\u00e9gramme de soutien de Fritz Lang \u00e0 Henri Langlois"
+  "pos": 20497,
+  "desc": "<p>Le cin\u00e9aste Josef von Sternberg est l'un des premiers \u00e0 r\u00e9pondre aux sollicitations de Truffaut pour d\u00e9fendre Langlois&nbsp;: <em>\u00ab&nbsp;Gentlemen, I am mystified by your cable. What is Langlois doing? Of course, I support Langlois&nbsp;\u00bb</em> (<em>\u00ab&nbsp;Messieurs, je suis \u00e9berlu\u00e9 par votre t\u00e9l\u00e9gramme. Que fait Langlois&nbsp;? Bien entendu, je soutiens Langlois&nbsp;\u00bb</em>).</p><p>Truffaut \u00e9crit \u00e0 Rossellini, dont le film <em>Europe 51</em> doit \u00eatre projet\u00e9 le 18 f\u00e9vrier \u00e0 la Cin\u00e9math\u00e8que&nbsp;: <em>\u00ab&nbsp;Nous comptons sur toi pour envoyer une lettre ou un t\u00e9l\u00e9gramme interdisant cette projection d'un film dont tu es \u00e0 la fois l'auteur, le metteur en sc\u00e8ne et le producteur. (...) Nicholas Ray a lanc\u00e9 un appel \u00e0 tous les producteurs et metteurs en sc\u00e8ne am\u00e9ricains pour arr\u00eater les projections de films am\u00e9ricains \u00e0 la Cin\u00e9math\u00e8que&nbsp;\u00bb</em>. Rossellini avertit ses amis&nbsp;: d\u00e8s le lendemain, une multitude de r\u00e9alisateurs italiens&nbsp;\u2013&nbsp;Antonioni, Bellocchio, Bertolucci, Ferreri, Lattuada, Pasolini, Taviani&nbsp;\u2013 interdisent la projection de leurs films \u00e0 la Cin\u00e9math\u00e8que. D'autres cin\u00e9astes \u00e9trangers font de m\u00eame et menacent de reprendre leurs d\u00e9p\u00f4ts&nbsp;: Lindsay Anderson, Busby Berkeley, John Berry, Luis Bu\u00f1uel, Alberto Cavalcanti, John Cassavetes, George Cukor, Jules Dassin, Delmer Daves, Carl Dreyer, John Ford, Samuel Fuller, Howard Hawks, Alfred Hitchcock, Elia Kazan, Lev Koulechov, Stanley Kubrick, Akira Kurosawa, Fritz Lang, Albert Lewin, Anatole Litvak, Joseph Losey, Vincente Minnelli, Leopoldo Torre Nilsson, Robert Parrish, Roman Polanski, Otto Preminger, Nicholas Ray, Satyajit Ray, Karel Reisz, King Vidor, Sergue\u00ef Youtk\u00e9vitch, Fred Zinnemann, Orson Welles...</p>",
+  "m": {
+    "type": "img",
+    "id": "100-1",
+    "width": 4832,
+    "height": 4224,
+    "caption": "T\u00e9l\u00e9gramme de soutien de Fritz Lang \u00e0 Henri Langlois"
   }
 }

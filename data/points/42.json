@@ -1,17 +1,18 @@
 {
-  "id":42,
-  "title":1955,
-  "cat":{
-    "id":1,
-    "name":"Langlois, le passeur"
+  "id": 42,
+  "title": 1955,
+  "cat": {
+    "id": 1,
+    "name": "Langlois, le passeur"
   },
-  "pos":15856,
-  "desc":"<p>Langlois n'est pas seulement un homme de listes. Il est aussi friand de bilans, d'\u00e9num\u00e9rations, de classements... Derri\u00e8re son admiration sans faille de spectateur, il cache un esprit d'observation ac\u00e9r\u00e9. Il est ainsi capable de brosser en quelques touches le portrait d'un certain cin\u00e9ma fran\u00e7ais, capable de d\u00e9peindre en quelques traits bien sentis les grands r\u00e9alisateurs de son \u00e9poque.<\/p><p>Ainsi livre-t-il en 1955, dans son introduction \u00e0 l'exposition <em>300 ann\u00e9es de cin\u00e9matographie, 60 ans de cin\u00e9ma<\/em>, une partie de son panth\u00e9on personnel&nbsp;:<\/p><p><em>\u00ab&nbsp;Ren\u00e9 Clair, dont l'art infiniment nuanc\u00e9, mais fort sous sa gr\u00e2ce comme celui de Marivaux, \u00e9voque plus qu'il ne montre.<br \/>Feyder, qui sous son air nonchalant fut vraiment la conscience du cin\u00e9ma de son temps et dont on peut dire de son \u0153uvre qu'elle est l'\u00e9pine dorsale du cin\u00e9ma fran\u00e7ais.<br \/>Renoir, qui sait si bien s'effacer derri\u00e8re les hommes, si bien se servir du hasard et dont les films respirent par on ne sait quel miracle, peut-\u00eatre parce que ses images nous paraissent n'avoir ni commencement ni fin.<br \/>Vigo, le seul visionnaire de l'\u00e9cran.<br \/>Carn\u00e9, qui rendit tangible l'\u00e2cre mat\u00e9rialit\u00e9 de la vie.<br \/>Et Bu\u00f1uel, qui fit aboyer le d\u00e9sir, et Cocteau, et tant d'autres.&nbsp;\u00bb<\/em><\/p>",
-  "m":{
-    "type":"video",
-    "id":3481159780001,
-    "width":720,
-    "height":576,
-    "caption":"Luis Bu\u00f1uel et Henri Langlois dans le mus\u00e9e du cin\u00e9ma (extrait non sonoris\u00e9)"
+  "pos": 15856,
+  "desc": "<p>Langlois n'est pas seulement un homme de listes. Il est aussi friand de bilans, d'\u00e9num\u00e9rations, de classements... Derri\u00e8re son admiration sans faille de spectateur, il cache un esprit d'observation ac\u00e9r\u00e9. Il est ainsi capable de brosser en quelques touches le portrait d'un certain cin\u00e9ma fran\u00e7ais, capable de d\u00e9peindre en quelques traits bien sentis les grands r\u00e9alisateurs de son \u00e9poque.</p><p>Ainsi livre-t-il en 1955, dans son introduction \u00e0 l'exposition <em>300 ann\u00e9es de cin\u00e9matographie, 60 ans de cin\u00e9ma</em>, une partie de son panth\u00e9on personnel&nbsp;:</p><p><em>\u00ab&nbsp;Ren\u00e9 Clair, dont l'art infiniment nuanc\u00e9, mais fort sous sa gr\u00e2ce comme celui de Marivaux, \u00e9voque plus qu'il ne montre.<br />Feyder, qui sous son air nonchalant fut vraiment la conscience du cin\u00e9ma de son temps et dont on peut dire de son \u0153uvre qu'elle est l'\u00e9pine dorsale du cin\u00e9ma fran\u00e7ais.<br />Renoir, qui sait si bien s'effacer derri\u00e8re les hommes, si bien se servir du hasard et dont les films respirent par on ne sait quel miracle, peut-\u00eatre parce que ses images nous paraissent n'avoir ni commencement ni fin.<br />Vigo, le seul visionnaire de l'\u00e9cran.<br />Carn\u00e9, qui rendit tangible l'\u00e2cre mat\u00e9rialit\u00e9 de la vie.<br />Et Bu\u00f1uel, qui fit aboyer le d\u00e9sir, et Cocteau, et tant d'autres.&nbsp;\u00bb</em></p>",
+  "m": {
+    "type": "video",
+    "id": 3481159780001,
+    "vimeo": 476199468,
+    "width": 720,
+    "height": 576,
+    "caption": "Luis Bu\u00f1uel et Henri Langlois dans le mus\u00e9e du cin\u00e9ma (extrait non sonoris\u00e9)"
   }
 }

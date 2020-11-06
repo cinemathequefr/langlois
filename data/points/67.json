@@ -1,18 +1,19 @@
 {
-  "id":67,
-  "title":"8 ao\u00fbt 1972",
-  "cat":{
-    "id":3,
-    "name":"Langlois, le b\u00e2tisseur"
+  "id": 67,
+  "title": "8 ao\u00fbt 1972",
+  "cat": {
+    "id": 3,
+    "name": "Langlois, le b\u00e2tisseur"
   },
-  "pos":22134,
-  "desc":"<p>Le mus\u00e9e du cin\u00e9ma ouvre au public.<\/p>",
-  "m":{
-    "type":"video",
-    "id":3475717312001,
-    "width":720,
-    "height":576,
-    "caption":"Henri Langlois parle de son projet de mus\u00e9e du cin\u00e9ma. Extrait de l'\u00e9mission \u00ab Pour le plaisir \u00bb (4 novembre 1964)",
-    "rights":"\u00a9 INA"
+  "pos": 22134,
+  "desc": "<p>Le mus\u00e9e du cin\u00e9ma ouvre au public.</p>",
+  "m": {
+    "type": "video",
+    "id": 3475717312001,
+    "vimeo": 476199070,
+    "width": 720,
+    "height": 576,
+    "caption": "Henri Langlois parle de son projet de mus\u00e9e du cin\u00e9ma. Extrait de l'\u00e9mission \u00ab Pour le plaisir \u00bb (4 novembre 1964)",
+    "rights": "\u00a9 INA"
   }
 }

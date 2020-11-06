@@ -1,18 +1,18 @@
 {
-  "id":47,
-  "title":"21 janvier 1938",
-  "cat":{
-    "id":2,
-    "name":"Langlois, le collectionneur"
+  "id": 47,
+  "title": "21 janvier 1938",
+  "cat": {
+    "id": 2,
+    "name": "Langlois, le collectionneur"
   },
-  "pos":9517,
-  "desc":"<p>Georges M\u00e9li\u00e8s dispara\u00eet le 21 janvier 1938. Henri Langlois organise une collecte pour payer les obs\u00e8ques et venir en aide \u00e0 la famille. En juillet de l'ann\u00e9e suivante, la veuve de M\u00e9li\u00e8s effectue une importante donation \u00e0 la Cin\u00e9math\u00e8que fran\u00e7aise&nbsp;: appareils, dessins, photographies originales. Dans cet ensemble figurent deux pi\u00e8ces fondamentales&nbsp;: la toute premi\u00e8re cam\u00e9ra de M\u00e9li\u00e8s, utilis\u00e9e en 1896, et le projecteur Kinetograph ayant servi aux premi\u00e8res s\u00e9ances du th\u00e9\u00e2tre Robert-Houdin. \u00c0 partir de ces deux pi\u00e8ces mythiques, Langlois commence \u00e0 la Cin\u00e9math\u00e8que une collection d'appareils cin\u00e9matographiques anciens.<\/p><p>Bien plus tard, en 1945, Langlois tente de sauver le studio, en mauvais \u00e9tat, de Georges M\u00e9li\u00e8s \u00e0 Montreuil. Mais il sera enti\u00e8rement d\u00e9truit. Il parvient tout de m\u00eame \u00e0 sauver de pr\u00e9cieux accessoires qui viendront eux aussi enrichir les collections de la Cin\u00e9math\u00e8que.<\/p><p>Mais cette passion de Langlois pour M\u00e9li\u00e8s, qu'il ne manquera jamais de citer, de c\u00e9l\u00e9brer, de prendre en exemple au fil des ann\u00e9es, ne suscite pas que des r\u00e9actions enthousiastes. C'est ainsi qu'en 1961, Jean Domarchi, exc\u00e9d\u00e9, \u00e9crira dans <em>Arts<\/em>&nbsp;: <em>\u00ab&nbsp;La Cin\u00e9math\u00e8que a mieux \u00e0 faire que de c\u00e9l\u00e9brer M\u00e9li\u00e8s. [...] Elle donne une vision tronqu\u00e9e et arbitraire du cin\u00e9ma. [...] La Cin\u00e9math\u00e8que n'est pas le Mus\u00e9e du Cin\u00e9ma. C'est le Mus\u00e9e de M. Langlois&nbsp;\u00bb<\/em>.<\/p>",
-  "m":{
-    "type":"img",
-    "id":"47-1",
-    "width":2000,
-    "height":2000,
-    "caption":"Projecteur de film 35 mm Kin\u00e9tographe du Th\u00e9\u00e2tre Robert Houdin. Photographie de St\u00e9phane Dabrowski",
-    "rights":"\u00a9 La Cin\u00e9math\u00e8que fran\u00e7aise"
+  "pos": 9517,
+  "desc": "<p>Georges M\u00e9li\u00e8s dispara\u00eet le 21 janvier 1938. Henri Langlois organise une collecte pour payer les obs\u00e8ques et venir en aide \u00e0 la famille. En juillet de l'ann\u00e9e suivante, la veuve de M\u00e9li\u00e8s effectue une importante donation \u00e0 la Cin\u00e9math\u00e8que fran\u00e7aise&nbsp;: appareils, dessins, photographies originales. Dans cet ensemble figurent deux pi\u00e8ces fondamentales&nbsp;: la toute premi\u00e8re cam\u00e9ra de M\u00e9li\u00e8s, utilis\u00e9e en 1896, et le projecteur Kinetograph ayant servi aux premi\u00e8res s\u00e9ances du th\u00e9\u00e2tre Robert-Houdin. \u00c0 partir de ces deux pi\u00e8ces mythiques, Langlois commence \u00e0 la Cin\u00e9math\u00e8que une collection d'appareils cin\u00e9matographiques anciens.</p><p>Bien plus tard, en 1945, Langlois tente de sauver le studio, en mauvais \u00e9tat, de Georges M\u00e9li\u00e8s \u00e0 Montreuil. Mais il sera enti\u00e8rement d\u00e9truit. Il parvient tout de m\u00eame \u00e0 sauver de pr\u00e9cieux accessoires qui viendront eux aussi enrichir les collections de la Cin\u00e9math\u00e8que.</p><p>Mais cette passion de Langlois pour M\u00e9li\u00e8s, qu'il ne manquera jamais de citer, de c\u00e9l\u00e9brer, de prendre en exemple au fil des ann\u00e9es, ne suscite pas que des r\u00e9actions enthousiastes. C'est ainsi qu'en 1961, Jean Domarchi, exc\u00e9d\u00e9, \u00e9crira dans <em>Arts</em>&nbsp;: <em>\u00ab&nbsp;La Cin\u00e9math\u00e8que a mieux \u00e0 faire que de c\u00e9l\u00e9brer M\u00e9li\u00e8s. (...) Elle donne une vision tronqu\u00e9e et arbitraire du cin\u00e9ma. (...) La Cin\u00e9math\u00e8que n'est pas le Mus\u00e9e du Cin\u00e9ma. C'est le Mus\u00e9e de M. Langlois&nbsp;\u00bb</em>.</p>",
+  "m": {
+    "type": "img",
+    "id": "47-1",
+    "width": 2000,
+    "height": 2000,
+    "caption": "Projecteur de film 35 mm Kin\u00e9tographe du Th\u00e9\u00e2tre Robert Houdin. Photographie de St\u00e9phane Dabrowski",
+    "rights": "\u00a9 La Cin\u00e9math\u00e8que fran\u00e7aise"
   }
 }

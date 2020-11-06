@@ -1,18 +1,19 @@
 {
-  "id":17,
-  "title":"19 juin 1959",
-  "cat":{
-    "id":1,
-    "name":"Langlois, le passeur"
+  "id": 17,
+  "title": "19 juin 1959",
+  "cat": {
+    "id": 1,
+    "name": "Langlois, le passeur"
   },
-  "pos":"17335 ",
-  "desc":"<p>R\u00e9ception donn\u00e9e rue d'Ulm en l'honneur de Fritz Lang, en sa pr\u00e9sence.<\/p><p>Le r\u00e9alisateur noue une belle relation avec Langlois et cette Cin\u00e9math\u00e8que qu'il admire et respecte, dont il dira plus tard lors de sa derni\u00e8re visite&nbsp;: <em>\u00ab&nbsp;Je suis dans la maison o\u00f9 nous vivons encore apr\u00e8s notre mort&nbsp;\u00bb<\/em>.<\/p>",
-  "m":{
-    "type":"video",
-    "id":3481305560001,
-    "width":720,
-    "height":576,
-    "caption":"Fritz Lang et Henri Langlois dans le mus\u00e9e du cin\u00e9ma vers 1972 (extrait non sonoris\u00e9)",
-    "rights":"\u00a9 La Cin\u00e9math\u00e8que fran\u00e7aise"
+  "pos": "17335 ",
+  "desc": "<p>R\u00e9ception donn\u00e9e rue d'Ulm en l'honneur de Fritz Lang, en sa pr\u00e9sence.</p><p>Le r\u00e9alisateur noue une belle relation avec Langlois et cette Cin\u00e9math\u00e8que qu'il admire et respecte, dont il dira plus tard lors de sa derni\u00e8re visite&nbsp;: <em>\u00ab&nbsp;Je suis dans la maison o\u00f9 nous vivons encore apr\u00e8s notre mort&nbsp;\u00bb</em>.</p>",
+  "m": {
+    "type": "video",
+    "id": 3481305560001,
+    "vimeo": 476199651,
+    "width": 720,
+    "height": 576,
+    "caption": "Fritz Lang et Henri Langlois dans le mus\u00e9e du cin\u00e9ma vers 1972 (extrait non sonoris\u00e9)",
+    "rights": "\u00a9 La Cin\u00e9math\u00e8que fran\u00e7aise"
   }
 }
